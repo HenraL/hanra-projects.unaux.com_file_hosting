@@ -1,0 +1,47 @@
+
+#x,#y,#lenx,#leny{
+  font-weight: bold;
+}
+#boite_principale_4{
+  padding-top:0px;
+  -ms-display: flex
+  -ms-flex-wrap: wrap-reverse;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  width: 1188px;
+  height: 66px;
+  border: groove 3px black;
+}
+
+#boite1,#boite2,#boite3{
+  width: 70px;
+  height: 20px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#boite1{
+  border: groove 3px rgb(11, 245, 89);
+  background-color: rgb(11,245,89);
+}
+#boite2{
+  border: groove 3px blue;
+  background-color: blue;
+  color:white;
+}
+#boite3{
+  border: groove 3px orange;
+  background-color: orange;
+}
+
+.flex4RangeImage:hover{
+  transform: rotate(360deg);
+  transition: 0.6s;
+}
+.flex4RangeImage{
+  width:48px;
+  height:40px;
+  crop:50px;
+/*   transform: rotate(-100deg); */
+}

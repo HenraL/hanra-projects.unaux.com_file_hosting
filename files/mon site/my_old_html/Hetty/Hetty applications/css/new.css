@@ -1,0 +1,90 @@
+h1
+
+{
+
+color :#ff6600;
+font-family :'Pacifico', cursive;
+margin :10px;
+}
+
+
+
+.image-cadre img
+{
+
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 10rem;
+}
+
+.image-cadre img
+{
+		font-family: 'Neucha', cursive; 
+}
+#number
+{
+	color :#00bfff;
+}
+
+.textGreen 
+{
+ color: #ffffff
+}
+
+.textGreen 
+{
+ color: #ff3999
+}
+
+img
+{
+	display: block;
+	margin: auto;
+}
+
+.elem
+
+{
+
+	margin:10px;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	border-radius: 25rem;
+	background-color: #66ff66;
+}
+
+.btn-buy
+{
+
+	background-color: #AAA911;
+
+	color: #FFFFFF;
+}
+
+.btn-buy:hover:enabled
+{
+	background-color: #20AA11;
+	cursor: pointer;
+}
+
+
+.clicky
+
+{
+	transition-duration: 0.2s;
+	cursor: pointer;
+	opacity: 0.9;
+
+}
+
+.clicky:active
+{
+	transform: translateY(10px);
+	opacity: 1;
+}
+
+.clicky:hover
+{
+opacity: 1;
+}

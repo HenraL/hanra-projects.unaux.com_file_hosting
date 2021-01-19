@@ -1,0 +1,28 @@
+#fichiers,#add,#reset,#maxButton{
+  background-color:white;
+  font-size:12px;
+  font-familly:'Arial','Times New Roman',Cambria, Cochin, Georgia, Times,  serif;
+  text-align: center;
+}
+#reset{
+  width:100px;
+  color:red;
+}
+#add{
+  width:45px;
+  color:forestgreen;
+}
+#fichiers{
+  width:78px;
+  color:forestgreen;
+}
+#maxButton{
+  width:170px;
+  color:blue;
+}
+.textBox{
+  width:190px;
+  background-color:black;
+  color:white;
+  font-weight:bold;
+}

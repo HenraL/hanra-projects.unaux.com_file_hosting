@@ -1,0 +1,561 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css/stylesheet.css"/>
+        <meta charset="UTF8", crop-to-fit="true">
+        <!-- To link -->
+        <script type="text/javascript" src="sliders/photo_photomaton/data_photomaton.js"></script>
+    </head>
+
+    <body>
+
+        <!-- <style>
+
+            /* _____________________________________________________ entre 1024 et 1280 ______________________________________________ */
+
+            @media all and (min-width: 10px) and (max-width: 1280px){
+
+                body{
+
+                    background-image: url("https://media.joomeo.com/medium/5c6dcb9edcd87.jpg");
+
+                    margin: 0%;
+
+                    min-width:"150";
+
+                    min-height:"105";
+
+                }
+
+                .t{
+
+                    background-color: white;
+
+                }
+
+                .z, .sommaire{
+
+                    background-color:rgba(255,255,255,0.9);
+
+                    text-align: center;
+
+                    position: fixed;
+
+                    width: 100%;
+
+                    display: block;
+
+                    top: 0%;
+
+                    list-style: none;
+
+                    list-style-type: none;
+
+                    left: 0;
+
+                    box-shadow: 0px 3px 27px -3px rgba(0,0,0,0.75);
+
+                }
+
+                .sommaire{
+
+                    font-size: 2em;
+
+                    width: 100%;
+
+                }
+
+                .li_i{
+
+                    padding: 0%;
+
+                    box-sizing: border-box;
+
+                    list-style: none;
+
+                }
+
+                .li_u{
+
+                    padding: 0%;
+
+                    zoom: 1;
+
+                    font-weight: 2000;
+
+                    list-style: none;
+
+                }
+
+                .y{
+
+                    padding: 4.9%;
+
+                }
+
+                .x:hover{
+
+                    color: darkturquoise;
+
+                    background-color: yellow;
+
+                    font-style: normal;
+
+                    font-weight: bold;
+
+                }
+
+                .x{
+
+                    text-decoration: none;
+
+                    color: black;
+
+                    font-style: normal;
+
+                    font-weight: bold;
+
+                }
+
+                .diese{
+
+                    text-align: right;
+
+                    background-color: white;
+
+                    width: 100%;
+
+                    display: block;
+
+                }
+
+                footer{
+
+                    background-color: white;
+
+                    position:static;
+
+                    width: 100%;
+
+                    display: block;
+
+                    border-left: 0%;
+
+                    border-right: 0%;
+
+                    bottom: 0%;
+
+                    left: 0;
+
+                    margin: 0%;
+
+                    outline: 0ch;
+
+                    z-index: 0%;
+
+                }
+
+                .T{
+
+                    background-color: rgba(255, 255, 255, 0);
+
+                    list-style-type: none;
+
+                }
+
+                .joom:hover{
+
+                    background-color: black;
+
+                }
+
+                .img_norm, .img_big{
+
+                    max-width: 1480px;
+
+                    min-width: 1224px;
+
+                    max-height: 1280px;
+
+                    min-height: 1024px;
+
+                    margin-top: 0px;
+
+                }
+
+                .img_norm_hig, .img_big_hight{
+
+                    max-width: 1480px;
+
+                    min-width: 1224px;
+
+                    max-height: 1280px;
+
+                    min-height: 1024px;
+
+                    margin-top: 0px;
+
+                }
+
+                .maestro-nav__logo{
+
+                    width: 32px;
+
+                    height: 32px;
+
+                }
+
+                .w{
+
+                    background-color: white;
+
+                }
+
+                p{
+
+                    background-color: rgb(43, 182, 89);
+
+                }
+
+            }
+
+            /*  _______________________________________________________ CSS de base ___________________________________________________*/
+
+            body
+
+            {
+
+                background-image: url("https://media.joomeo.com/large/5c6dc1173d4a8/MUY5NjQxOTIpLRsiOoWf3Bw4kFD5OW1_.jpg");
+
+                margin: 0%;
+
+                min-width:"150";
+
+                min-height:"105";
+
+            }
+
+            .t{
+
+                background-color: white;
+
+            }
+
+            .z, .sommaire{
+
+                background-color:rgba(255,255,255,0.9);
+
+                text-align: center;
+
+                position: fixed;
+
+                width: 100%;
+
+                display: block;
+
+                top: 0%;
+
+                left: 0;
+
+                    box-shadow: 0px 3px 27px -3px rgba(0,0,0,0.75);
+
+            }
+
+            .sommaire{
+
+                font-size: 2em;
+
+                width: 100%;
+
+            }
+
+            .li_i{
+
+                padding: 0%;
+
+                box-sizing: border-box;
+
+            }
+
+            .li_u{
+
+                padding: 0%;
+
+                zoom: 1;
+
+                text-transform: uppercase;
+
+                    font-weight: 2000;
+
+                list-style-type: none;
+
+            }
+
+            .y{
+
+                padding: 4.9%;
+
+            }
+
+            .x:hover{
+
+                color: darkturquoise;
+
+                background-color: yellow;
+
+                font-style: normal;
+
+                font-weight: bold;
+
+            }
+
+            .x{
+
+                text-decoration: none;
+
+                color: black;
+
+                font-style: normal;
+
+                font-weight: bold;
+
+            }
+
+            .diese{
+
+                text-align: right;
+
+                background-color: white;
+
+                width: 100%;
+
+                display: block;
+
+            }
+
+            footer{
+
+                background-color: white;
+
+                position:static;
+
+                width: 100%;
+
+                display: block;
+
+                border-left: 0%;
+
+                border-right: 0%;
+
+                bottom: 0%;
+
+                left: 0;
+
+                margin: 0%;
+
+                outline: 0ch;
+
+                z-index: 0%;
+
+
+
+            }
+
+            .T{
+
+                background-color: white;
+
+                list-style-type: none;
+
+            }
+
+            .joom:hover{
+
+                background-color: black;
+
+            }
+
+            .img_big{
+
+                min-width: 1040px;
+
+                min-height: 500px;
+
+                margin-top: 0px;
+
+            }
+
+            .img_norm{
+
+                width: 580.5px;
+
+                height: 387px;
+
+                margin-top: 0px;
+
+            }
+
+            .img_big_hight{
+
+                width: 900px;
+
+                height: 1250px;
+
+                margin-top: 0px;
+
+            }
+
+            /* .maestro-nav__logo{
+
+                width: 32px;
+
+                height: 32px; */
+
+            /* } */
+
+            .w{
+
+                background-color: white;
+
+            }
+
+        </style> -->
+
+        <div class="z" role="banner">
+
+            <p><p><h1><B><U>Les Photos du rally Hawai <img src="https://media.joomeo.com/large/5c6dc1173d4a8/MUY5NjQxOTJW7Tl5Ub7HMKl5TtaNY98P.jpg" border="0" height="50" width="70" alt="logo Diese" title="logo Diese" /></U></B></h1></p>
+
+            <nav>
+
+                <ul>
+
+                    <!-- <li class="li_i" class="sommaire">Sommaire</li> -->
+
+                    <li class="li_u"><a class="x" href="#photomaton">les photos du photomaton</a> <B>|</B> <a class="x" href="#les_photos_de_papa">Les photos d'Edouard Letellier</a> <B>|</B> <a class="x" href="#téléchargement">T&eacute;l&eacute;chargement</a> <B>|</B> <a class="x" href="#a_propo">&Agrave; propos</a> <B>|</B> <a class="x" href="#avis">Votre avis m'interresse</a> <!-- <B>|</B> <a class="x" href="https://www.dropbox.com/s/ryfqvjnl9fo28w9/rally%20di%C3%A8se%2C%20soir%C3%A9e%20hawai%20tel.html?dl=0d" title="Indisponible">Format T&eacute;l&eacute;phone</a>--></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <p id="photomaton"/>
+
+        <p class="y"></p>
+
+        <p><h1><U><B class="w">Les photos du photomaton</B></U></h1></p>
+
+        <!-- <p><img class="img_big" src="https://media.joomeo.com/large/5c6dc0088d193/MUY5NjQxOTJCH7AO-NiTcvlr_3jlX0Wj.jpg" picture-id="3"></p> -->
+
+        <!-- <iframe src="https://s.joomeo.com/5c9263d36461c" class="img_big" scrolling="no" frameborder="0" aria-controls="yes" ></iframe> -->
+
+        <!-- <div id="anvsoftJavaScriptSlideshow" style="width: 810px; height: 670px; position: relative;">
+            <script src="sliders/photo_photomaton/anvsoftJavaScriptSlideshow-1.0.0.min.js?xml_path=slides.xml"></script>
+            <script>anvsoftJavaScriptSlideshow.init("anvsoftJavaScriptSlideshow");</script>
+        </div> -->
+
+        <iframe src="sliders/photo_photomaton/index.html" class="img_big" scrolling="no" frameborder="0" aria-controls="yes" ></iframe>
+
+        <!-- ___________________________________________________________________ témoin ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________ -->
+
+        <p><img class="" src="" picture-id="3" /><!-- <a class="t" href="" >T&eacute;l&eacute;charger</a>--></p>
+
+        <!-- <i class="t">T&eacute;l&eacute;charger</i> -->
+
+        <br>
+
+        <p id="les_photos_de_papa"/>
+
+        <p class="y"></p>
+
+        <p><h1><B class="w">Les photos d'Edouard Letellier</B></h1></p>
+
+        <iframe src="https://s.joomeo.com/5c9261f6bea43" class="img_big" scrolling="no" frameborder="0" ></iframe>
+
+        <br>
+
+        <p id="téléchargement"/>
+
+        <p class="y"></p>
+
+        <div class="T">
+
+            <p><center><U><B><h1>T&eacute;l&eacute;chargement</h1></B></U></center></p>
+
+            <br>
+
+            <nav>
+
+                <ul>
+
+                    <li type="none"><p><img src="https://media.joomeo.com/small/5c6dc1173d4a8/MUY5NjQxOTLWQj2FyScvBjoEbybdWyH5.jpg" width="50" height="50" alt="Winrar logo" />Toutes les photos prises pendant le rally: <a href="https://drive.google.com/file/d/1a_nunZ6KdZ1X1SrWOsr0Y4nHK5l-sXDZ/view?usp=sharing" target="_blank">(en .zip [695 MB])</a></p></li>
+
+                    <li type="none"><p><img src="https://media.joomeo.com/small/5c6dc1173d4a8/MUY5NjQxOTLWQj2FyScvBjoEbybdWyH5.jpg" width="50" height="50" alt="Winrar logo" />Les photos de d'Edouard Letellier: <a href="https://drive.google.com/file/d/1bO-yjXkfFXtabFt-1iZvolXp-azmJGBq/view?usp=sharing" target="_blank">(en .zip [456 MB])</a></p></li>
+
+                    <li type="none"><p><img src="https://media.joomeo.com/small/5c6dc1173d4a8/MUY5NjQxOTLWQj2FyScvBjoEbybdWyH5.jpg" width="50" height="50" alt="Winrar logo" />Les photos du photomaton: <a href="https://drive.google.com/file/d/19dGUggk0zJq4SsSansXkQAvDbgByH7uo/view?usp=sharing" target="_blank">(en .zip [239 MB])</a></p></li>
+
+                    <li type="none"><p><a href="https://drive.google.com/file/d/1Xb-T7PSsVkeeZo79-kXzFlTwHCoKw3CS/view?usp=sharing" target="_blank"><img class="p/icture__img picture__img--fit" src="https://media.joomeo.com/medium/5c6dc1173d4a8/MUY5NjQxOTIpLRsiOoWf3Bw4kFD5OW1_.jpg?rotate=0"/>T&eacute;l&eacute;charger l'arrière plan [206,46 Ko]</a></p></li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+        <br>
+
+        <p id="a_propo"/>
+
+        <p class="y"></p>
+
+        <footer>
+
+            <p><U><B><h1><center>&Agrave; propos</center></h1></B></U></p>
+
+            <p>Cr&eacute;&eacute; par Henry Letellier pour la soir&eacute;e "Rally Hawai"</p>
+
+            <p>Cr&eacute;&eacute; le Lundi ‎28 ‎Janvier ‎2019</p>
+
+            <p>Derni&egrave;re acc&egrave;s le </p>
+
+            <!-- <p>Page html h&eacute;berg&eacute;e par Orange <a href="https://www.orange.fr/portail"><img src="https://c.woopic.com/logo-orange.png" title="Orange.fr" width="50" height="50"></a></p> -->
+
+            <p>Images h&eacute;berg&eacute;e par Joomeo <a href="https://www.joomeo.com/"> <img class="joom" src="https://libs.joomeo.com/uiwfrm/1.9.12/img/ui-part/logo-joomeo-150x30--light.png"/></a></p>
+
+            <p>Dossiers compress&eacute;s h&eacute;berg&eacute;s par: Google Drive <a href="https://drive.google.com"><img src="https://www.gstatic.com/images/branding/product/1x/drive_48dp.png" title="googledrive"/></a></p>
+
+            <p class="diese"><img src="https://media.joomeo.com/tiny/5c6dc1173d4a8/MUY5NjQxOTJW7Tl5Ub7HMKl5TtaNY98P.jpg" alt="logo Diese" title="logo Diese" /> Logo de l'association organisant des rally</p>
+
+        </footer>
+
+        <br>
+
+        <p id="avis"/>
+
+        <p class="y"></p>
+
+        <div class="T">
+
+            <p><center><U><B><h1>Votre avis m'interresse</h1></B></U></center></p>
+
+            <br>
+
+            <p>N'h&eacute;sitez pas &aacute; me faire part de votre avis en remplisant ce petit formulaire. Votre avis m'est pr&eacute;cieu. Il ne prendra pas beaucoup de temps.</p>
+
+            <p>Vous pouvez remplire ce petit questionaire <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAf0m3cRUOEFaRUtWMUNBVEFMRTRNRUFSVEZIMVE2RC4u" title="Petit questionaire">ICI</a></p>
+
+            <br>
+
+            <p><h1>Merci</h1></p>
+
+            <p></p>
+
+            
+
+            <p><h2>Consultez les résultats : <a href="https://forms.office.com/Pages/AnalysisPage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAANAAf0m3cRUOEFaRUtWMUNBVEFMRTRNRUFSVEZIMVE2RC4u&AnalyzerToken=EhKJ7NuTHIj3ZP52THHB7abHlOhaefFX">ICI</a>.</h2></p>
+
+        </div>
+
+    </body>
+
+</html>

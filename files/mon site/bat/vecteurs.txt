@@ -1,0 +1,111 @@
+Echo Off
+@echo  /    
+@echo /   
+@echo/    
+@echo
+@echo|
+@echo| 
+@echo|
+@echo
+@echo \
+@echo  \ 
+@echo   \
+@echo
+@echo---------
+@echo
+@echo_________
+@echo
+@echo-->
+@echoAB (5;4)
+@echo
+@echo-->
+@echoED =(3;4)
+@echo
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo					|1
+@echo_____________________________________________________________________________________________
+@echo				       0|    1
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo					|
+@echo
+@echo
+cmd/K____________________________________________________________________________________________________________________________________________________________
+@echo
+@echo						|
+@echo						|          		      C
+@echo						|               	       +
+@echo						| A          E+________>+F     /\
+@echo						|   +        		      /
+@echo						|    \       G+<________+H   /
+@echo						|     \     		    +
+@echo						|      \/  		  D
+@echo						|       +
+@echo						|       B
+@echo						|
+@echo						|
+@echo						|1
+@echo_______________________________________________________________________________________________________
+@echo					       0|    1
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo
+cmd/K____________________________________________________________________________________________________________________________________________________________
+@echo
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|1
+@echo_______________________________________________________________________________________________________
+@echo					       0|    1
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo						|
+@echo
+@echo
+cmd/K
+@echo       -->  -->  -->  -->
+@echoTracer AB + EF + GH + DC
+@echo

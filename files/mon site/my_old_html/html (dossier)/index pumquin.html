@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-with, initial-scale=1, shrink-to-fit-no">
+	<title>PumpkinClicker</title>
+<link rel="shortcut icon" href="img/pumkin-icon,png">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="css/new.css">
+
+<link rel="shortcut icon" href="giphy.gif">
+
+<link href="https://fonts.googleapis.com/css?family=Neucha|Pacificorel=stylesheet">
+<script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<div style="color: darkorange">
+	<h5><p>The aim of the game is simple you just have to click on a pumquin to play and when you have 25 pumquins you can buy an oven and so on have fun.</p></h5>
+</div>
+<body background="img/haloween-pumpkin-animated-gif-2-2-2.gif">
+<div class="container">
+	<div class="col-12">
+	<h1>Pumpkin Clicker</h1>
+	<div class="image-cadre">
+		<img src="img/pumpkin.jpg"/>
+	</div>
+	<p class="elem textGreen">You have <span id="number">0</span> 
+Pumpkins</p>
+</div>
+<div class="row">
+<div class="col-4 elem">
+	<img onclick="bake()" class="clicky" src="img/pumpkin-icon.png" />
+</div>
+<div class="col-4 elem">
+<img onclick="bake_plus()" class="clicky" src="img/pumpkin-icon.png" />
+</div>
+<div class="col-4 elem">
+	<button class="btn btn-block btn-buy" id="ovenBtn" onclick="buyOven()" disabled="true">Buy Oven(25)</button>
+</div>
+<button class="btn btn-block btn-buy" id="ovenBtn plus" onclick="buyOven_plus()" disabled="true">Buy Oven(25)</button>
+</div>
+</body>
+</html>

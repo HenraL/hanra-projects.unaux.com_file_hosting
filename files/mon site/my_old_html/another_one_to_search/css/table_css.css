@@ -1,0 +1,35 @@
+element.style {
+}
+table.tableau {
+    float: center;
+}
+
+.tableau, .tableaulong {
+    border: solid 1px rgb(0, 0, 255);
+    margin: 5px;
+    border-collapse: collapse;
+    background-color: rgb(186, 226, 43);
+}
+
+
+
+.Styalise {
+    float: center;
+    margin: 5px;
+    border-collapse: unset;
+    background-color: darkturquoise;
+}
+
+
+.tableau td, .tableaulong td {
+    border: solid 1px #990;
+    padding: 5px;
+}
+
+/* table {
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} */

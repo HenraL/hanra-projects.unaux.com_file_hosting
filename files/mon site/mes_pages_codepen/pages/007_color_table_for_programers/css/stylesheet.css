@@ -1,0 +1,838 @@
+.choice{
+  display: flex;
+}
+.colortable{
+  background-color:black;
+  border: 3px black groove;
+  color:white;
+}
+.auto_resize{
+  overflow: scroll;
+  min-width:301%;
+  display:flex;
+  word-wrap: none;
+  text-overflow: hidden;
+  flex-wrap: nowrap;
+}
+.colortitle{
+  color:darkturquoise;
+}
+.color_black{
+  border:2px white groove;
+}
+.color_e83737, .color_ff4444, .color_aliceblue, .color_antiquewhite,.color_aqua, .color_aquamarine, .color_azure, .color_beige, .color_bisque, .color_black, .color_blanchedalmond, .color_blue, .color_blueviolet, .color_brown, .color_burlywood, .color_cadetblue, .color_chartreuse, .color_chocolate, .color_coral, .color_cornflowerblue, .color_cornsilk, .color_crismon, .color_cyan, .color_darkblue, .color_darkcyan, .color_darkgoldenrod, .color_darkgray, .color_darkkhaki, .color_darkmagenta, .color_darkolivegreen, .color_darkorange, .color_darkorchid, .color_darkred, .color_darksalmon, .color_darkseagreen, .color_darkslateblue, .color_darkslategray, .color_darkslategrey, .color_darkturquoise, .color_darkviolet, .color_deeppink, .color_deepskyblue, .color_dimgray, .color_dimgrey, .color_dodgerblue, .color_firebrick, .color_floralwhite, .color_forestgreen, .color_fuchsia, .color_gainsboro, .color_ghostwhite, .color_gold, .color_goldenrod, .color_gray, .color_green, .color_greenyellow, .color_grey, .color_honeydew, .color_hotpink, .color_indianred, .color_indigo, .color_ivory, .color_khaki, .color_lavender, .color_lavenderblush, .color_lawngreen, .color_lemonchiffon, .color_lightblue, .color_lightcoral, .color_lightcyan, .color_lightgoldenrodyellow, .color_lightgray, .color_lightgreen, .color_lightgrey, .color_lightpink, .color_lightsalmon, .color_lightseagreen, .color_lightskyblue, .color_lightslategray, .color_lightslategrey, .color_lightsteelblue, .color_lightyellow, .color_lime, .color_limegreen, .color_linen, .color_magenta, .color_maroon, .color_mediumaquamarine, .color_mediumblue, .color_mediumorchid, .color_mediumpurple, .color_mediumseagreen, .color_mediumslateblue, .color_mediumspringgreen, .color_mediumturquoise, .color_mediumvioletred, .color_midnightblue, .color_mintcream, .color_mistyrose, .color_moccasin, .color_navy, .color_oldlace, .color_olive, .color_olivedrab, .color_orange, .color_orangered, .color_orchid, .color_palegoldenrod, .color_palegreen, .color_paleturquoise, .color_palevioletred, .color_papayawhip, .color_peachpuff, .color_peru, .color_pink, .color_plum, .color_powderblue, .color_purple, .color_rebeccapurple, .color_red, .color_rgb_181_90_226, .color_rgba_0_173_255_0_42, .color_rosybrown, .color_royalblue, .color_saddlebrown, .color_salmon, .color_sandybrown, .color_seagreen, .color_seashell, .color_sienna, .color_silver, .color_skyblue, .color_slateblue, .color_slategray, .color_slategrey, .color_snow, .color_springgreen, .color_steelblue, .color_tan, .color_teal, .color_thistle, .color_tomato, .color_turquoise, .color_violet, .color_wheat, .color_white, .color_whitesmoke, .color_yellow, .color_yellowgreen, .colorcell, .color_rgb239_255_196, .color_rgb215_255_205, .color_f28C8C
+{
+  /*min-width: 5px;
+  min-height: 5px;*/
+  width: 3px;
+  height: 20px;
+  font-size: small;
+  text-align: center;
+  /*size:1;*/
+}
+.colortitle{
+  width: 20px;
+  height: 20px;
+  font-size: small;
+}
+.caaption{
+  height: 20px;
+  color:black;
+  font-weight: bold;
+  border: 3px black groove;
+  border-radius: 4px;
+  background-color: gold;
+}
+#tdcol,.colorcell{
+  border: 2px, white groove;
+  max-width: 275px;
+}
+#baliseColorFin.sdco{
+  width:275px
+}
+#tdcol{
+  text-overflow: hidden;
+}
+
+/*=============== Defining hover for each colour ===============*/
+
+.color_e83737:hover{
+  color: #e83737;
+  alt:a form of red=#e83737;
+  font-weight: bold;
+}
+.color_ff4444:hover{
+  color:#ff4444;
+  alt:a form of red=(#ff4444);
+  font-weight: bold;
+}
+.color_aliceblue:hover{
+  color:aliceblue;
+  alt:aliceblue=rgb(240,248,255);
+  font-weight: bold;
+}
+.color_antiquewhite:hover{
+  color:antiquewhite;
+  alt:antiquewhite rgb(250, 235,215);
+  font-weight: bold;
+}
+.color_aqua:hover{
+  color:aqua;
+  alt:aqua rgb(0,255,255);
+  font-weight: bold;
+}
+.color_aquamarine:hover{
+  color:aquamarine;
+  alt:aquamarine rgb(127, 252 212);
+  font-weight: bold;
+}
+.color_azure:hover{
+  color:azure;
+  alt:azure rgb(240, 255, 255);
+  font-weight: bold;
+}
+.color_beige:hover{
+  color:beige;
+  alt:beige rgb(245, 245, 220);
+  font-weight: bold;
+}
+.color_bisque:hover{
+  color:bisque;
+  alt:bisque rgb( 255, 228, 196);
+  font-weight: bold;
+}
+.color_black:hover{
+  color:black;
+  alt:black rgb(0,0,0);
+  font-weight: bold;
+}
+.color_blanchedalmond:hover{
+  color:blanchedalmond;
+  alt:blanchedalmond;
+  font-weight: bold;
+}
+.color_blue:hover{
+  color:blue;
+  alt:blue;
+  font-weight: bold;
+}
+.color_blueviolet:hover{
+  color:blueviolet;
+  alt:blueviolet;
+  font-weight: bold;
+}
+.color_brown:hover{
+  color:brown;
+  alt:brown;
+  font-weight: bold;
+}
+.color_burlywood:hover{
+  color:burlywood;
+  alt:burlywood;
+  font-weight: bold;
+}
+.color_cadetblue:hover{
+  color:cadetblue;
+  alt:cadetblue;
+  font-weight: bold;
+}
+.color_chartreuse:hover{
+  color:chartreuse;
+  alt:chartreuse;
+  font-weight: bold;
+}
+.color_chocolate:hover{
+  color:chocolate;
+  alt:chocolate;
+  font-weight: bold;
+}
+.color_coral:hover{
+  color:coral;
+  alt:coral;
+  font-weight: bold;
+}
+.color_cornflowerblue:hover{
+  color:cornflowerblue;
+  alt:cornflowerblue;
+  font-weight: bold;
+}
+.color_cornsilk:hover{
+  color:cornsilk;
+  alt:cornsilk;
+  font-weight: bold;
+}
+.color_crismon:hover{
+  color:crimson;
+  alt:crimson;
+  font-weight: bold;
+}
+.color_cyan:hover{
+  color:cyan;
+  alt:cyan;
+  font-weight: bold;
+}
+.color_darkblue:hover{
+  color:darkblue;
+  alt:darkblue;
+  font-weight: bold;
+}
+.color_darkcyan:hover{
+  color:darkcyan;
+  alt:darkcyan;
+  font-weight: bold;
+}
+.color_darkgoldenrod:hover{
+  color:darkgoldenrod;
+  alt:darkgoldenrod;
+  font-weight: bold;
+}
+.color_darkgray:hover{
+  color:darkgray;
+  alt:darkgray;
+  font-weight: bold;
+}
+.color_darkkhaki:hover{
+  color:darkkhaki;
+  alt:darkkhaki;
+  font-weight: bold;
+}
+.color_darkmagenta:hover{
+  color:darkmagenta;
+  alt:darkmagenta;
+  font-weight: bold;
+}
+.color_darkolivegreen:hover{
+  color:darkolivegreen;
+  alt:darkolivegreen;
+  font-weight: bold;
+}
+.color_darkorange:hover{
+  color:darkorange;
+  alt:darkorange;
+  font-weight: bold;
+}
+.color_darkorchid:hover{
+  color:darkorchid;
+  alt:darkorchid;
+  font-weight: bold;
+}
+.color_darkred:hover{
+  color:darkred;
+  alt:darkred;
+  font-weight: bold;
+}
+.color_darksalmon:hover{
+  color:darksalmon;
+  alt:darksalmon;
+  font-weight: bold;
+}
+.color_darkseagreen:hover{
+  color:darkseagreen;
+  alt:darkseagreen;
+  font-weight: bold;
+}
+.color_darkslateblue:hover{
+  color:darkslateblue;
+  alt:darkslateblue;
+  font-weight: bold;
+}
+.color_darkslategray:hover{
+  color:darkslategray;
+  alt:darkslategray;
+  font-weight: bold;
+}
+.color_darkslategrey:hover{
+  color:darkslategrey;
+  alt:darkslategrey;
+  font-weight: bold;
+}
+.color_darkturquoise:hover{
+  color:darkturquoise;
+  alt:darkturquoise;
+  font-weight: bold;
+}
+.color_darkviolet:hover{
+  color:darkviolet;
+  alt:darkviolet;
+  font-weight: bold;
+}
+.color_deeppink:hover{
+  color:deeppink;
+  alt:deeppink;
+  font-weight: bold;
+}
+.color_deepskyblue:hover{
+  color:deepskyblue;
+  alt:deepskyblue;
+  font-weight: bold;
+}
+.color_dimgray:hover{
+  color:dimgray;
+  alt:dimgray;
+  font-weight: bold;
+}
+.color_dimgrey:hover{
+  color:dimgrey;
+  alt:dimgrey;
+  font-weight: bold;
+}
+.color_dodgerblue:hover{
+  color:dodgerblue;
+  alt:dodgerblue;
+  font-weight: bold;
+}
+.color_firebrick:hover{
+  color:firebrick;
+  alt:firebrick;
+  font-weight: bold;
+}
+.color_floralwhite:hover{
+  color:floralwhite;
+  alt:floralwhite;
+  font-weight: bold;
+}
+.color_forestgreen:hover{
+  color:forestgreen;
+  alt:forestgreen;
+  font-weight: bold;
+  cursor:pointer;
+}
+.color_fuchsia:hover{
+  color:fuchsia;
+  alt:fuchsia;
+  font-weight: bold;
+}
+.color_gainsboro:hover{
+  color:gainsboro;
+  alt:gainsboro;
+  font-weight: bold;
+}
+.color_ghostwhite:hover{
+  color:ghostwhite;
+  alt:ghostwhite;
+  font-weight: bold;
+}
+.color_gold:hover{
+  color:gold;
+  alt:gold;
+  font-weight: bold;
+}
+.color_goldenrod:hover{
+  color:goldenrod;
+  alt:goldenrod;
+  font-weight: bold;
+}
+.color_gray:hover{
+  color:gray;
+  alt:gray;
+  font-weight: bold;
+}
+.color_green:hover{
+  color:green;
+  alt:green;
+  font-weight: bold;
+}
+.color_greenyellow:hover{
+  color:greenyellow;
+  alt:greenyellow;
+  font-weight: bold;
+}
+.color_grey:hover{
+  color:grey;
+  alt:grey;
+  font-weight: bold;
+}
+.color_honeydew:hover{
+  color:honeydew;
+  alt:honeydew;
+  font-weight: bold;
+}
+.color_hotpink:hover{
+  color:hotpink;
+  alt:hotpink;
+  font-weight: bold;
+}
+.color_indianred:hover{
+  color:indianred;
+  alt:indianred;
+  font-weight: bold;
+}
+.color_indigo:hover{
+  color:indigo;
+  alt:indigo;
+  font-weight: bold;
+}
+.color_ivory:hover{
+  color:ivory;
+  alt:ivory;
+  font-weight: bold;
+}
+.color_khaki:hover{
+  color:khaki;
+  alt:khaki;
+  font-weight: bold;
+}
+.color_lavender:hover{
+  color:lavender;
+  alt:lavender;
+  font-weight: bold;
+}
+.color_lavenderblush:hover{
+  color:lavenderblush;
+  alt:lavenderblush;
+  font-weight: bold;
+}
+.color_lawngreen:hover{
+  color:lawngreen;
+  alt:lawngreen;
+  font-weight: bold;
+}
+.color_lemonchiffon:hover{
+  color:lemonchiffon;
+  alt:lemonchiffon;
+  font-weight: bold;
+}
+.color_lightblue:hover{
+  color:lightblue;
+  alt:lightblue;
+  font-weight: bold;
+}
+.color_lightcoral:hover{
+  color:lightcoral;
+  alt:lightcoral;
+  font-weight: bold;
+}
+.color_lightcyan:hover{
+  color:lightcyan;
+  alt:lightcyan;
+  font-weight: bold;
+}
+.color_lightgoldenrodyellow:hover{
+  color:lightgoldenrodyellow;
+  alt:lightgoldenrodyellow;
+  font-weight: bold;
+}
+.color_lightgray:hover{
+  color:lightgray;
+  alt:lightgray;
+  font-weight: bold;
+}
+.color_lightgreen:hover{
+  color:lightgreen;
+  alt:lightgreen;
+  font-weight: bold;
+}
+.color_lightgrey:hover{
+  color:lightgrey;
+  alt:lightgrey;
+  font-weight: bold;
+}
+.color_lightpink:hover{
+  color:lightpink;
+  alt:lightpink;
+  font-weight: bold;
+}
+.color_lightsalmon:hover{
+  color:lightsalmon;
+  alt:lightsalmon;
+  font-weight: bold;
+}
+.color_lightseagreen:hover{
+  color:lightseagreen;
+  alt:lightseagreen;
+  font-weight: bold;
+}
+.color_lightskyblue:hover{
+  color:lightskyblue;
+  alt:lightskyblue;
+  font-weight: bold;
+}
+.color_lightslategray:hover{
+  color:lightslategray;
+  alt:lightslategray;
+  font-weight: bold;
+}
+.color_lightslategrey:hover{
+  color:lightslategrey;
+  alt:lightslategrey;
+  font-weight: bold;
+}
+.color_lightsteelblue:hover{
+  color:lightsteelblue;
+  alt:lightsteelblue;
+  font-weight: bold;
+}
+.color_lightyellow:hover{
+  color:lightyellow;
+  alt:lightyellow;
+  font-weight:bold;
+}
+.color_lime:hover{
+  color:lime;
+  alt:lime;
+  font-weight:bold;
+}
+.color_limegreen:hover{
+  color:limegreen;
+  alt:limegreen;
+  font-weight:bold;
+}
+.color_linen:hover{
+  color:linen;
+  alt:linen;
+  font-weight:bold;
+}
+.color_magenta:hover{
+  color:magenta;
+  alt:magenta;
+  font-weight:bold;
+}
+.color_maroon:hover{
+  color:maroon;
+  alt:maroon;
+  font-weight:bold;
+}
+.color_mediumaquamarine:hover{
+  color:mediumaquamarine;
+  alt:mediumaquamarine;
+  font-weight:bold;
+}
+.color_mediumblue:hover{
+  color:mediumblue;
+  alt:mediumblue;
+  font-weight:bold;
+}
+.color_mediumorchid:hover{
+  color:mediumorchid;
+  alt:mediumorchid;
+  font-weight:bold;
+}
+.color_mediumpurple:hover{
+  color:mediumpurple;
+  alt:mediumpurple;
+  font-weight:bold;
+}
+.color_mediumseagreen:hover{
+  color:mediumseagreen;
+  alt:mediumseagreen;
+  font-weight:bold;
+}
+.color_mediumslateblue:hover{
+  color:mediumslateblue;
+  alt:mediumslateblue;
+  font-weight:bold;
+}
+.color_mediumspringgreen:hover{
+  color:mediumspringgreen;
+  alt:mediumspringgreen;
+  font-weight:bold;
+}
+.color_mediumturquoise:hover{
+  color:mediumturquoise;
+  alt:mediumturquoise;
+  font-weight:bold;
+}
+.color_mediumvioletred:hover{
+  color:mediumvioletred;
+  alt:mediumvioletred;
+  font-weight:bold;
+}
+.color_midnightblue:hover{
+  color:midnightblue;
+  alt:midnightblue;
+  font-weight:bold;
+}
+.color_mintcream:hover{
+  color:mintcream;
+  alt:mintcream;
+  font-weight:bold;
+}
+.color_mistyrose:hover{
+  color:mistyrose;
+  alt:mistyrose;
+  font-weight:bold;
+}
+.color_moccasin:hover{
+  color:moccasin;
+  alt:moccasin;
+  font-weight:bold;
+}
+.color_navy:hover{
+  color:navy;
+  alt:navy;
+  font-weight:bold;
+}
+.color_oldlace:hover{
+  color:oldlace;
+  alt:oldlace;
+  font-weight:bold;
+}
+.color_olive:hover{
+  color:olive;
+  alt:olive;
+  font-weight:bold;
+}
+.color_olivedrab:hover{
+  color:olivedrab;
+  alt:olivedrab;
+  font-weight:bold;
+}
+.color_orange:hover{
+  color:orange;
+  alt:orange;
+  font-weight:bold;
+}
+.color_orangered:hover{
+  color:orangered;
+  alt:orangered;
+  font-weight:bold;
+}
+.color_orchid:hover{
+  color:orchid;
+  alt:orchid;
+  font-weight:bold;
+}
+.color_palegoldenrod:hover{
+  color:palegoldenrod;
+  alt:palegoldenrod;
+  font-weight:bold;
+}
+.color_palegreen:hover{
+  color:palegreen;
+  alt:palegreen;
+  font-weight:bold;
+}
+.color_paleturquoise:hover{
+  color:paleturquoise;
+  alt:paleturquoise;
+  font-weight:bold;
+}
+.color_palevioletred:hover{
+  color:palevioletred;
+  alt:palevioletred;
+  font-weight:bold;
+}
+.color_papayawhip:hover{
+  color:papayawhip;
+  alt:papayawhip;
+  font-weight:bold;
+}
+.color_peachpuff:hover{
+  color:peachpuff;
+  alt:peachpuff;
+  font-weight:bold;
+}
+.color_peru:hover{
+  color:peru;
+  alt:peru;
+  font-weight:bold;
+}
+.color_pink:hover{
+  color:pink;
+  alt:pink;
+  font-weight:bold;
+}
+.color_plum:hover{
+  color:plum;
+  alt:plum;
+  font-weight:bold;
+}
+.color_powderblue:hover{
+  color:powderblue;
+  alt:powderblue;
+  font-weight:bold;
+}
+.color_purple:hover{
+  color:purple;
+  alt:purple;
+  font-weight:bold;
+}
+.color_rebeccapurple:hover{
+  color:rebeccapurple;
+  alt:rebeccapurple;
+  font-weight:bold;
+}
+.color_red:hover{
+  color:red;
+  alt:red;
+  font-weight:bold;
+}
+.color_rgb_181_90_226:hover{
+  color:rgb(181, 90, 226);
+  alt:Une nuance de violet rgb(181, 90, 226);
+  font-weight:bold;
+}
+.color_rgba_0_173_255_0_42:hover{
+  color:rgba(0, 173, 255, 0.42);
+  alt:Une nuance de belu claire rgba(0, 173, 255, 0.42);
+  font-weight:bold;
+}
+.color_rosybrown:hover{
+  color:rosybrown;
+  alt:rosybrown;
+  font-weight:bold;
+}
+.color_royalblue:hover{
+  color:royalblue;
+  alt:royalblue;
+  font-weight:bold;
+}
+.color_saddlebrown:hover{
+  color:saddlebrown;
+  alt:saddlebrown;
+  font-weight:bold;
+}
+.color_salmon:hover{
+  color:salmon;
+  alt:salmon;
+  font-weight:bold;
+}
+.color_sandybrown:hover{
+  color:sandybrown;
+  alt:sandybrown;
+  font-weight:bold;
+}
+.color_seagreen:hover{
+  color:seagreen;
+  alt:seagreen;
+  font-weight:bold;
+}
+.color_seashell:hover{
+  color:seashell;
+  alt:seashell;
+  font-weight:bold;
+}
+.color_sienna:hover{
+  color:sienna;
+  alt:sienna;
+  font-weight:bold;
+}
+.color_silver:hover{
+  color:silver;
+  alt:silver;
+  font-weight:bold;
+}
+.color_skyblue:hover{
+  color:skyblue;
+  alt:skyblue rgb(135, 206,235);
+  font-weight:bold;
+}
+.color_slateblue:hover{
+  color:slateblue;
+  font-weight:bold;
+}
+.color_slategray:hover{
+  color:slategray;
+  font-weight:bold;
+}
+.color_slategrey:hover{
+  color:slategrey;
+  font-weight:bold;
+}
+.color_snow:hover{
+  color:snow;
+  font-weight:bold;
+}
+.color_springgreen:hover{
+  color:springgreen;
+  alt:springgreen;
+  font-weight:bold;
+}
+.color_steelblue:hover{
+  color:steelblue;
+  alt:steelblue;font-weight:bold;
+}
+.color_tan:hover{
+  color:tan;;
+  alt:tan;
+  font-weight: bold;
+}
+.color_teal:hover{
+  color:teal;
+  alt:teal;
+  font-weight: bold;
+}
+.color_thistle:hover{
+  color:thistle;
+  alt:thistle;
+  font-weight: bold;
+}
+.color_tomato:hover{
+  color:tomato;
+  alt:tomato;
+  font-weight: bold;
+}
+.color_turquoise:hover{
+  color:turquoise;
+  alt:turquoise;
+  font-weight: bold;
+}
+.color_violet:hover{
+  color:violet;
+  alt:violet;
+  font-weight: bold;
+}
+.color_wheat:hover{
+  color:wheat;
+  alt:wheat;
+  font-weight: bold;
+}
+.color_white:hover{
+  color:white;
+  alt:white;
+  font-weight: bold;
+}
+.color_whitesmoke:hover{
+  color:whitesmoke;
+  alt:whitesmoke;
+  font-weight: bold;
+}
+.color_yellow:hover{
+  color:yellow;
+  alt:yellow;
+  font-weight: bold;
+}
+.color_yellowgreen:hover{
+  color:yellowgreen;
+  alt:yellowgreen;
+  font-weight: bold;
+}
+.color_rgb239_255_196:hover{
+  color:rgb(239, 255, 196);
+  alt:rgb(239, 255, 196);
+  font-weight: bold;
+}
+.color_rgb215_255_205:hover{
+  color:rgb(215, 255, 205);
+  alt:rgb(215, 255, 205);
+  font-weight: bold;
+}
+.color_f28C8C:hover{
+  color:#f28C8C;
+  alt:#f28C8C;
+  font-weight: bold;
+}
+
+#tagImg{
+  background-color:snow;
+  border-radius:15px;
+  width:30px;
+  height:30px;
+}
+#dot{
+  color:black;
+}
+#tag{
+  border:outset 3px;
+  width:30px;
+  height:30px;
+  font-size:40px;
+  font-weight:bold;
+  color:gold;
+  background-color:black;
+  margin:3px;
+}
+#tag:hover{
+  border:inset 3px;
+  margin:3px;
+}

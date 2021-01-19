@@ -1,0 +1,13 @@
+p, button{background-color:black;color:white;}
+button{text-align:center;margin-left:140px;}
+body{background-color:black;}
+#child{
+  top:-45px;
+  display:block;
+  position:fixed;
+  z-index:999;
+  transition:all .5s ease
+}
+#down{
+  margin-left:140px;
+}

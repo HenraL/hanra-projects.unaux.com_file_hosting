@@ -1,0 +1,17 @@
+.Main{
+    background-color:black;
+    color:  aliceblue;
+}
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    font-weight: bolder;
+}
+
+.main_sub{
+    font-weight: bold;
+}
+.main_sub_sub{
+    font-style: italic;
+}

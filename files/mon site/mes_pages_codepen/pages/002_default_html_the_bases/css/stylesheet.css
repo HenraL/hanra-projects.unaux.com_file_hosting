@@ -1,0 +1,11 @@
+p{
+  color:blue;
+  font-size:5em;
+  font-weight:bold;
+  text-transform:uppercase;
+}
+#hi:hover{
+  color:red;
+  font-weight: bolder;
+  background-color:limegreen;
+}

@@ -1,0 +1,6 @@
+@import "https://repl.it/@HanraLatalliar/dislexicfontsstylesheetcss#style.css";
+@font-face {
+    font-family: 'opendyslexic-bold';
+    src: url('https://repl.it/@HanraLatalliar/dislexicfontsstylesheetcss#fonts/opendyslexic-bold/opendyslexic-bold.svg') format('svg');
+}
+p{font-family:'opendyslexic-bold',Algerian;}

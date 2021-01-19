@@ -1,0 +1,188 @@
+/* _________________________________________html__________________________________________________ */
+html
+{
+    background-color: darkgrey;
+}
+/* --------------------------------------a----------------------------------------------------- */
+.link_ten:hover
+{
+    text-decoration: none;
+    color: blue;
+    font-style: italic;
+}
+
+.link_ten
+{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    text-underline-position: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: -webkit-grab;
+}
+
+.link_ten:onclick
+{
+    cursor: -webkit-grabbing;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: orangered;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.link_ten:clicked
+{
+    text-decoration: gold;
+    text-decoration-style: wavy;
+    color: black;
+    font-style: normal;
+    text-underline-position: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: -webkit-grab;
+}
+
+/* ---------------------------------------------------p-------------------------------------------------- */
+
+/* p:hover
+{
+    text-decoration: aqua;
+    color: aquamarine;
+    font-style: oblique;
+} */
+
+/* -------------------------------------------------sommaire------------------------------------------------ */
+
+Sommaire:hover
+{
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+
+/* ___________________________________________positions_________________________________________________________ */
+
+center
+{
+    text-align: center;
+}
+
+cennter
+{
+    text-align: justify;
+    border-left: 1em;
+}
+
+cennter:hover
+{
+    text-align: justify;
+    box-shadow: 5px 2px 3px black;
+}
+
+
+/* ___________________________________________________li et ul__________________________________________________ */
+
+li
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+ul
+{
+    border: 3px black groove;
+    border-radius: 50px;
+    background-color: bisque;
+}
+
+ul:hover
+{
+    box-shadow: 5px 5px 5px black;
+}
+
+/* _______________________________________________ancor______________________________________________________ */
+
+:ancor
+{
+    text-anchor: end;
+}
+
+
+
+:table
+{
+    border-color: black;
+    border: 50em;
+    color: black;
+    background-image: url("https://thumbs.dreamstime.com/t/le-ciel-ensoleill%C3%A9-bleu-avec-les-nuages-blancs-am%C3%A9nagent-la-banni%C3%A8re-en-parc-97739114.jpg")
+}
+
+/* _____________________________________________button_____________________________________________________________ */
+
+button#before
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#before:onclick
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#after
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#after:onclick
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+/* _____________________________________________strong_________________________________________________ */
+
+strong
+{
+    border: 3px blue outset;
+}
+
+strong:hover
+{
+    border: 3px blue inset;
+}
+
+/* _____________________________________________________h3________________________________________________ */
+
+h3
+{
+    text-align: center;
+    text-justify: distribute;
+    font-size: 3em;
+}
+
+h3:hover
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* _______________________________________________________header______________________________________ */
+header
+{
+    background-color:  orange;
+}
+
+head
+{
+    background-color:  orange;
+}

@@ -1,0 +1,129 @@
+HTML CSS JSResult Skip Results Iframe
+/*Fichier créé par Henry letellier, pour facilement l'inserer dans la page html, ajoutez ces balises de part et d'autre du code (avec les bon <>...</>) style mettez le CSS style*/
+html{
+  margin-top:0px;
+}
+/*Customisation du boutton reset*/
+#reset,#hidden{
+  background-color:white;
+}
+#hidden{border-width:1px;height:1px;}
+#calc{
+  background-color:white;
+}
+
+/*Customisation de la taille du ; de la 1ère ligne*/
+#big{
+  font-size:2em;
+  font-weight:bolder;
+}
+
+/*customisation des liens*/
+#link{
+  color:blue;
+  text-decoration:none;
+  text-align:center;
+}
+#link:clicked{color:blue;}
+#link:hover{background-color:grey;}
+
+/*modification de la taille des images*/
+/*#500ei{
+  width:79px;
+  height:46px;*/
+/*width="79" height="46" */
+  /*}*/
+/*#ei1{
+  text-align:center;
+  padding: 8px;
+}*/
+
+/*customisation de la balise caption*/
+#caption{
+  text-align:center;
+  font-weight:bolder;
+  font-size:2em;
+  background-color:limegreen;
+}
+
+/* #e500{color:red;} */
+
+/*démarrage du media query*/
+@media screen and (max-width: 1280px)
+{
+  /*stylisation générale du tableau*/
+  #flexleg{
+    border-collapse: collapse;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  /*application de même règles pour toutes les pièces*/
+  #ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2, #ic0{
+    width:59px;
+    height:59px;
+  }
+  /*Appliction des même règles pour tout les billets*/
+  #ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:79px;
+    height:46px;
+  }
+  /*Customisation des span js (+taille du texte)*/
+  #c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:10px;
+  }
+/*changement de la taille du texte*/
+#fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:10px;
+  }
+}
+@media all
+{
+   /*stylisation générale du tableau*/
+  #flexleg{
+    border-collapse: collapse;
+    text-align:center;
+    overflow:hidden;
+    overflow:scroll;
+  }
+  .tD{
+    column-width: 70px;
+    column-height: 50px;
+    word-break: break-all;
+    margin:0px;
+    text-align:center;
+  }
+  /*application de même règles pour toutes les pièces*/
+  #ic1,#ic2,#ic5,#ic10,#ic20,#ic50,#ie1,#ie2,#ic0{
+    width:59px;
+    height:59px;
+  }
+  /*Appliction des même règles pour tout les billets*/
+  #ie5,#ie10,#ie20,#ie50,#ie100,#ie200,#ie500{
+    width:69px;
+    height:46px;
+  }
+  /*Customisation des span js (+taille du texte)*/
+  #c1,#c2,#c5,#c10,#c20,#c50,#e1,#e2,#e5,#e10,#e20,#e50,#e100,#e200,#e500{
+    text-align:center;
+    font-size:12px;
+    font-weight:bolder;
+    word-break: break-all;
+  }
+  #link{word-break: break-all;}
+  /*changement de la taille du texte*/
+  #fc1,#fc2,#fc5,#fc10,#fc20,#fc50,#fe1,#fe2,#fe5,#fe10,#fe20,#fe50,#fe100,#fe200,#fe500{
+    text-align:center;
+    font-size:12px;
+    word-break: break-all;
+  }
+}
+
+#left{
+font-size:11px;
+}
+#leftImg{
+width:8px;
+height:8px;
+}

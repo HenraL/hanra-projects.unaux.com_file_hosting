@@ -1,0 +1,34 @@
+
+a:hover
+{
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+
+p:hover
+{
+    text-decoration: aqua;
+    color: aquamarine;
+    font-style: oblique;
+}
+
+Sommaire:hover
+{
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+somaire:hover
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+white
+{
+    color: aliceblue
+}

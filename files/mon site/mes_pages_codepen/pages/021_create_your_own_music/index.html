@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Create your own music</title>
+    <!-- on définit le tire de la fenêtre-->
+    <meta name="description" content="This page will alow you to create yours own music from soud files" />
+    <!-- on décrit ce que contiendra le contenu de la page-->
+    <script src="js/script.js" type="text/js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+    <!--On lie nos propres fichiers js-->
+    <link rel="stylesheet" href="piano" />
+</head>
+
+<body>
+  <div class"choose">
+    <p>Choose your instrument</p>
+      <div class="choice">
+        <div class="ppvx_dropdown">
+          <select id="baliseColor" class="ppvx_dropdown__control" onchange="col();">
+            <option value="nothing">----- Chose Instrument -----</option>
+          </select>
+        </div>
+      </div>
+  </div>
+  <p id="hi" onclick="hi()">hi</p>
+  <audio src="https://d9olupt5igjta.cloudfront.net/samples/sample_files/8967/4329625759280ee6fa2705f340c1979f3f8054fa/mp3/68439-piano-bb-wav.mp3?1512767681" controls></audio>
+</body>
+
+</html>

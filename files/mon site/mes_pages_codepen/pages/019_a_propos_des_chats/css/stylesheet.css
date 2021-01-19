@@ -1,0 +1,90 @@
+.attention{background-color: lightblue;text-align:center;font-weight:bold;padding-left:-1px;padding-right:-1px;}
+root{--bacckground:rgb(239, 255, 196);}
+#big{font-size:xx-large;font-weight: bolder;}
+#tagImg{background-color:snow; border-radius:15px; width:30px;height:30px;}
+#tag{border:outset 3px gold;width:30px; height:30px;font-size:40px;font-weight:bold; color:gold; background-color:black;margin:3px;}
+#tag:hover{border:inset gold 3px;margin:3px;}
+.a{ text-decoration:none; cursor:pointer;}
+#dot{color:black;}
+.imgcatinatub{/*width: ;height: ; */}
+.howto{background-color: rgb(239, 255, 196);padding: 10px;}
+.linkpage{color: blue;}
+.how{color:black; text-decoration: none;}
+.division{color:black;}
+.division:hover, .linkpage:hover, .how:hover{font-style: italic;color: red;background-color: aliceblue; box-shadow: 5px 2px 3px black; }
+.division:active, .linkpage:active, .how:active{color: green;}
+.HOWW, .cure, .shrooms, .end{ text-decoration: none; font-weight: bold;}
+.HOWW{color:cadetblue;}
+.cure{ color: brown;}
+.shrooms{color:chocolate;}
+.end{color: slateblue;}
+.HOWW:hover, .cure:hover, .shrooms:hover, .end:hover{font-style: italic; background-color: aliceblue;box-shadow: 5px 2px 3px black; }
+.linktexts, .catinatub{ padding: 10px; /*background-color: orange;*/ }
+.flèche_ico{height: 18px;width: 20px;}
+.info_vbs{height: 16px;width: 18px;}
+#ul_s {padding-left: 0;}
+#li_s{list-style: none;}
+* {box-sizing: border-box;}
+::selection {background-color: #EBEBF2;color: #83828D;}
+/* ==================================== */
+/*          Navigaton Menu    
+/* ==================================== */
+.menu-wrap {background-color: #6968AB;  position: fixed;  top: 0; height: 100%; width: 600px; margin-left: -600px;  font-size: 1em; font-weight: 700; overflow: auto; transition: .25s; z-index: 10;}
+.menu-show {  margin-left: 0; box-shadow: 4px 2px 15px 1px #B9ADAD;}
+.menu-sidebar {  position: relative;  top: 20px;}
+.menu-sidebar li {  padding: 18px 22px 0;}
+.menu-sidebar li > a {  color: #f3f3f3; font-size: 1.18em;  position: relative;}
+.menu-sidebar li > a::after { content: "";  display: block; height: 0.15em; position: absolute; top: 100%;  width: 100%;  left: 50%;  transform: translate(-50%); background-image: linear-gradient(to right, transparent 50.3%, #FFFA3B 50.3%); background-size: 200% auto;}
+.menu-sidebar li > a:hover::after {background-position: -100% 0;}
+.menu-sidebar .menu-item-has-children {position: relative;}
+.menu-sidebar .menu-item-has-children .sub-menu { display: none;}
+.sidebar-menu-arrow::after { content: "\f107";font-family: 'FontAwesome'; padding: 10px;color: #FFFA3B;position: relative;}
+.sidebar-menu-arrow:hover::after {cursor: pointer;color: #fff;}
+.sidebar-menu-arrow:active::after { top: 2px; }
+/*Hamburger Button*/
+.toggle-button {position: fixed;width: 44px;height: 40px;top: 40px; left: 40px; padding: 4px;transition: .25s;z-index: 15;}
+.toggle-button:hover { cursor: pointer;}
+.toggle-button .menu-bar {position: absolute;border-radius: 2px;width: 80%;transition: .5s;}
+.toggle-button .menu-bar-top {border: 4px solid #555; border-bottom: none;top: 0;}
+.toggle-button .menu-bar-middle { height: 4px;background-color: #555; margin-top: 7px; margin-bottom: 7px;top: 4px;}
+.toggle-button .menu-bar-bottom {border: 4px solid #555; border-top: none; top: 22px; }
+.button-open {left: 25px;}
+.button-open .menu-bar-top {border-color: #fff; transform: rotate(45deg) translate(8px, 8px);transition: .5s; }
+.button-open .menu-bar-middle {    background-color: #fff;    transform: translate(230px);    transition: .1s ease-in;    opacity: 0;}
+.button-open .menu-bar-bottom {    border-color: #fff;    transform: rotate(-45deg) translate(7px, -7px);    transition: .5s;}
+/* Text Block */
+.wrapper {    width: 40%;    margin: 100px auto 0;    color: #83828D;}
+.wrapper .text {    padding: 30px;}
+.wrapper .text .heading {    margin-bottom: 40px;    font-size: 2em;}
+.wrapper .text p {    line-height: 1.6em;}
+.wrapper .text .buttons {    margin-top: 40px;}
+/* Buttons */
+.wrapper .buttons .button {    display: inline-block;    margin-right: 20px;    padding: 20px 25px;    border-radius: 2em;    background-color: #70CE64;    color: #fff;    font-size: .9em;    font-weight: 700;    transition: background-color .3s;}
+.wrapper .buttons .button-secondary {    background-color: #FF6746;}
+.wrapper .buttons .button-primary:hover {    background-color: #84D07A;}
+.wrapper .buttons .button-secondary:hover {    background-color: #FF7D60;}
+/*Active state for the buttons*/
+.wrapper .buttons .button-primary:active {    background-color: #70CE64;}
+.wrapper .buttons .button-secondary:active {    background-color: #FF6746;}
+/*Icons*/
+.wrapper .buttons .button span {    position: relative;    display: inline-block;    padding-right: 20px;}
+.wrapper .buttons .button span::after {    position: absolute;    font-family: "FontAwesome";    right: -3px;    font-size: 14px;    top: 0;    transition: top .3s, right .3s;}
+.wrapper .buttons .button-primary span::after {    content: "\f019";}
+.wrapper .buttons .button-secondary span::after {    content: "\f178";}
+/*Slight icons animation*/
+.wrapper .buttons .button-primary:hover span::after {    top: 4px;}
+.wrapper .buttons .button-secondary:hover span::after{right: -6px;}
+.border1{border: 30%,blueviolet , inset;}
+center{    display: block;    text-align: -webkit-center;}
+.link{    color: whitesmoke;}
+.link:hover{    border-radius: 100% ,100% ,100%;    background-color: aliceblue;    box-shadow: 5px 5px 5px black;    color: black;}
+.sommaire{    border: 3px black groove;    border-radius: 50px;    background-color: rgb(239, 255, 196);}
+.summary{    color: darkgreen;    text-decoration: none;}
+.summary:hover{    box-shadow: 5px 2px 3px black;}
+.web{    border: 3px black groove;    border-radius: 5px;    background-color: rgb(239, 255, 196);}
+.web:hover{    box-shadow: 5px 2px 3px black;}
+.sommaire_web{    border: 3px black groove;    border-radius: 5px;    background-color:rgb(134, 201, 240);}
+.sommaire_web:hover{    box-shadow: 5px 2px 3px black;}
+.summary_web{    color:black;    text-decoration: none;}
+.summary_web:hover{    box-shadow: 5px 2px 3px black;}
+.big{font-size: 3em;}

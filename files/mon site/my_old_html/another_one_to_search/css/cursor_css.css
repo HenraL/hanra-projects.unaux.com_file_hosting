@@ -1,0 +1,165 @@
+
+.webkit-grab
+{
+    cursor: -webkit-grab;
+}
+.webkit-grabbing
+{
+    cursor: -webkit-grabbing;
+}
+.webkit-zoom-in
+{
+    cursor: -webkit-zoom-in;
+}
+.webkit-zoom-out
+{
+    cursor: -webkit-zoom-out;
+}
+.alias
+{
+    cursor: alias;
+}
+.all-scroll
+{
+    cursor: all-scroll;
+}
+.auto
+{
+    cursor: auto;
+}
+.cell
+{
+    cursor: cell;
+}
+.col-resize
+{
+    cursor: col-resize;
+}
+.context-menu
+{
+    cursor: context-menu;
+}
+.copy
+{
+    cursor: copy;
+}
+.crosshair
+{
+    cursor: crosshair;
+}
+.default
+{
+    cursor: default;
+}
+.e-resize
+{
+    cursor: e-resize;
+}
+.ew-resize
+{
+    cursor: ew-resize;
+}
+.help
+{
+    cursor: help;
+}
+.inherit
+{
+    cursor: inherit;
+}
+.initial
+{
+    cursor: initial;
+}
+.move
+{
+    cursor: move;
+}
+.n-resize
+{
+    cursor: n-resize;
+}
+.ne-resize
+{
+    cursor: ne-resize;
+}
+.news-resize
+{
+    cursor: nesw-resize;
+}
+.no-drop
+{
+    cursor: no-drop;
+}
+.none
+{
+    cursor: none;
+}
+.not-allowed
+{
+    cursor: not-allowed;
+}
+.ns-resize
+{
+    cursor: ns-resize;
+}
+.nw-resize
+{
+    cursor: nw-resize;
+}
+.nwse-resize
+{
+    cursor: nwse-resize;
+}
+.pointer
+{
+    cursor: pointer;
+}
+.progress
+{
+    cursor: progress;
+}
+.row-resize
+{
+    cursor: row-resize;
+}
+.s-resize
+{
+    cursor: s-resize;
+}
+.se-resize
+{
+    cursor: se-resize;
+}
+.sw-resize
+{
+    cursor: sw-resize;
+}
+.text
+{
+    cursor: text;
+}
+.unset
+{
+    cursor: unset;
+}
+.vertical-text
+{
+    cursor: vertical-text;
+}
+.w-resize
+{
+    cursor: w-resize;
+}
+.wait
+{
+    cursor: wait;
+}
+.zoom-in
+{
+    cursor: zoom-in;
+}
+.zoom-out
+{
+    cursor: zoom-out;
+}

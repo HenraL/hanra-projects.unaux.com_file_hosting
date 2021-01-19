@@ -1,0 +1,503 @@
+#tagImg{
+  background-color:snow;
+  border-radius:15px;
+  width:30px;
+  height:30px;
+}
+#dot{
+  color:black;
+}
+#tag{
+  border:outset 3px gold;
+  width:30px;
+  height:30px;
+  font-size:40px;
+  font-weight:bold;
+  color:gold;
+  background-color:black;
+  margin:3px;
+}
+#tag:hover{
+  border:inset gold 3px;
+  margin:3px;
+}
+#position_of_usbs{
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+/*USB Styalisation*/
+#postitle{
+  text-align:center;
+  font-weight: bold;
+  font-size:20px;
+}
+#position_of_usb_N1,#position_of_usb_N2,#position_of_usb_N3,#position_of_usb_N4,#position_of_usb_N5,#position_of_usb_N6,#position_of_usb_N7{
+  border:black 3px dotted;
+  width:380px;
+  height:150px;
+}
+#position_of_usb_N1{
+  background-color:skyblue;
+}
+/* Style for First USB */
+#containerStyleN1{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN1{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN1{
+  width:70px;
+  height:100%;
+  background-color:grey;
+/*   border:black 3px groove; */
+  border:transparent 3px groove;
+}
+#square1StyleN1, #square2StyleN1{
+  width:20px;
+  height:19px;
+  background-color:dodgerblue;
+  border:black 2px groove;
+  margin-left:9px;
+}
+#square2StyleN1{
+  margin-top:6px;
+}
+
+#coverStyleN1{
+  background-color:orange;
+/*   border: transparent 2px groove; */
+  border: black 2px groove;
+/*   border-radius:10px; */
+  text-align:center;
+  font-weight:bold;
+}
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N2{
+  background-color:olivedrab;
+}
+/* Style for second USB */
+#containerStyleN2{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN2{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN2{
+  width:70px;
+  height:100%;
+  background-color:grey;
+  border:black 3px groove;
+}
+#square1StyleN2, #square2StyleN2{
+  width:20px;
+  height:19px;
+  background-color:dodgerblue;
+  border:black 2px groove;
+  margin-left:9px;
+}
+#square2StyleN2{
+  margin-top:6px;
+}
+
+#coverStyleN2{
+  background-color:orange;
+  border: transparent 2px groove;
+/*   border-radius:10px; */
+  text-align:center;
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N3{
+  background-color:limegreen;
+}
+/* Style for fourth USB n°3*/
+#containerStyleN3{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN3{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN3{
+  width:70px;
+  height:100%;
+  background-color:grey;
+  border:black 3px groove;
+}
+#square1StyleN3, #square2StyleN3{
+  width:20px;
+  height:19px;
+  background-color:dodgerblue;
+  border:black 2px groove;
+  margin-left:9px;
+}
+#square2StyleN3{
+  margin-top:6px;
+}
+
+#coverStyleN3{
+  background-color:orange;
+  border: transparent 2px groove;
+/*   border-radius:10px; */
+  text-align:center;
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 20px;
+}
+
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N4{
+  background-color:lightseagreen;
+}
+/* Style for Fourth USB */
+#containerStyleN4{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN4{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN4{
+  width:76px;
+  height:50px;
+  background-color:grey;
+  border:black 3px groove;
+  margin:0px;
+}
+#square1StyleN4, #square2StyleN4, #square3StyleN4{
+  background-color:gold;
+  border:black 2px groove;
+  margin-left:10px;
+  margin-top:0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#square2StyleN4,#square3StyleN4{
+  margin-top:6px;
+}
+#square2StyleN4, #square1StyleN4{
+  width:32px;
+  height:9px;
+}
+#square3StyleN4{
+/*   text-align: center; */
+  width: 25px;
+  height: 9px;
+  margin-left:15px;
+}
+
+#coverStyleN4{
+  width:213px;
+  height:77px;
+  background-color:orange;
+  border: transparent 2px groove;
+/*   border-radius:10px; */
+  text-align:center;
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N5{
+  background-color:yellowgreen;
+}
+/* Style for Fith USB */
+#containerStyleN5{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN5{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN5{
+  width:76px;
+  height:50px;
+  background-color:grey;
+  border:black 3px groove;
+  margin:0px;
+}
+#square1StyleN5, #square2StyleN5, #square3StyleN5{
+  background-color:gold;
+  border:black 2px groove;
+  margin-left:10px;
+  margin-top:0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#square2StyleN5,#square3StyleN5{
+  margin-top:6px;
+}
+#square2StyleN5, #square1StyleN5{
+  width:32px;
+  height:9px;
+}
+#square3StyleN5{
+/*   text-align: center; */
+  width: 25px;
+  height: 9px;
+  margin-left:15px;
+}
+
+#coverStyleN5{
+  width:213px;
+  height:77px;
+  background-color:orange;
+  border: transparent 2px groove;
+/*   border-radius:10px; */
+  text-align:center;
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N6{
+  background-color:turquoise;
+}
+/* Style for USB n°6*/
+/* Style for Fith USB */
+#containerStyleN6{
+/*   background-color:green; */
+  width:380px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN6{
+  background-color:grey;
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+  border:black 3px groove;
+/*   margin-bottom:1px; */
+}
+#backgroundStyleN6{
+  width:290px;
+  height:40px
+}
+#metalStyleN6{
+  width:56px;
+  height:50px;
+/*   background-color:red; */
+/*   border:black 3px groove; */
+  margin:0px;
+}
+#square1StyleN6, #square2StyleN6, #square3StyleN6{
+  background-color:gold;
+  border:black 2px groove;
+  margin-left:10px;
+  margin-top:0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#square2StyleN6,#square3StyleN6{
+  margin-top:6px;
+}
+#square2StyleN6, #square1StyleN6{
+  width:32px;
+  height:9px;
+}
+#square3StyleN6{
+/*   text-align: center; */
+  width: 25px;
+  height: 9px;
+  margin-left:15px;
+}
+#middlePartOfKey{
+  background-color:transparent;
+/*   backgroun-color:orangered; */
+}
+#coverStyleN6{
+  position:abolute;
+  float:center;
+/*   width:213px; */
+/*   height:77px; */
+  border: transparent 0px groove;
+/*   border-radius:9px; */
+/*   text-align:center; */
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+#square4StyleN6,#square5StyleN6{
+  position:absolute;
+  width: 9px;
+  height: 9px;
+  margin-left:10px;
+  background-color:gold;
+  border:black 2px groove;
+  margin-left:-5px;
+/*   margin-bottom:0px; */
+/*   margin-top:0px; */
+}
+#square4StyleN6{
+  margin-top:-12px;
+}
+#square5StyleN6{
+  margin-top:3px;
+}
+
+#contactPointsStyleN6{
+  width:15px;
+}
+
+
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+#position_of_usb_N7{
+  background-color:cadetblue;
+}
+/* Style for USB n°7*/
+/* Style for Fith USB */
+#containerStyleN7{
+/*   background-color:green; */
+  width:500px;
+  height:90px;
+  margin-top:5px;
+  display: block;
+/*   text-align:center; */
+}
+#mainFrameHelperStyleN7{
+/*   background-color:red; */
+  width:290px;
+  height:80px;
+  margin-top:5px;
+  margin-left:40px;
+  border-collapse: collapse;
+/*   margin-bottom:1px; */
+}
+#metalStyleN7{
+  width:76px;
+  height:50px;
+  background-color:grey;
+  border:black 3px groove;
+  margin:0px;
+}
+#square1StyleN7, #square2StyleN7, #square3StyleN7{
+  background-color:gold;
+  border:black 2px groove;
+  margin-left:10px;
+  margin-top:0px;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+#square2StyleN7,#square3StyleN7{
+  margin-top:6px;
+}
+#square2StyleN7, #square1StyleN7{
+  width:32px;
+  height:9px;
+}
+#square3StyleN7{
+/*   text-align: center; */
+  width: 25px;
+  height: 9px;
+  margin-left:15px;
+}
+
+#coverStyleN7{
+  width:213px;
+  height:77px;
+  background-color:orange;
+  border: transparent 2px groove;
+  border-radius:10px;
+  text-align:center;
+  font-weight:bold;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}

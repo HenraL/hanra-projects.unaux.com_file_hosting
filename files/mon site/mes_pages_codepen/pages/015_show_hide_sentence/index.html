@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Show/Hide Sentence</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+<body>
+<label class="switch" >
+  <input type="checkbox" checked onchange="text()" id="test">
+  <span class="slider round"></span>
+</label>
+<label class="switch"  aria-hidden="true">
+  <input type="checkbox" onchange="text2()" id="test2">
+  <span class="slider round"></span>
+</label>
+<label class="switch" >
+  <input type="checkbox" checked onchange="text3()" id="test3">
+  <span class="slider round"></span>
+</label>
+<p><span id="text"></span></p>
+<p><span id="text2"></span></p>
+<p><span id="text3"></span></p>
+<p><span id="display">ddd</span></p>
+</body>
+</html>

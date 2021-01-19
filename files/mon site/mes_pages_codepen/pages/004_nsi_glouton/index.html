@@ -1,0 +1,117 @@
+<html>
+<head>
+    <meta charsets="utf-8"/>
+    <meta name="author" content="Henry Letellier"/>
+    <title>NSI Glouton</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+</head>
+<body>
+<p>Versions Française: <a href="https://codepen.io/henry-letellier/pen/GRpWWoY">https://codepen.io/henry-letellier/pen/GRpWWoY</a></p>
+<div>
+	<h1>En quoi consiste l'algorithme Glouton?</h1>
+	<p>L’algorithme glouton consiste à donner les pièces de plus grande valeur possible (tant que cela ne dépasse pas la somme totale) puis continuer avec les pièces de seconde plus grande valeur etc. L’ensemble dans lequel sont stockés les objets (des pièces de monnaie ) est une tirelire , et ce n’est pas par catégorie que sont classées les pièces, mais avec pour but de totaliser une somme donnée. D’ordinaire , pour payer 13 centimes , on donne une pièce de 10 centimes , une pièce de 2 centimes et une pièce de 1 centimes . Mais que faire lorsqu’on n’ a qu’une pièce de 5 centimes et pas de pièce de 10 centimes ? Plus généralement, on peut se demander de combien de manières différentes , on peut former 13 centimes ? Le principe est le même, mais au lieu de disques en CSS , la propriété « bacground-image » de CSS a été utilisée pour mettre des photos de pièces</p>
+</div>
+<!--Trouvez cette verson français ici: https://codepen.io/henry-letellier/pen/GRpWWoY-->
+  <p>Montant à rendre (en €) = <input type="number" id="E" onchange="euro()" min=0 step=1/><button id="reset" onclick="reseteuro()">Remettre à 0</button><b id="big">;</b>Montant à rendre (en centimes) = <input type="number" id="C" onchange="centimes()" min=0 step=1/> <button id="reset" onclick="resetCentimes()">Remettre à 0</button><button id="calc" onclick="calc()">Calculer</button><button id="hidden" onclick="h()"></button></p>
+  <p>Action rapide: <button id="reset" onclick="add10()">+<span id="Ac10">1</span>0€</button><button id="reset" onclick="add100()">+<span id="Ac100">1</span>00€</button><button id="reset" onclick="add1000()">+<span id="Ac1000">1</span>000€</button><button id="reset" onclick="add10c()">+<span id="Ac10c">1</span>0₵</button><button id="reset" onclick="add100c()">+<span id="Ac100c">1</span>00₵</button> (<input type="number" id="Aa" onchange="ac()" min=1 step=1 max=9/>)</p>
+  <p><h1>Voici le retour de monnaie du programe</h1></p>
+  
+  <div id="flexLeg">
+    <table>
+      <tr>
+        <td class="tD"><img id="ie500" src="https://numismag.com/wp-content/uploads/2019/01/500-euros-banknote-1.jpg" ></img></td>
+        <td class="tD"><img id="ie200" src="https://fotomelia.com/wp-content/uploads/edd/2015/03/200-euro-1560x816.png"></img></td>
+        <td class="tD"><img id="ie100" src="https://www.leftovercurrency.com/wp-content/uploads/2016/11/100-euros-banknote-first-series-obverse-1.jpg"></img></td>
+        <td class="tD"><img id="ie50" src="http://fotomelia.com/wp-content/uploads/edd/2015/03/billet-de-50euros-1560x822.png"></img></td>
+        <td class="tD"><img id="ie20" src="https://images3.cgb.fr/images/billets/b79/b79_1082a.jpg"></img></td>
+        <td class="tD"><img id="ie10" src="http://eppe-poissy.net/wp-content/uploads/2014/10/billet-10-Euros1-300x154.jpg"></img></td>
+        <td class="tD"><img id="ie5" src="https://www.leftovercurrency.com/wp-content/uploads/2016/11/5-euros-banknote-first-series-reverse-1.jpg"></img></td>
+        <td class="tD"><img id="ie2" src="https://www.fleur-de-coin.com/images/currency/km-pending/km-4_2017b.jpg"></img></td>
+        <td class="tD"><img id="ie1" src="https://thumbs.dreamstime.com/b/one-euro-coin-illustration-isolated-white-background-34751049.jpg" id="ei1"></img></td>
+        <td class="tD"><img id="ic50" src="https://en.numista.com/catalogue/photos/malte/553-original.jpg"></img></td>
+        <td class="tD"><img id="ic20" src="https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/Euro_20_Cent.png/220px-Euro_20_Cent.png"></img></td>
+        <td class="tD"><img id="ic10" src="http://upload.wikimedia.org/wikipedia/it/d/d1/0%2C10_%E2%82%AC_2007.jpg"></img></td>
+        <td class="tD"><img id="ic5" src="http://www.fleur-de-coin.com/images/currency/KM200/KM183_2002b.jpg"></img></td>
+        <td class="tD"><img id="ic2" src="https://www.fleur-de-coin.com/images/currency/KM200/KM182_2002b.jpg"></img></td>
+        <td class="tD"><img id="ic1" src="https://www.theology.de/images/1_cent.jpg"></img></td>
+<td class="tD"><img id="ic0" src=https://github.com/HenraL/picture-for-promoting-accounts/blob/master/files/Profil%20logos/Henry%20Letellier/all%20social%20media%20(youtube%20and%20linkedin%20excluded)/galaxy%20croped%20big_128x128px.png?raw=true"></img></td>
+      </tr>
+      <tr>
+        <td id="fe500"><span id="e500">...</span> billet(s) de 500 euros</td>
+        <td id="fe200"><span id="e200">...</span> billet(s) de 200 euros</td>
+        <td id="fe100"><span id="e100">...</span> billet(s) de 100 euros</td>
+        <td id="fe50"><span id="e50">...</span> billet(s) de 50 euros</td>
+        <td id="fe20"><span id="e20">...</span> billet(s) de 20 euros</td>
+        <td id="fe10"><span id="e10">...</span> billet(s) de 10 euros</td>
+        <td id="fe5"><span id="e5">...</span> billet(s) de 5 euros</td>
+        <td id="fe2"><span id="e2">...</span> pièce(s) de 2 euros</td>
+        <td id="fe1"><span id="e1">...</span> pièce(s) de 1 euro</td>
+        <td id="fc50"><span id="c50">...</span> pièce(s) de 50 centimes</td>
+        <td id="fc20"><span id="c20">...</span> pièce(s) de 20 centimes</td>
+        <td id="fc10"><span id="c10">...</span> pièce(s) de 10 centimes</td>
+        <td id="fc5"><span id="c5">...</span> pièce(s) de 5 centimes</td>
+        <td id="fc2"><span id="c2">...</span> pièce(s) de 2 centimes</td>
+        <td id="fc1"><span id="c1">...</span> pièce(s) de 1 centime</td>
+        <td id="fc0"><span id="e0">...</span> pièce du site cr&eacute;&eacute; par Henry Letellier</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a id="link" href="https://numismag.com/wp-content/uploads/2019/01/500-euros-banknote-1.jpg">numismag.com</a></td>
+        <td><a id="link" href="https://fotomelia.com/wp-content/uploads/edd/2015/03/200-euro-1560x816.png">fotomelia.com</a></td>
+        <td><a id="link" href="https://www.leftovercurrency.com/wp-content/uploads/2016/11/100-euros-banknote-first-series-obverse-1.jpg">leftovercurrency.com</a></td>
+        <td><a id="link" href="http://fotomelia.com/wp-content/uploads/edd/2015/03/billet-de-50euros-1560x822.png">fotomelia.com</a></td>
+        <td><a id="link" href="https://images3.cgb.fr/images/billets/b79/b79_1082a.jpg">images3.cgb.fr</a></td>
+        <td><a id="link" href="http://eppe-poissy.net/wp-content/uploads/2014/10/billet-10-Euros1-300x154.jpg">eppe-poissy.net</a></td>
+        <td><a id="link" href="https://www.leftovercurrency.com/wp-content/uploads/2016/11/5-euros-banknote-first-series-reverse-1.jpg">leftovercurrency.com</a></td>
+        <td><a id="link" href="https://www.fleur-de-coin.com/images/currency/km-pending/km-4_2017b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://thumbs.dreamstime.com/b/one-euro-coin-illustration-isolated-white-background-34751049.jpg">thumbs.dreamtime.com</a></td>
+        <td><a id="link" href="https://en.numista.com/catalogue/photos/malte/553-original.jpg">en.numista.com</a></td>
+        <td><a id="link" href="https://upload.wikimedia.org/wikipedia/lt/thumb/c/c4/Euro_20_Cent.png/220px-Euro_20_Cent.png">upload.wikimedia.org</a></td>
+        <td><a id="link" href="http://upload.wikimedia.org/wikipedia/it/d/d1/0%2C10_%E2%82%AC_2007.jpg">upload.wikimedia.org</a></td>
+        <td><a id="link" href="http://www.fleur-de-coin.com/images/currency/KM200/KM183_2002b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://www.fleur-de-coin.com/images/currency/KM200/KM182_2002b.jpg">fleur-de-coin.com</a></td>
+        <td><a id="link" href="https://www.theology.de/images/1_cent.jpg">theology.de</a></td>
+        <td><a id="link" href="https://codepen.io/henry-letellier/pen/GRpWWoY?editors=1000">🙂👍 Like ❤️ pin it  📌 Comment Follow</a></td>
+      </tr>
+    </table>
+  </div>
+  <side>
+    <table>
+    <caption id="caption">Side data:</caption>
+    <tr>
+        <td>Montant entré: <span id="e">...</span>€</td>
+        <td>Montant entré: <span id="c">...</span>₵</td>
+        <td>Nombre de billets de 500€: <span id="es500">...</span></td>
+        <td>Nombre de billets de 200€: <span id="es200">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de billets de 100€: <span id="es100">...</span></td>
+        <td>Nombre de billets de 50€: <span id="es50">...</span></td>
+        <td>Nombre de billets de 20€: <span id="es20">...</span></td>
+        <td>Nombre de billets de 10€: <span id="es10">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de billets de 5€: <span id="es5">...</span></td>
+        <td>Nombre de pièces de 2€: <span id="es2">...</span></td>
+        <td>Nombre de pièces de 1€: <span id="es1">...</span></td>
+        <td>Valeur de la variable des bouton d'incrémentation: <span id="aa">...</span></td>
+      </tr>
+      <tr>
+        <td>Nombre de pièces de 50₵: <span id="cs50">...</span></td>
+        <td>Nombre de pièces de 20₵: <span id="cs20">...</span></td>
+        <td>Nombre de pièces de 10₵: <span id="cs10">...</span></td>
+        <td><span id="left">&copy; Cr&eacute;&eacute; par Henry Letellier <img id="leftImg" src="https://lh3.google.com/u/9/d/1r7Fyiv_afIhZiI8m4p8XAP1UTTbN0JrI=w1920-h937-iv1"/></span></td>
+      </tr>
+      <tr>
+        <td>Nombre de pièces de 5₵: <span id="cs5">...</span></td>
+        <td>Nombre de pièces de 2₵: <span id="cs2">...</span></td>
+        <td>Nombre de pièces de 1₵: <span id="cs1">...</span></td>
+      </tr>
+    </table>
+  </side>
+<footer>
+<p>&copy; Cr&eacute;&eacute; par Henry Letellier</p>
+</footer>
+</body>
+</html>

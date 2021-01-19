@@ -1,0 +1,74 @@
+.Main{
+    background-color: aliceblue;
+    color: black;
+}
+.body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main{
+    font-weight: bolder;
+}
+
+.main_sub{
+    font-weight: bold;
+}
+.main_sub_sub{
+    font-style: italic;
+}
+.sommaire{
+    border-radius: 50px; /*on arrondi les bordures de 50 pixels*/
+    background-color: rgb(239, 255, 196); /*on met la couleur du texte en beige*/
+    /* position: absolute;
+    float: right; */
+}
+.ul_s {
+    background-color: white; /*on met la couleur de l'arrière-plan en blanc*/
+    text-align: left; /*on met le texte à gauche*/
+    /* position: fixed;*/
+    position: absolute;
+    float: right;
+    margin-right: 3em;
+    /*margin-left: 55%;*/
+    margin-left: 5%;
+    /*margin-top: 5em;*/
+    margin-bottom: 5em;
+}
+a{color: blue;}/*On et la couleur de tout les liens de cette balise à belu, qu'ils aient été clickés ou non*/
+a:hover{text-decoration:none;}/*On enlève le soulignement au survol*/
+a:active{
+    text-decoration: none;/*On enlève le soulignement du texte*/
+    color: coral;/*On met la couleure du texte à coral*/
+    font-weight: bold;/*On met le texte en gras*/
+    background-color: black;/*on met l'arrière-plan du texte en noir.*/
+}
+.boutonmenuprincipal {
+    background-color: #e83737;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:10px;
+    margin-top:0px;
+    text-align: center;
+    /*font-size: 10px;*/
+}
+.boutonmenuprincipal:hover {
+    background-color: #ff4444;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    /*background-color: #f28c8c;*/
+    min-width: 0px;
+}
+.dropdown-child a {
+    /*color: white;*/
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}

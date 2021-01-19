@@ -1,0 +1,485 @@
+<html>
+ <body>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Un tableau de couleures légendé</title> <!-- on définit le tire de la fenêtre-->
+        <meta name="author" content="Henry Letellier"/> <!-- on définit l'auteur de la page-->
+        <meta name="description" content="Voici un tableau de couleurs contenant toute les options de couleurs que me proposaient mon éditeur de code."/> <!-- on décrit ce que contiendra le contenu de la page-->
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="css/stylesheet.css"/>
+    </head>
+   	<div>
+		<h1>A propos de Color Table</h1>
+		<p>get the description from the page</p>
+		<p> put it a the bottom of the page https://codepen.io/henry-letellier/pen/wvKepmR</p>
+	</div>
+        <p><h4>Avec ce menu vous pouvez changer la balise qui précède les couleures du tableau:</h4></p>
+        <div class="choice">
+            <div class="ppvx_dropdown">
+                <select id="baliseColor" class="ppvx_dropdown__control" onchange="col();">
+                    <option value="nothing">rien</option>
+                    <option value="co">color:</option>
+                    <option value="baco">background-color:</option>
+                    <option value="boco">border-color:</option>
+                    <option value="btco">border-top-color:</option>
+                    <option value="bbco">border-bottom-color:</option>
+                    <option value="brco">border-right-color:</option>
+                    <option value="blco">border-left-color:</option>
+                    <option value="oco">outline-color:</option>
+                    <option value="tdco">text-decoration-color:</option>
+                    <option value="cco">caret-color:</option>
+                    <option value="crco">column-rule-color:</option>
+                    <option value="stco">stop-color:</option>
+                    <option value="bisco">border-inline-start-color:</option>
+                    <option value="bieco">border-inline-end-color:</option>
+                    <option value="bbeco">border-block-end-color:</option>
+                    <option value="bbsco">border-block-start-color:</option>
+                    <option value="flco">flood-color:</option>
+                    <option value="lico">lighting-color:</option>
+                    <option value="bico">border-block-color:</option>
+                    <option value="sico">border-inline-color:</option>
+                    <option value="s3co">scrollbar-3dlight-color:</option>
+                    <option value="saco">scrollbar-arrow-color:</option>
+                    <option value="sbco">scrollbar-base-color:</option>
+                    <option value="sdco">scrollbar-darkshadow-color:</option>
+                    <option value="sfco">scrollbar-face-color:</option>
+                    <option value="shco">scrollbar-highlight-color:</option>
+                    <option value="ssco">scrollbar-shadow-color:</option>
+                    <option value="stco">scrollbar-track-color:</option>
+                    <option value="scco">scrollbar-color:</option>
+                    <option value="teco">text-emphasis-color:</option>
+                    <option value="mcrco">-moz-column-rule-color:</option>
+                    <option value="mtdco">-moz-text-decoration-color:</option>
+                    <option value="wcrco">-webkit-column-rule-color:</option>
+                </select>
+            </div>
+
+            <p><b>...</b></p>
+
+            <div class="ppvx_dropdown">
+                <select id="semi" class="ppvx_dropdown__control" onchange="semii()">
+                    <option value="nothing">"   "</option>
+                    <option value="semi">;</option>
+                </select>
+            </div>
+        </div>
+        <table class="colortable" class="auto_resize">
+            <thead>
+                <tr>
+                    <caption class="caaption"><b>HTML and CSS colours</b></caption>                  
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:#e83737;" class="colorcell"></td>
+                    <td style="background-color:#ff4444;" class="colorcell"></td>
+                    <td style="background-color:aliceblue;" class="colorcell"></td>
+                    <td style="background-color:antiquewhite;" class="colorcell"></td>
+                    <td style="background-color:aqua;" class="colorcell"></td>
+                    <td style="background-color:aquamarine;" class="colorcell"></td>
+                    <td style="background-color:azure;" class="colorcell"></td>
+                    <td style="background-color:beige;" class="colorcell"></td>
+                    <td style="background-color:bisque;" class="colorcell"></td>
+                    <td style="background-color:black;" class="color_black"></td>
+                    <td style="background-color:blanchedalmond;" class="colorcell"></td>
+                    
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_e83737"><span id="baliseColorFin">...</span>#e83737<span id="semiFin">...</span></td>
+                    <td id="tdcol" class="color_ff4444"><span id="baliseColorFin2">...</span>#ff4444<span id="semiFin2">...</span></td>
+                    <td id="tdcol" class="color_aliceblue"><span id="baliseColorFin3">...</span>aliceblue<span id="semiFin3">...</span></td><!-- <br> color:rgb(240,248,255)-->
+                    <td id="tdcol" class="color_antiquewhite"><span id="baliseColorFin4">...</span>antiquewhite<span id="semiFin4">...</span></td><!-- <br> rgb(0,255,255)-->
+                    <td id="tdcol" class="color_aqua"><span id="baliseColorFin5">...</span>aqua<span id="semiFin5">...</span></td>
+                    <td id="tdcol" class="color_aquamarine"><span id="baliseColorFin6">...</span>aquamarine<span id="semiFin6">...</span></td>
+                    <td id="tdcol" class="color_azure"><span id="baliseColorFin7">...</span>azure<span id="semiFin7">...</span></td>
+                    <td id="tdcol" class="color_beige"><span id="baliseColorFin8">...</span>beige<span id="semiFin8">...</span></td>
+                    <td id="tdcol" class="color_bisque"><span id="baliseColorFin9">...</span>bisque<span id="semiFin9">...</span></td>
+                    <td id="tdcol" class="color_black"><span id="baliseColorFin10">...</span>black<span id="semiFin10">...</span></td>
+                    <td id="tdcol" class="color_blanchedalmond"><span id="baliseColorFin11">...</span>blanchedalmond<span id="semiFin11">...</span></td>
+                    
+                </tr>
+                <!-- 1 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:blue;" class="colorcell"></td>
+                    <td style="background-color:blueviolet;" class="colorcell"></td>
+                    <td style="background-color:brown;" class="colorcell"></td>
+                    <td style="background-color:burlywood;" class="colorcell"></td>
+                    <td style="background-color:cadetblue;" class="colorcell"></td>
+                    <td style="background-color:chartreuse;" class="colorcell"></td>
+                    <td style="background-color:chocolate;" class="colorcell"></td>
+                    <td style="background-color:coral;" class="colorcell"></td>
+                    <td style="background-color:cornflowerblue;" class="colorcell"></td>
+                    <td style="background-color:cornsilk;" class="colorcell"></td>
+                    <td style="background-color:crimson;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_blue"><span id="baliseColorFin12">...</span>blue<span id="semiFin12">...</span></td>
+                    <td id="tdcol" class="color_blueviolet"><span id="baliseColorFin13">...</span>blueviolet<span id="semiFin13">...</span></td>
+                    <td id="tdcol" class="color_brown"><span id="baliseColorFin14">...</span>brown<span id="semiFin14">...</span></td>
+                    <td id="tdcol" class="color_burlywood"><span id="baliseColorFin15">...</span>burlywood<span id="semiFin15">...</span></td>
+                    <td id="tdcol" class="color_cadetblue"><span id="baliseColorFin16">...</span>cadetblue<span id="semiFin16">...</span></td>
+                    <td id="tdcol" class="color_chartreuse"><span id="baliseColorFin17">...</span>chartreuse<span id="semiFin17">...</span></td>
+                    <td id="tdcol" class="color_chocolate"><span id="baliseColorFin18">...</span>chocolate<span id="semiFin18">...</span></td>
+                    <td id="tdcol" class="color_coral"><span id="baliseColorFin19">...</span>coral<span id="semiFin19">...</span></td>
+                    <td id="tdcol" class="color_cornflowerblue"><span id="baliseColorFin20">...</span>cornflowerblue<span id="semiFin20">...</span></td>
+                    <td id="tdcol" class="color_cornsilk"><span id="baliseColorFin21">...</span>cornsilk<span id="semiFin21">...</span></td>
+                    <td id="tdcol" class="color_crismon"><span id="baliseColorFin22">...</span>crimson<span id="semiFin22">...</span></td>
+                </tr>
+                <!-- 2 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:cyan;" class="colorcell"></td>
+                    <td style="background-color:darkblue;" class="colorcell"></td>
+                    <td style="background-color:darkcyan;" class="colorcell"></td>
+                    <td style="background-color:darkgoldenrod;" class="colorcell"></td>
+                    <td style="background-color:darkgray;" class="colorcell"></td>
+                    <td style="background-color:darkkhaki;" class="colorcell"></td>
+                    <td style="background-color:darkmagenta;" class="colorcell"></td>
+                    <td style="background-color:darkolivegreen;" class="colorcell"></td>
+                    <td style="background-color:darkorange;" class="colorcell"></td>
+                    <td style="background-color:darkorchid;" class="colorcell"></td>
+                    <td style="background-color:darkred;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_cyan"><span id="baliseColorFin24">...</span>cyan<span id="semiFin24">...</span></td>
+                    <td id="tdcol" class="color_darkblue"><span id="baliseColorFin25">...</span>darkblue<span id="semiFin25">...</span></td>
+                    <td id="tdcol" class="color_darkcyan"><span id="baliseColorFin26">...</span>darkcyan<span id="semiFin26">...</span></td>
+                    <td id="tdcol" class="color_darkgoldenrod"><span id="baliseColorFin27">...</span>darkgoldenrod<span id="semiFin27">...</span></td>
+                    <td id="tdcol" class="color_darkgray"><span id="baliseColorFin28">...</span>darkgray<span id="semiFin28">...</span></td>
+                    <td id="tdcol" class="color_darkkhaki"><span id="baliseColorFin29">...</span>darkkhaki<span id="semiFin29">...</span></td>
+                    <td id="tdcol" class="color_darkmagenta"><span id="baliseColorFin30">...</span>darkmagenta<span id="semiFin30">...</span></td>
+                    <td id="tdcol" class="color_darkolivegreen"><span id="baliseColorFin31">...</span>darkolivegreen<span id="semiFin31">...</span></td>
+                    <td id="tdcol" class="color_darkorange"><span id="baliseColorFin32">...</span>darkorange<span id="semiFin32">...</span></td>
+                    <td id="tdcol" class="color_darkorchid"><span id="baliseColorFin33">...</span>darkorchid<span id="semiFin33">...</span></td>
+                    <td id="tdcol" class="color_darkred"><span id="baliseColorFin34">...</span>darkred<span id="semiFin34">...</span></td>
+                </tr>
+                <!-- 3 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:darksalmon;" class="colorcell"></td>
+                    <td style="background-color:darkseagreen;" class="colorcell"></td>
+                    <td style="background-color:darkslateblue;" class="colorcell"></td>
+                    <td style="background-color:darkslategray;" class="colorcell"></td>
+                    <td style="background-color:darkslategrey;" class="colorcell"></td>
+                    <td style="background-color:darkturquoise;" class="colorcell"></td>
+                    <td style="background-color:darkviolet;" class="colorcell"></td>
+                    <td style="background-color:deeppink;" class="colorcell"></td>
+                    <td style="background-color:deepskyblue;" class="colorcell"></td>
+                    <td style="background-color:dimgray;" class="colorcell"></td>
+                    <td style="background-color:dimgrey;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_darksalmon"><span id="baliseColorFin35">...</span>darksalmon<span id="semiFin35">...</span></td>
+                    <td id="tdcol" class="color_darkseagreen"><span id="baliseColorFin36">...</span>darkseagreen<span id="semiFin36">...</span></td>
+                    <td id="tdcol" class="color_darkslateblue"><span id="baliseColorFin37">...</span>darkslateblue<span id="semiFin37">...</span></td>
+                    <td id="tdcol" class="color_darkslategray"><span id="baliseColorFin38">...</span>darkslateg<b>ray</b><span id="semiFin38">...</span></td>
+                    <td id="tdcol" class="color_darkslategrey"><span id="baliseColorFin39">...</span>darkslateg<b>rey</b><span id="semiFin39">...</span></td>
+                    <td id="tdcol" class="color_darkturquoise"><span id="baliseColorFin40">...</span>darkturquoise<span id="semiFin40">...</span></td>
+                    <td id="tdcol" class="color_darkviolet"><span id="baliseColorFin41">...</span>darkviolet<span id="semiFin41">...</span></td>
+                    <td id="tdcol" class="color_deeppink"><span id="baliseColorFin42">...</span>deeppink<span id="semiFin42">...</span></td>
+                    <td id="tdcol" class="color_deepskyblue"><span id="baliseColorFin43">...</span>deepskyblue<span id="semiFin43">...</span></td>
+                    <td id="tdcol" class="color_dimgray"><span id="baliseColorFin44">...</span>dimg<b>ray</b><span id="semiFin44">...</span></td>
+                    <td id="tdcol" class="color_dimgrey"><span id="baliseColorFin45">...</span>dimg<b>rey</b><span id="semiFin45">...</span></td>
+                </tr>
+                <!-- 4 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:dodgerblue;" class="colorcell"></td>
+                    <td style="background-color:firebrick;" class="colorcell"></td>
+                    <td style="background-color:floralwhite;" class="colorcell"></td>
+                    <td style="background-color:forestgreen;" class="colorcell"></td>
+                    <td style="background-color:fuchsia;" class="colorcell"></td>
+                    <td style="background-color:gainsboro;" class="colorcell"></td>
+                    <td style="background-color:ghostwhite;" class="colorcell"></td>
+                    <td style="background-color:gold;" class="colorcell"></td>
+                    <td style="background-color:goldenrod;" class="colorcell"></td>
+                    <td style="background-color:gray;" class="colorcell"></td>
+                    <td style="background-color:green;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_dodgerblue"><span id="baliseColorFin46">...</span>dodgerblue<span id="semiFin46">...</span></td>
+                    <td id="tdcol" class="color_firebrick"><span id="baliseColorFin47">...</span>firebrick<span id="semiFin47">...</span></td>
+                    <td id="tdcol" class="color_floralwhite"><span id="baliseColorFin48">...</span>floralwhite<span id="semiFin48">...</span></td>
+                    <td id="tdcol" class="color_forestgreen"><span id="baliseColorFin49">...</span>forestgreen<span id="semiFin49">...</span></td>
+                    <td id="tdcol" class="color_fuchsia"><span id="baliseColorFin50">...</span>fuchsia<span id="semiFin50">...</span></td>
+                    <td id="tdcol" class="color_gainsboro"><span id="baliseColorFin51">...</span>gainsboro<span id="semiFin51">...</span></td>
+                    <td id="tdcol" class="color_ghostwhite"><span id="baliseColorFin52">...</span>ghostwhite<span id="semiFin52">...</span></td>
+                    <td id="tdcol" class="color_gold"><span id="baliseColorFin53">...</span>gold<span id="semiFin53">...</span></td>
+                    <td id="tdcol" class="color_goldenrod"><span id="baliseColorFin54">...</span>goldenrod<span id="semiFin54">...</span></td>
+                    <td id="tdcol" class="color_gray"><span id="baliseColorFin55">...</span>gray<span id="semiFin55">...</span></td>
+                    <td id="tdcol" class="color_green"><span id="baliseColorFin56">...</span>green<span id="semiFin56">...</span></td>
+                </tr>
+                <!-- 5 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:greenyellow;" class="colorcell"></td>
+                    <td style="background-color:grey;" class="colorcell"></td>
+                    <td style="background-color:honeydew;" class="colorcell"></td>
+                    <td style="background-color:hotpink;" class="colorcell"></td>
+                    <td style="background-color:indianred;" class="colorcell"></td>
+                    <td style="background-color:indigo;" class="colorcell"></td>
+                    <td style="background-color:ivory;" class="colorcell"></td>
+                    <td style="background-color:khaki;" class="colorcell"></td>
+                    <td style="background-color:lavender;" class="colorcell"></td>
+                    <td style="background-color:lavenderblush;" class="colorcell"></td>
+                    <td style="background-color:lawngreen;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_greenyellow"><span id="baliseColorFin57">...</span>greenyellow<span id="semiFin57">...</span></td>
+                    <td id="tdcol" class="color_grey"><span id="baliseColorFin58">...</span>grey<span id="semiFin58">...</span></td>
+                    <td id="tdcol" class="color_honeydew"><span id="baliseColorFin59">...</span>honeydew<span id="semiFin59">...</span></td>
+                    <td id="tdcol" class="color_hotpink"><span id="baliseColorFin60">...</span>hotpink<span id="semiFin60">...</span></td>
+                    <td id="tdcol" class="color_indianred"><span id="baliseColorFin61">...</span>indianred<span id="semiFin61">...</span></td>
+                    <td id="tdcol" class="color_indigo"><span id="baliseColorFin62">...</span>indigo<span id="semiFin62">...</span></td>
+                    <td id="tdcol" class="color_ivory"><span id="baliseColorFin63">...</span>ivory<span id="semiFin63">...</span></td>
+                    <td id="tdcol" class="color_khaki"><span id="baliseColorFin64">...</span>khaki<span id="semiFin64">...</span></td>
+                    <td id="tdcol" class="color_lavender"><span id="baliseColorFin65">...</span>lavender<span id="semiFin65">...</span></td>
+                    <td id="tdcol" class="color_lavenderblush"><span id="baliseColorFin66">...</span>lavenderblush<span id="semiFin66">...</span></td>
+                    <td id="tdcol" class="color_lawngreen"><span id="baliseColorFin67">...</span>lawngreen<span id="semiFin67">...</span></td>
+                </tr>
+                <!-- 6 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:lemonchiffon;" class="colorcell"></td>
+                    <td style="background-color:lightblue;" class="colorcell"></td>
+                    <td style="background-color:lightcoral;" class="colorcell"></td>
+                    <td style="background-color:lightcyan;" class="colorcell"></td>
+                    <td style="background-color:lightgoldenrodyellow;" class="colorcell"></td>
+                    <td style="background-color:lightgray;" class="colorcell"></td>
+                    <td style="background-color:lightgreen;" class="colorcell"></td>
+                    <td style="background-color:lightgrey;" class="colorcell"></td>
+                    <td style="background-color:lightpink;" class="colorcell"></td>
+                    <td style="background-color:lightsalmon;" class="colorcell"></td>
+                    <td style="background-color:lightseagreen;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_lemonchiffon"><span id="baliseColorFin68">...</span>lemonchiffon<span id="semiFin68">...</span></td>
+                    <td id="tdcol" class="color_lightblue"><span id="baliseColorFin69">...</span>lightblue<span id="semiFin69">...</span></td>
+                    <td id="tdcol" class="color_lightcoral"><span id="baliseColorFin70">...</span>lightcoral<span id="semiFin70">...</span></td>
+                    <td id="tdcol" class="color_lightcyan"><span id="baliseColorFin71">...</span>lightcyan<span id="semiFin71">...</span></td>
+                    <td id="tdcol" class="color_lightgoldenrodyellow"><span id="baliseColorFin72">...</span>lightgoldenrodyellow<span id="semiFin72">...</span></td>
+                    <td id="tdcol" class="color_lightgray"><span id="baliseColorFin73">...</span>lightgray<span id="semiFin73">...</span></td>
+                    <td id="tdcol" class="color_lightgreen"><span id="baliseColorFin74">...</span>lightgreen<span id="semiFin74">...</span></td>
+                    <td id="tdcol" class="color_lightgrey"><span id="baliseColorFin75">...</span>lightgrey<span id="semiFin75">...</span></td>
+                    <td id="tdcol" class="color_lightpink"><span id="baliseColorFin76">...</span>lightpink<span id="semiFin76">...</span></td>
+                    <td id="tdcol" class="color_lightsalmon"><span id="baliseColorFin77">...</span>lightsalmon<span id="semiFin77">...</span></td>
+                    <td id="tdcol" class="color_lightseagreen"><span id="baliseColorFin78">...</span>lightseagreen<span id="semiFin78">...</span></td>
+                </tr>
+                <!-- 7 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:lightskyblue;" class="colorcell"></td>
+                    <td style="background-color:lightslategray;" class="colorcell"></td>
+                    <td style="background-color:lightslategrey;" class="colorcell"></td>
+                    <td style="background-color:lightsteelblue;" class="colorcell"></td>
+                    <td style="background-color:lightyellow;" class="colorcell"></td>
+                    <td style="background-color:lime;" class="colorcell"></td>
+                    <td style="background-color:limegreen;" class="colorcell"></td>
+                    <td style="background-color:linen;" class="colorcell"></td>
+                    <td style="background-color:magenta;" class="colorcell"></td>
+                    <td style="background-color:maroon;" class="colorcell"></td>
+                    <td style="background-color:mediumaquamarine;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_lightskyblue"><span id="baliseColorFin79">...</span>lightskyblue<span id="semiFin79">...</span></td>
+                    <td id="tdcol" class="color_lightslategray"><span id="baliseColorFin80">...</span>lightslategray<span id="semiFin80">...</span></td>
+                    <td id="tdcol" class="color_lightslategrey"><span id="baliseColorFin81">...</span>lightslategrey<span id="semiFin81">...</span></td>
+                    <td id="tdcol" class="color_lightsteelblue"><span id="baliseColorFin82">...</span>lightsteelblue<span id="semiFin82">...</span></td>
+                    <td id="tdcol" class="color_lightyellow"><span id="baliseColorFin83">...</span>lightyellow<span id="semiFin83">...</span></td>
+                    <td id="tdcol" class="color_lime"><span id="baliseColorFin84">...</span>lime<span id="semiFin84">...</span></td>
+                    <td id="tdcol" class="color_limegreen"><span id="baliseColorFin85">...</span>limegreen<span id="semiFin85">...</span></td>
+                    <td id="tdcol" class="color_linen"><span id="baliseColorFin86">...</span>linen<span id="semiFin86">...</span></td>
+                    <td id="tdcol" class="color_magenta"><span id="baliseColorFin87">...</span>magenta<span id="semiFin87">...</span></td>
+                    <td id="tdcol" class="color_maroon"><span id="baliseColorFin88">...</span>maroon<span id="semiFin88">...</span></td>
+                    <td id="tdcol" class="color_mediumaquamarine"><span id="baliseColorFin89">...</span>mediumaquamarine<span id="semiFin89">...</span></td>
+                </tr>
+                <!-- 8 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:mediumblue;" class="colorcell"></td>
+                    <td style="background-color:mediumorchid;" class="colorcell"></td>
+                    <td style="background-color:mediumpurple;" class="colorcell"></td>
+                    <td style="background-color:mediumseagreen;" class="colorcell"></td>
+                    <td style="background-color:mediumslateblue;" class="colorcell"></td>
+                    <td style="background-color:mediumspringgreen;" class="colorcell"></td>
+                    <td style="background-color:mediumturquoise;" class="colorcell"></td>
+                    <td style="background-color:mediumvioletred;" class="colorcell"></td>
+                    <td style="background-color:midnightblue;" class="colorcell"></td>
+                    <td style="background-color:mintcream;" class="colorcell"></td>
+                    <td style="background-color:mistyrose;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_mediumblue"><span id="baliseColorFin90">...</span>mediumblue<span id="semiFin90">...</span></td>
+                    <td id="tdcol" class="color_mediumorchid"><span id="baliseColorFin91">...</span>mediumorchid<span id="semiFin91">...</span></td>
+                    <td id="tdcol" class="color_mediumpurple"><span id="baliseColorFin92">...</span>mediumpurple<span id="semiFin92">...</span></td>
+                    <td id="tdcol" class="color_mediumseagreen"><span id="baliseColorFin93">...</span>mediumseagreen<span id="semiFin93">...</span></td>
+                    <td id="tdcol" class="color_mediumslateblue"><span id="baliseColorFin94">...</span>mediumslateblue<span id="semiFin94">...</span></td>
+                    <td id="tdcol" class="color_mediumspringgreen"><span id="baliseColorFin95">...</span>mediumspringgreen<span id="semiFin95">...</span></td>
+                    <td id="tdcol" class="color_mediumturquoise"><span id="baliseColorFin96">...</span>mediumturquoise<span id="semiFin96">...</span></td>
+                    <td id="tdcol" class="color_mediumvioletred"><span id="baliseColorFin97">...</span>mediumvioletred<span id="semiFin97">...</span></td>
+                    <td id="tdcol" class="color_midnightblue"><span id="baliseColorFin98">...</span>midnightblue<span id="semiFin98">...</span></td>
+                    <td id="tdcol" class="color_mintcream"><span id="baliseColorFin99">...</span>mintcream<span id="semiFin99">...</span></td>
+                    <td id="tdcol" class="color_mistyrose"><span id="baliseColorFin100">...</span>mistyrose<span id="semiFin100">...</span></td>
+                </tr>
+                <!-- 9 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:moccasin;" class="colorcell"></td>
+                    <td style="background-color:navy;" class="colorcell"></td>
+                    <td style="background-color:oldlace;" class="colorcell"></td>
+                    <td style="background-color:olive;" class="colorcell"></td>
+                    <td style="background-color:olivedrab;" class="colorcell"></td>
+                    <td style="background-color:orange;" class="colorcell"></td>
+                    <td style="background-color:orangered;" class="colorcell"></td>
+                    <td style="background-color:orchid;" class="colorcell"></td>
+                    <td style="background-color:palegoldenrod;" class="colorcell"></td>
+                    <td style="background-color:palegreen;" class="colorcell"></td>
+                    <td style="background-color:paleturquoise;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_moccasin"><span id="baliseColorFin101">...</span>moccasin<span id="semiFin101">...</span></td>
+                    <td id="tdcol" class="color_navy"><span id="baliseColorFin102">...</span>navy<span id="semiFin102">...</span></td>
+                    <td id="tdcol" class="color_oldlace"><span id="baliseColorFin103">...</span>oldlace<span id="semiFin103">...</span></td>
+                    <td id="tdcol" class="color_olive"><span id="baliseColorFin104">...</span>olive<span id="semiFin104">...</span></td>
+                    <td id="tdcol" class="color_olivedrab"><span id="baliseColorFin105">...</span>olivedrab<span id="semiFin105">...</span></td>
+                    <td id="tdcol" class="color_orange"><span id="baliseColorFin106">...</span>orange<span id="semiFin106">...</span></td>
+                    <td id="tdcol" class="color_orangered"><span id="baliseColorFin107">...</span>orangered<span id="semiFin107">...</span></td>
+                    <td id="tdcol" class="color_orchid"><span id="baliseColorFin108">...</span>orchid<span id="semiFin108">...</span></td>
+                    <td id="tdcol" class="color_palegoldenrod"><span id="baliseColorFin109">...</span>palegoldenrod<span id="semiFin109">...</span></td>
+                    <td id="tdcol" class="color_palegreen"><span id="baliseColorFin110">...</span>palegreen<span id="semiFin110">...</span></td>
+                    <td id="tdcol" class="color_paleturquoise"><span id="baliseColorFin111">...</span>paleturquoise<span id="semiFin111">...</span></td>
+                </tr>
+                <!-- 10 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:palevioletred;" class="colorcell"></td>
+                    <td style="background-color:papayawhip;" class="colorcell"></td>
+                    <td style="background-color:peachpuff;" class="colorcell"></td>
+                    <td style="background-color:peru;" class="colorcell"></td>
+                    <td style="background-color:pink;" class="colorcell"></td>
+                    <td style="background-color:plum;" class="colorcell"></td>
+                    <td style="background-color:powderblue;" class="colorcell"></td>
+                    <td style="background-color:purple;" class="colorcell"></td>
+                    <td style="background-color:rebeccapurple;" class="colorcell"></td>
+                    <td style="background-color:red;" class="colorcell"></td>
+                    <td style="background-color:rgb(181, 90, 226);" class="colorcell"></td>
+                </tr>
+                <tr>
+                    
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_palevioletred"><span id="baliseColorFin112">...</span>palevioletred<span id="semiFin112">...</span></td>
+                    <td id="tdcol" class="color_papayawhip"><span id="baliseColorFin113">...</span>papayawhip<span id="semiFin113">...</span></td>
+                    <td id="tdcol" class="color_peachpuff"><span id="baliseColorFin114">...</span>peachpuff<span id="semiFin114">...</span></td>
+                    <td id="tdcol" class="color_peru"><span id="baliseColorFin115">...</span>peru<span id="semiFin115">...</span></td>
+                    <td id="tdcol" class="color_pink"><span id="baliseColorFin116">...</span>pink<span id="semiFin116">...</span></td>
+                    <td id="tdcol" class="color_plum"><span id="baliseColorFin117">...</span>plum<span id="semiFin117">...</span></td>
+                    <td id="tdcol" class="color_powderblue"><span id="baliseColorFin118">...</span>powderblue<span id="semiFin118">...</span></td>
+                    <td id="tdcol" class="color_purple"><span id="baliseColorFin119">...</span>purple<span id="semiFin119">...</span></td>
+                    <td id="tdcol" class="color_rebeccapurple"><span id="baliseColorFin120">...</span>rebeccapurple<span id="semiFin120">...</span></td>
+                    <td id="tdcol" class="color_red"><span id="baliseColorFin121">...</span>red<span id="semiFin121">...</span></td>
+                    <td id="tdcol" class="color_rgb_181_90_226"><span id="baliseColorFin122">...</span>rgb(181, 90, 226)<span id="semiFin122">...</span></td>
+                </tr>
+                <!-- 11 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:rgba(0, 173, 255, 0.42);" class="colorcell"></td>
+                    <td style="background-color:rosybrown;" class="colorcell"></td>
+                    <td style="background-color:royalblue;" class="colorcell"></td>
+                    <td style="background-color:saddlebrown;" class="colorcell"></td>
+                    <td style="background-color:salmon;" class="colorcell"></td>
+                    <td style="background-color:sandybrown;" class="colorcell"></td>
+                    <td style="background-color:seagreen;" class="colorcell"></td>
+                    <td style="background-color:seashell;" class="colorcell"></td>
+                    <td style="background-color:sienna;" class="colorcell"></td>
+                    <td style="background-color:silver;" class="colorcell"></td>
+                    <td style="background-color:skyblue;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_rgba_0_173_255_0_42"><span id="baliseColorFin123">...</span>rgba(0, 173, 255, 0.42)<span id="semiFin123">...</span></td> <!-- Le a de rgba est pour adapter latransparance, la transparance se nome alpha, donc le a tient pour alpha, c'est le quatrième numéro de la liste-->
+                    <td id="tdcol" class="color_rosybrown"><span id="baliseColorFin124">...</span>rosybrown<span id="semiFin124">...</span></td>
+                    <td id="tdcol" class="color_royalblue"><span id="baliseColorFin125">...</span>royalblue<span id="semiFin125">...</span></td>
+                    <td id="tdcol" class="color_saddlebrown"><span id="baliseColorFin126">...</span>saddlebrown<span id="semiFin126">...</span></td>
+                    <td id="tdcol" class="color_salmon"><span id="baliseColorFin127">...</span>salmon<span id="semiFin127">...</span></td>
+                    <td id="tdcol" class="color_sandybrown"><span id="baliseColorFin128">...</span>sandybrown<span id="semiFin128">...</span></td>
+                    <td id="tdcol" class="color_seagreen"><span id="baliseColorFin129">...</span>seagreen<span id="semiFin129">...</span></td>
+                    <td id="tdcol" class="color_seashell"><span id="baliseColorFin130">...</span>seashell<span id="semiFin130">...</span></td>
+                    <td id="tdcol" class="color_sienna"><span id="baliseColorFin131">...</span>sienna<span id="semiFin131">...</span></td>
+                    <td id="tdcol" class="color_silver"><span id="baliseColorFin132">...</span>silver<span id="semiFin132">...</span></td>
+                    <td id="tdcol" class="color_skyblue"><span id="baliseColorFin133">...</span>skyblue<span id="semiFin133">...</span></td><!--<br>rgb(135, 206,235)-->
+                </tr>
+                <!-- 12 -->
+                <tr>
+                    <th  class="colortitle">The colours</th>
+                    <td style="background-color:slateblue;" class="colorcell"></td>
+                    <td style="background-color:slategray;" class="colorcell"></td>
+                    <td style="background-color:slategrey;" class="colorcell"></td>
+                    <td style="background-color:snow;" class="colorcell"></td>
+                    <td style="background-color:springgreen;" class="colorcell"></td>
+                    <td style="background-color:steelblue;" class="colorcell"></td>
+                    <td style="background-color:tan;" class="colorcell"></td>
+                    <td style="background-color:teal;" class="colorcell"></td>
+                    <td style="background-color:thistle;" class="colorcell"></td>
+                    <td style="background-color:tomato;" class="colorcell"></td>
+                    <td style="background-color:turquoise;" class="colorcell"></td>
+                </tr>
+                <tr>
+                    <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                    <td id="tdcol" class="color_slateblue"><span id="baliseColorFin134">...</span>slateblue<span id="semiFin134">...</span></td>
+                    <td id="tdcol" class="color_slategray"><span id="baliseColorFin135">...</span>slategray<span id="semiFin135">...</span></td>
+                    <td id="tdcol" class="color_slategrey"><span id="baliseColorFin136">...</span>slategrey<span id="semiFin136">...</span></td>
+                    <td id="tdcol" class="color_snow"><span id="baliseColorFin137">...</span>snow<span id="semiFin137">...</span></td>
+                    <td id="tdcol" class="color_springgreen"><span id="baliseColorFin138">...</span>springgreen<span id="semiFin138">...</span></td>
+                    <td id="tdcol" class="color_steelblue"><span id="baliseColorFin139">...</span>steelblue<span id="semiFin139">...</span></td>
+                    <td id="tdcol" class="color_tan"><span id="baliseColorFin140">...</span>tan<span id="semiFin140">...</span></td>
+                    <td id="tdcol" class="color_teal"><span id="baliseColorFin141">...</span>teal<span id="semiFin141">...</span></td>
+                    <td id="tdcol" class="color_thistle"><span id="baliseColorFin142">...</span>thistle<span id="semiFin142">...</span></td>
+                    <td id="tdcol" class="color_tomato"><span id="baliseColorFin143">...</span>tomato<span id="semiFin143">...</span></td>
+                    <td id="tdcol" class="color_turquoise"><span id="baliseColorFin144">...</span>turquoise<span id="semiFin144">...</span></td>
+                </tr>
+                <!-- 13 -->
+                <tr>
+                  <th  class="colortitle">The colours</th>
+                  <td style="background-color:violet;" class="colorcell"></td>
+                  <td style="background-color:wheat;" class="colorcell"></td>
+                  <td style="background-color:white;" class="colorcell"></td>
+                  <td style="background-color:whitesmoke;" class="colorcell"></td>
+                  <td style="background-color:yellow;" class="colorcell"></td>
+                  <td style="background-color:yellowgreen;" class="colorcell"></td>
+                  <td style="background-color:rgb(239, 255, 196);" class="colorcell"></td>
+                  <td style="background-color:rgb(215, 255, 205);" class="colorcell"></td>
+                  <td style="background-color: #f28C8C;" class="colorcell"></td>
+                  <td style="background-color:forestgreen;" class="colorcell"></td>
+                </tr>
+                <tr>
+                  <th class="colortitle">Their id text/rgb/rgba/<span style="color:#FFFFFF;">#FFFFFF</span></th>
+                  <td id="tdcol" class="color_violet"><span id="baliseColorFin145">...</span>violet<span id="semiFin145">...</span></td>
+                  <td id="tdcol" class="color_wheat"><span id="baliseColorFin146">...</span>wheat<span id="semiFin146">...</span></td>
+                  <td id="tdcol" class="color_white"><span id="baliseColorFin147">...</span>white<span id="semiFin147">...</span></td>
+                  <td id="tdcol" class="color_whitesmoke"><span id="baliseColorFin148">...</span>whitesmoke<span id="semiFin148">...</span></td>
+                  <td id="tdcol" class="color_yellow"><span id="baliseColorFin149">...</span>yellow<span id="semiFin149">...</span></td>
+                  <td id="tdcol" class="color_yellowgreen"><span id="baliseColorFin150">...</span>yellowgreen<span id="semiFin150">...</span></td>
+                  <td id="tdcol" class="color_rgb239_255_196"><span id="baliseColorFin151">...</span>rgb(239, 255, 196)<span id="semiFin151">...</span></td>
+                  <td id="tdcol" class="color_rgb215_255_205"><span id="baliseColorFin152">...</span>rgb(215, 255, 205)<span id="semiFin152">...</span></td>
+                  <td id="tdcol" class="color_f28C8C"><span id="baliseColorFin153">...</span>#f28C8C<span id="semiFin153">...</span></td>
+                  <td id="tdcol" class="color_forestgreen"><a  href="https://codepen.io/henry-letellier/full/wvKepmR" style="text-decoration:none;cursor:text;color:forestgreen;" target="_blank" rel="noreferrer" rel="noopener"><span id="baliseColorFin23">...</span><span style="font-size:xx-small;">&copy; Created by Henry Letellier</span><span id="semiFin23">...</span></a></td>
+                </tr><!-- <td style="background-" class="colorcell"></td></td> -->
+            </tbody>
+        </table>   
+        <p><a class="a" href="https://codepen.io/henry-letellier/full/wvKepmR" style="text-decoration:none;cursor:pointer;" target="_blank" rel="noreferrer" rel="noopener"><span id="tag" width="30" height="30"> &copy; Created by Henry Letellier <img id="tagImg" src="https://github.com/HenraL/picture-for-promoting-accounts/blob/master/files/Profil%20logos/Henry%20Letellier/all%20social%20media%20(youtube%20and%20linkedin%20excluded)/galaxy%20croped%20big_128x128px.png?raw=true"/><span id="dot">.</span></span></a></p>
+  </body>
+</html><!--Je vous coneille d'avoire une icone en 16x16 pixels-->

@@ -1,0 +1,145 @@
+a:hover
+{
+    text-decoration: none;
+    color: aquamarine;
+    font-style: italic;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    text-underline-position: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: -webkit-grab;
+}
+
+a:onclick
+{
+    cursor: -webkit-grabbing;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: orangered;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a:clicked
+{
+    text-decoration: gold;
+    text-decoration-style: wavy;
+    color: black;
+    font-style: normal;
+    text-underline-position: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: -webkit-grab;
+}
+
+p:hover
+{
+    text-decoration: aqua;
+    color: aquamarine;
+    font-style: oblique;
+}
+
+Sommaire:hover
+{
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+somaire:hover
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5em;
+}
+
+white
+{
+    color: aliceblue
+}
+
+Sommmaire:hover
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: deepskyblue;
+    font-size: 5em
+}
+
+lefta
+{
+    text-align: left;
+    margin-left: 0em;
+}
+
+righta
+{
+    text-align: right;
+    margin-right: 50em;
+}
+
+center
+{
+    text-align: center;
+}
+
+p1
+{
+    text-align: left;
+}
+
+p3
+{
+    text-align: right;
+}
+
+:ancor
+{
+    text-anchor: end;
+}
+
+li
+{
+    list-style-type: none;
+    text-align: left;
+}
+
+/* body */
+/* { */
+    /* background-image: url("http://www.meteocity.com/medias/magazine/articles/original/ciel-bleu-soleil-nuages_10.jpg") */
+/* } */
+
+:table
+{
+    border-color: black;
+    border: 50em;
+    color: black;
+    background-image: url("https://thumbs.dreamstime.com/t/le-ciel-ensoleill%C3%A9-bleu-avec-les-nuages-blancs-am%C3%A9nagent-la-banni%C3%A8re-en-parc-97739114.jpg")
+}
+
+button#before
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#before:onclick
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#after
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}
+
+button#after:onclick
+{
+   height:1.5cm ;
+   width: 2.5cm ; 
+}

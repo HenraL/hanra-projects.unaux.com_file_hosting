@@ -1,0 +1,358 @@
+https://www.espace-sciences.org/multimedia/jeux/l-acceleration
+
+view-source:https://www.espace-sciences.org/multimedia/jeux/l-acceleration
+
+https://wifi.free.fr/?url=http://www.msftconnecttest.com/redirect
+
+<!--	  												      -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN"
+	"http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
+
+<!--[if lt IE 7]> <html class="ie6 ie" lang="fr" dir="ltr"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 ie" lang="fr" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 ie" lang="fr" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class=""  xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" dir="ltr" > <!--<![endif]-->
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta charset="utf-8" />
+<link rel="shortcut icon" href="https://www.espace-sciences.org/sites/all/themes/eds/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://www.espace-sciences.org/multimedia/jeux/l-acceleration" />
+<link rel="shortlink" href="https://www.espace-sciences.org/node/42485" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Espace_sciences" />
+<meta name="twitter:url" content="https://www.espace-sciences.org/multimedia/jeux/l-acceleration" />
+<meta name="twitter:title" content="L&#039;accélération" />
+<meta name="twitter:image" content="http://www.espace-sciences.org/sites/espace-sciences.org/files/documents/reseaux-sociaux/eds-twitter.jpg" />
+<meta name="twitter:image:width" content="300" />
+<meta name="twitter:image:height" content="300" />
+<meta name="twitter:image:alt" content="Logo Espace des sciences" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>L'accélération | Espace des sciences</title>
+  <link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_Yi4Cvrh3Xv7LN6Gw7W37UsbKL0FEJIlceboCvJKgz2M.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_kEXifNHhOP5CFvB6MCHjVvxCUq_xxIvfH9Bhs2dZq8I.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_JEtQ5ALXymrwxxGrSvbSy8HkW9EH4SkYUvm23V0pTGU.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_SN8ZQxm4KfxelEVkLPgnV1woS7-gJKO_KpRZDnN4HtE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://www.espace-sciences.org/sites/espace-sciences.org/files/css/css_aHBcVbSgvc8L3BWAWJdnynOWMcp8HS2xuDjlnoSasSY.css" media="all" />
+  <script type="text/javascript" src="https://www.espace-sciences.org/sites/all/libraries/modernizr/modernizr-custom.js?ozi5bo"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_F77Wk3ElhI0IWc9W9h5jNjw2XWOBI81sjCu16e_P21s.js"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_Kv0eFJE7Uwblsnfp8oSQRQSAI0VONYsDbb2-d31llaw.js"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_NpX2cwCeepkWZZ194B6-ViyVBHleaYLOx5R9EWBOMRU.js"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_GybjCNbHddIqAovqwJC6pUL9LPtiRdwa1RtUVoWp3tc.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _paq = _paq || [];(function(){var u=(("https:" == document.location.protocol) ? "https://stats.espace-sciences.org/" : "http://stats.espace-sciences.org/piwik/");_paq.push(["setSiteId", "2"]);_paq.push(["setTrackerUrl", u+"piwik.php"]);_paq.push(["setDoNotTrack", 1]);_paq.push(["trackPageView"]);_paq.push(["setIgnoreClasses", ["no-tracking","colorbox"]]);_paq.push(["enableLinkTracking"]);var d=document,g=d.createElement("script"),s=d.getElementsByTagName("script")[0];g.type="text/javascript";g.defer=true;g.async=true;g.src=u+"piwik.js";s.parentNode.insertBefore(g,s);})();
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_NAS0aue-f0J4fqU5PqDhyQ_t-DvR2dKFvE_pxQK8sO8.js"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_5wgwzubeiMON2lDn4p2fflzuBAwaEXVeWhlsuHIU7io.js"></script>
+<script type="text/javascript" src="https://www.espace-sciences.org/sites/espace-sciences.org/files/js/js_zQJcNW_nzW5-g2kJDwOa5EGVYXSCnQ7iXsrEDAmpQgg.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"eds","theme_token":"pUpmf9Rt_XG58gGKxTh3VBYUrOcuizFCNubtt1oCx1s","jquery_version":"1.7","js":{"sites\/all\/libraries\/modernizr\/modernizr-custom.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/media\/js\/media.core.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.mouse.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.resizable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.draggable.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.button.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.position.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.dialog.min.js":1,"sites\/all\/modules\/media\/js\/util\/json2.js":1,"sites\/all\/modules\/media\/js\/util\/ba-debug.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery.form\/4\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/extlink\/extlink.js":1,"public:\/\/languages\/fr_whKI3gP04d-xnGHi-iPGhxyxr85BsIuGk9eo28orVNI.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/flickr\/flickr_colorbox.js":1,"sites\/all\/modules\/piwik\/piwik.js":1,"0":1,"sites\/all\/modules\/field_group\/field_group.js":1,"misc\/textarea.js":1,"sites\/all\/modules\/media\/js\/media.popups.js":1,"modules\/filter\/filter.js":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/js\/media_wysiwyg.filter.js":1,"sites\/all\/modules\/mollom\/mollom.js":1,"misc\/progress.js":1,"sites\/all\/modules\/ajax_comments\/ajax_comments.js":1,"sites\/all\/modules\/simpleantispam\/simpleantispam.js":1,"sites\/all\/modules\/webform\/js\/webform.js":1,"sites\/all\/themes\/eds\/js\/plugins\/mediaCheck-min.js":1,"sites\/all\/themes\/eds\/js\/plugins\/js.cookie.js":1,"sites\/all\/themes\/eds\/js\/eds.js":1,"sites\/all\/themes\/eds\/js\/template-loading\/commentaires.js":1,"sites\/all\/themes\/eds\/js\/template-loading\/contenu.js":1,"sites\/all\/themes\/eds\/js\/template-loading\/multimedia-contenu.js":1,"sites\/all\/themes\/eds\/js\/template-loading\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.resizable.css":1,"misc\/ui\/jquery.ui.button.css":1,"misc\/ui\/jquery.ui.dialog.css":1,"sites\/all\/modules\/media\/css\/media.css":1,"sites\/all\/modules\/simplenews\/simplenews.css":1,"sites\/all\/modules\/columns_filter\/columns_filter.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"sites\/all\/modules\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/ubercart\/uc_store\/uc_store.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/extlink\/extlink.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/flickr\/flickr.css":1,"sites\/all\/modules\/flickr\/style\/css\/flickrstyle.css":1,"sites\/all\/modules\/flickr\/style\/css\/flickrstyle_nostyle.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/filter\/filter.css":1,"sites\/espace-sciences.org\/files\/honeypot\/honeypot.css":1,"sites\/all\/modules\/webform\/css\/webform.css":1,"sites\/all\/themes\/eds\/css\/style.css":1,"sites\/all\/themes\/eds\/css\/eds.css":1,"sites\/all\/themes\/eds\/css\/template-loading\/multimedia.css":1,"sites\/all\/themes\/eds\/css\/template-loading\/commentaires.css":1,"sites\/all\/themes\/eds\/css\/template-loading\/contenu.css":1,"sites\/all\/themes\/eds\/css\/template-loading\/multimedia-contenu.css":1,"sites\/all\/themes\/eds\/css\/template-loading\/custom.css":1}},"colorbox":{"transition":"elastic","speed":"350","opacity":"0.85","slideshow":false,"slideshowAuto":true,"slideshowSpeed":"2500","slideshowStart":"start slideshow","slideshowStop":"stop slideshow","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","overlayClose":false,"returnFocus":true,"maxWidth":"98%","maxHeight":"98%","initialWidth":"300","initialHeight":"250","fixed":true,"scrolling":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"extlink":{"extTarget":"_blank","extClass":"ext","extLabel":"(link is external)","extImgClass":0,"extSubdomains":1,"extExclude":"","extInclude":"","extCssExclude":"#footer-so","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":"mailto","mailtoLabel":"(link sends e-mail)"},"piwik":{"trackMailto":1,"trackColorbox":1},"eds":{"currentNid":"42485"},"field_group":{"hidden":"full","div":"full"},"media":{"browserUrl":"\/media\/browser?render=media-popup","styleSelectorUrl":"\/media\/-media_id-\/format-form?render=media-popup","dialogOptions":{"dialogclass":"media-wrapper","modal":true,"draggable":false,"resizable":false,"minwidth":500,"width":670,"height":280,"position":"center","overlay":{"backgroundcolor":"#000000","opacity":0.4},"zindex":10000},"wysiwyg_allowed_attributes":["alt","title","height","width","hspace","vspace","border","align","style","class","id","usemap","data-picture-group","data-picture-align","data-picture-mapping","data-delta"],"img_alt_field":"field_file_image_alt_text","img_title_field":"field_file_image_title_text"},"mediaDoLinkText":true,"wysiwyg":{"triggers":{"edit-comment-body-und-0-value":{"field":"edit-comment-body-und-0-value","resizable":1,"activeFormat":"1"}}},"ajax":{"edit-ajax-comments-reply-form-42485-0-0":{"callback":"ajax_comments_submit_js","wrapper":"ajax-comments-reply-form-42485-0-0","method":"replaceWith","effect":"fade","event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Enregistrer"}},"preview-ajax-comments-reply-form-42485-0-0":{"callback":"ajax_comments_preview_js","wrapper":"ajax-comments-reply-form-42485-0-0","method":"replaceWith","effect":"fade","event":"mousedown","keypress":true,"prevent":"click","url":"\/system\/ajax","submit":{"_triggering_element_name":"op","_triggering_element_value":"Aper\u00e7u"}}},"urlIsAjaxTrusted":{"\/system\/ajax":true,"\/comment\/reply\/42485":true,"\/multimedia\/jeux\/l-acceleration":true}});
+//--><!]]>
+</script>
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-42485 node-type-2-media-jeux multimedia jeux l-acceleration contenu" >
+    <nav id="top" role="navigation">
+  <div id="top-inner" class="center clearfix">
+    	<div class="region region-top clearfix">
+	  <section id="block-menu-menu-menu-top" class="block block-menu menu-top">
+
+      
+
+  <div class="content clearfix">
+    <ul class="menu clearfix"><li class="first leaf menu-item-1 musedebretagne level-1"><a href="http://www.musee-bretagne.fr/" title="Accéder au site du Musée de Bretagne" rel="nofollow" target="_blank" class="level-1">Musée de Bretagne</a></li><li class="leaf menu-item-2 bibliothque level-1"><a href="http://www.bibliotheque-rennesmetropole.fr/" title="Accéder au site de la Bibliothèque" rel="nofollow" target="_blank" class="level-1">Bibliothèque</a></li><li class="last leaf menu-item-3 leschampslibres level-1"><a href="http://www.leschampslibres.fr/" title="Accéder au site des Champs Libres" rel="nofollow" target="_blank" class="level-1">Les Champs Libres</a></li></ul>  </div>
+
+</section> <!-- /.block -->
+	</div>
+ <!-- /.region -->
+  </div>
+</nav>
+
+<div id="system-elements">
+    </div>
+
+<nav id="menu" role="navigation">
+  	<div class="region region-search clearfix">
+	  <section id="block-block-56" class="block block-block block-main-search">
+
+      
+
+  <div class="content clearfix">
+    <a href="/recherche" class="lien"></a>  </div>
+
+</section> <!-- /.block -->
+	</div>
+ <!-- /.region -->
+  	<div class="region region-menu clearfix">
+	  <section id="block-menu-menu-menu-general" class="block block-menu menu-general">
+
+        <h2 class="block-title">MENU</h2>
+    
+
+  <div class="content clearfix">
+    <ul class="menu clearfix"><li class="first leaf menu-item-4 accueil level-1"><a href="/" class="level-1">Accueil</a></li><li class="leaf menu-item-5 agenda level-1"><a href="/agenda" class="level-1">Agenda</a></li><li class="expanded menu-item-6 infospratiques level-1"><a href="/" class="level-1">Infos pratiques</a><ul class="menu clearfix"><li class="first leaf menu-item-7 individuels level-2"><a href="/informations-pratiques/individuels" class="level-2">Individuel(s)</a></li><li class="leaf menu-item-8 groupes level-2"><a href="/informations-pratiques/groupes" class="level-2">Groupes</a></li><li class="last leaf menu-item-9 accessibilit level-2"><a href="/informations-pratiques/accessibilite" class="level-2">Accessibilité</a></li></ul></li><li class="expanded menu-item-10 auprogramme level-1"><a href="/" class="level-1">Au programme</a><ul class="menu clearfix"><li class="first leaf menu-item-11 expositions level-2"><a href="/expositions" class="level-2">Expositions</a></li><li class="leaf menu-item-12 plantarium level-2"><a href="/planetarium" class="level-2">Planétarium</a></li><li class="leaf menu-item-13 confrences level-2"><a href="/conferences" class="level-2">Conférences</a></li><li class="last leaf menu-item-14 vnements level-2"><a href="/evenements" class="level-2">Événements</a></li></ul></li><li class="expanded menu-item-15 curieuxdesciences level-1"><a href="/" class="level-1">Curieux de sciences</a><ul class="menu clearfix"><li class="first leaf menu-item-16 magazinesciencesouest level-2"><a href="/sciences-ouest" class="level-2">Magazine Sciences Ouest</a></li><li class="leaf menu-item-17 juniors level-2"><a href="/juniors" class="level-2">Juniors</a></li><li class="leaf menu-item-18 espacemultimdia level-2"><a href="/multimedia" class="level-2">Espace multimédia</a></li><li class="leaf menu-item-19 espacenumrique level-2"><a href="/espace-numerique" class="level-2">Espace numérique</a></li><li class="last leaf menu-item-20 opendata level-2"><a href="/open-data" class="level-2">Open data</a></li></ul></li><li class="expanded menu-item-21 professionnels level-1"><a href="/" class="level-1">Professionnels</a><ul class="menu clearfix"><li class="first leaf menu-item-22 enseignants level-2"><a href="/enseignants" class="level-2">Enseignants</a></li><li class="leaf menu-item-23 prtsdexpositions level-2"><a href="/prets-expositions" class="level-2">Prêts d&#039;expositions</a></li><li class="leaf menu-item-24 accompagnementdeprojets level-2"><a href="/accompagnement-projets" class="level-2">Accompagnement de projets</a></li><li class="leaf menu-item-25 studionumrique level-2"><a href="/studio-numerique" class="level-2">Studio numérique</a></li><li class="last leaf menu-item-26 presse level-2"><a href="/presse" class="level-2">Presse</a></li></ul></li><li class="expanded menu-item-27 nousconnatre level-1"><a href="/" class="level-1">Nous connaître</a><ul class="menu clearfix"><li class="first leaf menu-item-28 lespacedessciences level-2"><a href="/nous-connaitre/espace-des-sciences" class="level-2">L&#039;Espace des sciences</a></li><li class="leaf menu-item-29 antennemorlaix level-2"><a href="/morlaix" class="level-2">Antenne à Morlaix</a></li><li class="leaf menu-item-30 plebretagneculturescientifique level-2"><a href="/nous-connaitre/pole-bretagne-culture-scientifique" class="level-2">Pôle Bretagne Culture Scientifique</a></li><li class="leaf menu-item-31 noussoutenir level-2"><a href="/nous-connaitre/nous-soutenir" class="level-2">Nous soutenir</a></li><li class="last leaf menu-item-32 offresdemploi level-2"><a href="/nous-connaitre/offres-emploi" class="level-2">Offres d&#039;emploi</a></li></ul></li><li class="leaf menu-item-33 boutique level-1"><a href="/boutique" class="level-1">Boutique</a></li><li class="leaf menu-item-34 yourvisit level-1"><a href="/your-visit" class="level-1">Your visit</a></li><li class="last leaf menu-item-35 tuvisita level-1"><a href="/tu-visita" class="level-1">Tu visita</a></li></ul>  </div>
+
+</section> <!-- /.block -->
+	</div>
+ <!-- /.region -->
+</nav>
+
+<div id="container">
+  <div id="container-inner">
+
+    <header id="logo-wrapper" class="center clearfix">
+        <a href="/" title="Accueil" id="logo"></a>
+            </header>
+
+    <section id="main" role="main" class="clearfix">
+            <h1 class="title" id="page-title">L&#039;accélération</h1>                        
+<article id="node-42485" class="node node-2-media-jeux node-full not-form clearfix">
+
+  
+  <div class="content">
+    <div class="group-top clearfix"><div class="group-top-left"><div class="group-media">
+<div class="field field-name-field-2-media-lien field-type-link-field field-label-hidden clearfix">
+    <div class="field-items">
+          <div class="field-item even"><a href="https://www.espace-sciences.org/sites/espace-sciences.org/files/documents/animations-en-ligne/physique/acceleration/chariots.swf?width=800&amp;height=500&amp;iframe=true" class="colorbox-load">Lien</a></div>
+      </div>
+</div>
+
+<div class="field field-name-field-2-media-jeux-vignette field-type-image field-label-hidden clearfix">
+    <div class="field-items">
+          <div class="field-item even"><img src="https://www.espace-sciences.org/sites/espace-sciences.org/files/styles/w620w350/public/images/jeux/vignettes/acceleration_1.jpg?itok=Ql0AG-LA" width="620" height="350" alt="" /></div>
+      </div>
+</div>
+</div>
+<div class="field field-name-field-2-media-jeux-presentation field-type-text-long field-label-hidden field-name-field-texte above-service-links clearfix">
+    <div class="field-items">
+          <div class="field-item even"><p>Manipulez et observez l'accélération de nos bolides !</p></div>
+      </div>
+</div>
+</div><div class="group-top-right"><div class="group-specs">
+<div class="field field-name-field-2-media-jeux-taxocc field-type-taxonomy-term-reference field-label-hidden categorie-contenu noir clearfix">
+    <div class="field-items">
+          <div class="field-item even">Jeux</div>
+      </div>
+</div>
+
+<div class="field field-name-field-2-media-jeux-cat field-type-list-text field-label-hidden clearfix">
+    <div class="field-items">
+          <div class="field-item even">Physique - chimie</div>
+      </div>
+</div>
+</div></div></div><div class="service-links clearfix center"><div class="service-label">PARTAGER </div><ul class="links clearfix"><li class="service-links-facebook first"><a href="http://www.facebook.com/sharer.php?u=https%3A//www.espace-sciences.org/node/42485&amp;t=L%27acc%C3%A9l%C3%A9ration" title="Partager sur Facebook" class="service-links-facebook" rel="nofollow" target="_blank"><img src="https://www.espace-sciences.org/sites/all/modules/service_links/images/facebook.png" alt="Facebook logo" /></a></li>
+<li class="service-links-twitter"><a href="http://twitter.com/share?url=https%3A//www.espace-sciences.org/node/42485&amp;text=L%27acc%C3%A9l%C3%A9ration" title="Partager sur Twitter" class="service-links-twitter" rel="nofollow" target="_blank"><img src="https://www.espace-sciences.org/sites/all/modules/service_links/images/twitter.png" alt="Twitter logo" /></a></li>
+<li class="service-links-google-plus"><a href="https://plus.google.com/share?url=https%3A//www.espace-sciences.org/node/42485" title="Partager sur Google+" class="service-links-google-plus" rel="nofollow" target="_blank"><img src="https://www.espace-sciences.org/sites/all/modules/service_links/images/google_plus.png" alt="Google+ logo" /></a></li>
+<li class="service-links-forward last"><a href="https://www.espace-sciences.org/forward?path=node/42485" title="Envoyer à un ami" class="service-links-forward" rel="nofollow" target="_blank"><img src="https://www.espace-sciences.org/sites/all/modules/service_links/images/forward.png" alt="Transférer logo" /></a></li>
+</ul></div>  </div>
+
+      <footer class="center">
+            <ul class="links inline clearfix"><li class="comment-add first last"></li>
+</ul>    </footer>
+  
+  <div id="comments" class="off comment-wrapper comment-wrapper-nid-42485">
+
+      <h2 class="title comment-form comment-add off">Ajouter un commentaire</h2>
+    <form class="comment-form user-info-from-cookie ajax-comments-reply-form-42485-0-0 ajax-comments-form-add" id="ajax-comments-reply-form-42485-0-0" action="/comment/reply/42485" method="post" accept-charset="UTF-8"><div><div class="left form-wrapper" id="edit-left"><div class="form-item form-type-textfield form-item-name">
+  <label for="edit-name">Votre nom </label>
+ <input type="text" id="edit-name" name="name" value="" size="30" maxlength="60" class="form-text" />
+</div>
+<div class="form-item form-type-textfield form-item-mail">
+  <label for="edit-mail">Votre adresse courriel </label>
+ <input type="text" id="edit-mail" name="mail" value="" size="30" maxlength="64" class="form-text" />
+<div class="description">Le contenu de ce champ sera maintenu privé et ne sera pas affiché publiquement.</div>
+</div>
+<div class="form-item form-type-textfield form-item-subject">
+  <label for="edit-subject">Sujet </label>
+ <input type="text" id="edit-subject" name="subject" value="" size="60" maxlength="64" class="form-text" />
+</div>
+</div><div class="field-type-text-long field-name-comment-body field-widget-text-textarea form-wrapper" id="edit-comment-body"><div id="comment-body-add-more-wrapper"><div class="text-format-wrapper"><div class="form-item form-type-textarea form-item-comment-body-und-0-value">
+  <label for="edit-comment-body-und-0-value">Votre commentaire <span class="form-required" title="Ce champ est obligatoire.">*</span></label>
+ <div class="form-textarea-wrapper resizable"><textarea class="text-full wysiwyg form-textarea required" id="edit-comment-body-und-0-value" name="comment_body[und][0][value]" cols="60" rows="5"></textarea></div>
+</div>
+<div style="display: none;" id="edit-comment-body-und-0-format" class="form-wrapper"></div></div>
+</div></div><input type="hidden" name="form_build_id" value="form-bGF41Hp66nKPjVyxkf9uX0Xo4qtIFbYTC0mXtsqcmLg" />
+<input type="hidden" name="form_id" value="comment_node_2_media_jeux_form" />
+<input class="mollom-content-id" type="hidden" name="mollom[contentId]" value="" />
+<input class="mollom-captcha-id" type="hidden" name="mollom[captchaId]" value="" />
+<div style="display: none;"><div class="form-item form-type-textfield form-item-mollom-homepage">
+  <label for="edit-mollom-homepage">Page d'accueil </label>
+ <input autocomplete="off" type="text" id="edit-mollom-homepage" name="mollom[homepage]" value="" size="60" maxlength="128" class="form-text" />
+</div>
+</div><div class="element-invisible"><div class="form-item form-type-checkbox form-item-smplntspm2">
+ <input type="checkbox" id="edit-smplntspm2" name="smplntspm2" value="1" class="form-checkbox" />  <label class="option" for="edit-smplntspm2">I'm a spammer </label>
+
+</div>
+</div><div class="form-item form-type-checkbox form-item-smplntspm1">
+ <input type="checkbox" id="edit-smplntspm1" name="smplntspm1" value="1" class="form-checkbox" />  <label class="option" for="edit-smplntspm1">I'm not a spammer </label>
+
+</div>
+<div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="clearfix form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-ajax-comments-reply-form-42485-0-0" name="op" value="Enregistrer" class="form-submit" /><input type="submit" id="preview-ajax-comments-reply-form-42485-0-0" name="op" value="Aperçu" class="form-submit" /></div></div></form>  
+  <a id="comment-576"></a>
+<article class="comment comment-by-anonymous ajax-comment-wrapper comment-wrapper-576 odd">
+  
+  <header>
+        
+        <h3>J&#039;aime trop. *-*</h3>
+        
+    <span class="submitted">Anonyme - 25 avril 2014 | 16H34</span>
+
+      </header>
+
+  <div class="content">
+    
+<div class="field field-name-comment-body field-type-text-long field-label-hidden clearfix">
+    <div class="field-items">
+          <div class="field-item even"><p>J'aime trop. *-*</p>
+</div>
+      </div>
+</div>
+      </div>
+
+      <footer>
+      <ul class="links inline clearfix"><li class="comment-reply first last"><a href="/comment/reply/42485/576" class="use-ajax-comments ajax-comments-reply ajax-comments-reply-42485-576">répondre</a></li>
+</ul>    </footer>
+  
+</article> <!-- /.comment -->
+
+<div class="indented"><a id="comment-6041"></a>
+<article class="comment comment-by-anonymous ajax-comment-wrapper comment-wrapper-6041 even">
+  
+  <header>
+        
+        <h3>moi pas c&#039;est a iech</h3>
+        
+    <span class="submitted">hater - 5 février 2017 | 20H33</span>
+
+      </header>
+
+  <div class="content">
+    
+<div class="field field-name-comment-body field-type-text-long field-label-hidden clearfix">
+    <div class="field-items">
+          <div class="field-item even"><p>moi pas c'est a iech</p>
+</div>
+      </div>
+</div>
+      </div>
+
+      <footer>
+      <ul class="links inline clearfix"><li class="comment-reply first last"><a href="/comment/reply/42485/6041" class="use-ajax-comments ajax-comments-reply ajax-comments-reply-42485-6041">répondre</a></li>
+</ul>    </footer>
+  
+</article> <!-- /.comment -->
+</div>
+</div>
+
+
+</article>
+    </section>
+
+    
+    
+    <footer id="footer" role="contentinfo">
+      <div id="footer-inner" class="center clearfix">
+        	<div class="region region-footer clearfix">
+	  <section id="block-block-58" class="block block-block block-pbcs-footer">
+
+      
+
+  <div class="content clearfix">
+    <a href="/nous-connaitre/pole-bretagne-culture-scientifique" class="pbcs"></a>  </div>
+
+</section> <!-- /.block -->
+<section id="block-block-55" class="block block-block block-echo">
+
+      
+
+  <div class="content clearfix">
+    <a href="http://www.echosciences-bretagne.bzh/" rel="nofollow" target="_blank" class="echo" title="Site Echosciences Bretagne"></a>  </div>
+
+</section> <!-- /.block -->
+<section id="block-block-45" class="block block-block block-social">
+
+        <h2 class="block-title">NOUS SUIVRE</h2>
+    
+
+  <div class="content clearfix">
+    <a href="http://www.facebook.com/pages/Espace-des-sciences/137365126332053" rel="nofollow" target="_blank" class="facebook" title="Compte Facebook de l'Espace des Sciences"></a>
+<a href="http://twitter.com/#!/espace_sciences" rel="nofollow" target="_blank" class="twitter" title="Compte Twitter de l'Espace des Sciences"></a>
+<a href="https://www.youtube.com/espacedessciences" rel="nofollow" target="_blank" class="youtube" title="Compte YouTube de l'Espace des Sciences"></a>
+<a href="https://soundcloud.com/espacedessciences" rel="nofollow" target="_blank" class="soundcloud" title="Compte SoundCloud de l'Espace des Sciences"></a>
+<a href="https://www.instagram.com/espace_des_sciences/" rel="nofollow" target="_blank" class="instagram" title="Compte Instagram de l'Espace des Sciences"></a>
+<a href="http://www.flickr.com/photos/espace-sciences/" rel="nofollow" target="_blank" class="flickr" title="Compte Flickr de l'Espace des Sciences"></a>
+<a href="/flux" class="flux" title="Flux RSS de l'Espace des Sciences"></a>  </div>
+
+</section> <!-- /.block -->
+<section id="block-webform-client-block-51706" class="block block-webform block-newsletter-footer clearfix">
+
+        <h2 class="block-title">Recevez notre<br/>NEWSLETTER</h2>
+    
+
+  <div class="content clearfix">
+    <form class="webform-client-form webform-client-form-51706" action="/multimedia/jeux/l-acceleration" method="post" id="webform-client-form-51706" accept-charset="UTF-8"><div><div  class="form-item webform-component webform-component-email webform-component--courriel webform-container-inline">
+  <label for="edit-submitted-courriel">votre adresse courriel </label>
+ <input class="email form-text form-email" placeholder="votre adresse courriel" type="email" id="edit-submitted-courriel" name="submitted[courriel]" size="60" />
+</div>
+<input type="hidden" name="details[sid]" />
+<input type="hidden" name="details[page_num]" value="1" />
+<input type="hidden" name="details[page_count]" value="1" />
+<input type="hidden" name="details[finished]" value="0" />
+<input type="hidden" name="form_build_id" value="form-S2tcd1Y5W34JDHlEYFN98-96xBq3xAl48D3AugcOnvU" />
+<input type="hidden" name="form_id" value="webform_client_form_51706" />
+<div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url--2">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url--2" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="OK" /></div></div></form>  </div>
+
+</section> <!-- /.block -->
+<section id="block-block-46" class="block block-block block-partenaires">
+
+        <h2 class="block-title">NOS PARTENAIRES</h2>
+    
+
+  <div class="content clearfix">
+    <a href="http://metropole.rennes.fr/" rel="nofollow" target="_blank" class="rennes" title="Accéder au site Rennes Métropole"></a>
+<a href="http://www.bretagne.bzh/" rel="nofollow" target="_blank" class="bretagne" title="Accéder au site Région de Bretagne"></a>
+<a href="http://www.ille-et-vilaine.fr/fr" rel="nofollow" target="_blank" class="ille-vilaine" title="Accéder au site Ille-et-Vilaine"></a>
+<a href="https://www.finistere.fr/" rel="nofollow" target="_blank" class="finistere" title="Accéder au site Conseil Général du Finistère"></a>
+<a href="http://www.ville.morlaix.fr/" rel="nofollow" target="_blank" class="morlaix-ville" title="Accéder au site Ville de Morlaix"></a>
+<a href="http://www.morlaix-communaute.bzh/" rel="nofollow" target="_blank" class="morlaix-communaute" title="Accéder au site Morlaix Communauté"></a>
+<a href="http://www.ac-rennes.fr/jahia/Jahia/site/academie2" rel="nofollow" target="_blank" class="academie" title="Accéder au site Académie de Rennes"></a>
+<a href="http://www.entreprises.gouv.fr/marques-nationales-tourisme/presentation-la-marque-qualite-tourisme" rel="nofollow" target="_blank" class="tourisme" title="Accéder au site Qualité Tourisme"></a>
+<div class="investissements"></div>
+  </div>
+
+</section> <!-- /.block -->
+<section id="block-menu-menu-menu-bottom" class="block block-menu menu-bottom">
+
+      
+
+  <div class="content clearfix">
+    <ul class="menu clearfix"><li class="first leaf menu-item-36 mentionslgales level-1"><a href="/mentions-legales" class="level-1">Mentions légales</a></li><li class="last leaf menu-item-37 plandusite level-1"><a href="/plan-site" class="level-1">Plan du site</a></li></ul>  </div>
+
+</section> <!-- /.block -->
+	</div>
+ <!-- /.region -->
+      </div>
+    </footer>
+
+  </div>
+</div>
+
+<div id="back-to-top" class="off"></div>  </body>
+
+</html>

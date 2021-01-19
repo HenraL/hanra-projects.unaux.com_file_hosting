@@ -1,0 +1,14 @@
+div
+{ 
+background:url(584b607f5c2ff075429dc0e7b8d142ef.gif) center repeat,
+url(8979.gif) bottom center repeat,
+url(207885-Blinking-Cat-Eyes.gif) bottom repeat;
+}
+
+#background one {
+background-image: url(images_006.png), url(8YsAmq3.gif);
+background-position: center;
+background-repeat: no-repeat;
+width: 243px;
+height: 207px;
+}

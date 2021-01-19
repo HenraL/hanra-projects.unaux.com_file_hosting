@@ -1,0 +1,38 @@
+c{
+    font-size: 5em;
+    text-align: center;
+}
+
+e{
+    color:#6495ED;
+    font-size: 5em;
+    text-align: center;
+}
+
+a{
+    color: beige;
+    font-size:1em;
+}
+
+Peut{
+    color: aliceblue;
+    text-align: center;
+    color-interpolation-filters: initial;
+    font-size: 3cm;
+}
+
+format{
+    font-size: 7mm;
+}
+
+sou{
+    color: beige;
+}
+hhh{
+    transition-duration: 10s;
+}
+
+liens{
+    color: #6495ED;
+}
+/* :focus */

@@ -1,0 +1,86 @@
+/*Assining article properties*/
+#article{
+  margin-left:600px;
+  padding:50px;
+}
+/*Assining properties to the aside beacon*/
+#asideFollow{
+  position:fixed;
+  bottom: 0px;
+  display:block;
+  float:left;
+  border:none 0px;
+  display: inline-block;
+  margin-left:20px;
+}
+
+/*Defining table Follow properties*/
+#tableFollow{
+  border: none, 0px;
+  margin-left:0px;
+  box-sizing: border-box;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: inline-block;
+  text-align:left;
+  border-collapse:collapse;
+  width:67px;
+  height:170px;
+  text-overflow: hidden;
+  overflow: scroll;
+}
+
+/*Definning trFollow cells*/
+#trFollow{
+  background-color:white;
+  cell-width:5px;
+  cell-height:5px;
+}
+
+/*Defining tdFollow cells*/
+#tdFollowYoutube, #tdFollowBehance, #tdFollowPatreon, #tdFollowFacebook, #tdFollowInstagram, #tdFollowCodepen, #tdFollowDev, #tdFollowRepl, #tdFollowDiscord, #tdFollowIn, #tdFollowViadeo, #tdFollowMyWeb, #tdFollowGit, #tdFollowSteam, #tdfollowCopSmall, #tdFollowSuperProf, #tdFollowBoostEtudes{
+  width:37px;
+  height:37px;
+  margin-right:0px;
+  margin-lef:0px;
+}
+
+/*Defining individual tdFollow... cells*/
+#tdFollowYoutube{background-color:blue;}
+#tdFollowBehance{background-color:royalblue;}
+#tdFollowPatreon{background-color:limegreen;}
+#tdFollowFacebook{background-color:red;}
+#tdFollowInstagram{background-color:purple;}
+#tdFollowCodepen{background-color:coral;}
+#tdFollowDev{background-color:gold;}
+#tdFollowRepl{background-color:teal;}
+#tdFollowDiscord{background-color:aqua;}
+#tdFollowIn{background-color:firebrick;}
+#tdFollowViadeo{background-color:lime;}
+#tdFollowMyWeb{background-color:crimson;}
+#tdFollowGit{background-color:beige;}
+#tdFollowSteam{background-color:silver;}
+#tdfollowCopSmall{bakground-color:forestgreen;}
+#tdFollowSuperProf{background-color:aqua;}
+#tdFollowBoostEtudes{background-color:forestgreen;}
+
+/*Defining size of each icon*/
+#youtubeImg, #behanceImg, #patreonImg, #facebookImg, #instagramImg, #codepenImg, #devImg, #replImg, #discordImg, #inImg, #viadeoImg, #myWebImg, #gitImg, #steamImg, #SuperImg{
+  width:38px;
+  height:38px;
+}
+/*#boostEtudesImg{
+  width:80px;
+  height:37px;
+}*/
+/*Defining actions on hover*/
+
+#youtubeImg:hover,  #behanceImg:hover, #patreonImg:hover, #facebookImg:hover, #instagramImg:hover, #codepenImg:hover, #devImg:hover, #replImg:hover, #discordImg:hover, #inImg:hover, #viadeoImg:hover, #myWebImg:hover, #gitImg:hover, #steamImg:hover, #SuperImg:hover,#boostEtudesImg:hover{
+  transform:rotate(360deg);
+  transition: .50s;
+}
+#superProfHidden{
+  display:false;
+  width:37px;
+  height:37px;
+}

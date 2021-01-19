@@ -1,0 +1,17 @@
+/* --X: */
+:root{
+  --Y:50px;
+  --X:700px;
+  --test-color:skyblue;
+}
+#ee{
+  
+  background-color:var(--test-color);
+  border: blue 3px groove;
+  height:var(--Y);
+  width:var(--X);
+}
+
+#verx,#very,#x,#y,#ee{
+  font-weight:bold;
+}

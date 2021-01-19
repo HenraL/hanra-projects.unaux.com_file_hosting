@@ -1,0 +1,7 @@
+Echo ON
+@echo "      -->  -->  -->  -->
+@echo  Tracer AB + EF + GH + DC"
+
+@echo " plus rien ne suit pas besoin d'appuyer sur une touche"
+@pause
+@pause

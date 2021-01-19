@@ -1,0 +1,19 @@
+p{
+  color:blue;
+  font-size:1em;
+  font-weight:bold;
+/*  text-transform:uppercase; */
+}
+#hi:hover{
+  color:red;
+  font-weight: bolder;
+  background-color:limegreen;
+}
+.choose{
+  display: flex;
+  flex-wrap: no-wrap;
+}
+.choice{
+  display: flex;
+  flex-wrap: no-wrap;
+}

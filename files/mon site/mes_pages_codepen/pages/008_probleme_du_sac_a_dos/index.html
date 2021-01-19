@@ -1,0 +1,194 @@
+<!--  1To = 1 000Go = 1 000 000 000Ko = 1 000 000 000 000o-->
+<!-- 1 Go = 1 000 Mo = 1 000 000 Ko= 1 000 000 000 o-->
+<!-- 1 Mo = 1 000 Ko = 1000 000o-->
+<!-- 1 Ko = 1 000o-->
+<html>
+  <head>
+    <meta charsets="utf-8"/>
+    <meta name="author" content="Henry Letellier"/>
+    <title>Probleme du sac à dos</title>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="stylesheet" href="css/stylesheet.css"/>
+  </head>
+  <body>
+    <p>Taille totale de la clé USB = <input class="textBox" type="number" id="SK" onchange="sizeKey()" min=0 step=1/><button id="reset" onclick="resetSizeKey()">Remettre à 0</button></p>
+    <p>Action rapide: <button id="add" onclick="add1osk()">+<span id="sko">1</span>o</button><button id="add" onclick="add1kosk()">+<span id="skKo">1</span>Ko</button><button id="add" onclick="add1Mosk()">+<span id="skMo">1</span>Mo</button><button id="add" onclick="add1Gosk()">+<span id="skGo">1</span>Go</button><button id="add" onclick="add1Tosk()">+<span id="skTo">1</span>To</button> (<input class="textBox" type="number" id="Sk" onchange="sk()" min=1 step=1 max=999/>)</p>
+    <p>Place disponible sur la clé  = <input class="textBox" type="number" id="SL" onchange="sapceLeft()" min=0 step=1/> <button id="reset" onclick="resetSpaceLeft()">Remettre à 0</button></p>
+    <p>Action rapide: <button id="add" onclick="add1osl()">+<span id="Ac10">1</span>o</button><button id="add" onclick="add1Kosl()">+<span id="Ac100">1</span>Ko</button><button id="add" onclick="add1Mosl()">+<span id="Ac1000">1</span>Mo</button><button id="add" onclick="add1Gosl()">+<span id="Ac10c">1</span>Go</button><button id="add" onclick="add1Tosl()">+<span id="Ac100c">1</span>To</button> (<input class="textBox" type="number" id="Sl" onchange="sl()" min=1 step=1 max=9/>)</p>
+    
+    <p>Nombre total de fichiers à copier = <input class="textBox" type="number" id="fTC" onchange="filetoCopy()" min=0 max=140  step=1/><button id="reset" onclick="resetFilesToCopy()">Remettre à 0</button><button id="fichiers" onclick="add10fc()">+<span id="Ac10">1</span>0 fichiers</button><button id="maxButton" onclick="addMaxfc()">valeur maximale possible</button> (<input class="textBox" type="number" id="Fc" onchange="fc()" min=1 max=9 step=1/>)</p></p>
+    <p>Taille totale des fichiers à copier = <input class="textBox" type="number" id="TCS" onchange="totalCopySize()" min=0 step=1/><button id="reset" onclick="resetTotalCopySize()">Remettre à 0</button></p>
+    <p>Action rapide: <button id="add" onclick="add1otcs()">+<span id="Ac10">1</span>o</button><button id="add" onclick="add1Kotcs()">+<span id="Ac100">1</span>Ko</button><button id="add" onclick="add1Motcs()">+<span id="Ac1000">1</span>Mo</button><button id="add" onclick="add1Gotcs()">+<span id="Ac10c">1</span>Go</button><button id="add" onclick="add1Totcs()">+<span id="Ac100c">1</span>To</button> (<input class="textBox" type="number" id="Tc" onchange="tc()" min=1 step=1 max-value=140/>)</p>
+    <table>
+      <tr>
+        <td id"sizeFile"><span id"f1"></span></td>
+        <td id"sizeFile"><span id"f2"></span></td>
+        <td id"sizeFile"><span id"f3"></span></td>
+        <td id"sizeFile"><span id"f4"></span></td>
+        <td id"sizeFile"><span id"f5"></span></td>
+        <td id"sizeFile"><span id"f6"></span></td>
+        <td id"sizeFile"><span id"f7"></span></td>
+        <td id"sizeFile"><span id"f8"></span></td>
+        <td id"sizeFile"><span id"f9"></span></td>
+        <td id"sizeFile"><span id"f10"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f11"></span></td>
+        <td id"sizeFile"><span id"f12"></span></td>
+        <td id"sizeFile"><span id"f13"></span></td>
+        <td id"sizeFile"><span id"f14"></span></td>
+        <td id"sizeFile"><span id"f15"></span></td>
+        <td id"sizeFile"><span id"f16"></span></td>
+        <td id"sizeFile"><span id"f17"></span></td>
+        <td id"sizeFile"><span id"f18"></span></td>
+        <td id"sizeFile"><span id"f19"></span></td>
+        <td id"sizeFile"><span id"f20"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f21"></span></td>
+        <td id"sizeFile"><span id"f22"></span></td>
+        <td id"sizeFile"><span id"f23"></span></td>
+        <td id"sizeFile"><span id"f24"></span></td>
+        <td id"sizeFile"><span id"f25"></span></td>
+        <td id"sizeFile"><span id"f26"></span></td>
+        <td id"sizeFile"><span id"f27"></span></td>
+        <td id"sizeFile"><span id"f28"></span></td>
+        <td id"sizeFile"><span id"f29"></span></td>
+        <td id"sizeFile"><span id"f30"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f31"></span></td>
+        <td id"sizeFile"><span id"f32"></span></td>
+        <td id"sizeFile"><span id"f33"></span></td>
+        <td id"sizeFile"><span id"f34"></span></td>
+        <td id"sizeFile"><span id"f35"></span></td>
+        <td id"sizeFile"><span id"f36"></span></td>
+        <td id"sizeFile"><span id"f37"></span></td>
+        <td id"sizeFile"><span id"f38"></span></td>
+        <td id"sizeFile"><span id"f39"></span></td>
+        <td id"sizeFile"><span id"f40"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f41"></span></td>
+        <td id"sizeFile"><span id"f42"></span></td>
+        <td id"sizeFile"><span id"f43"></span></td>
+        <td id"sizeFile"><span id"f44"></span></td>
+        <td id"sizeFile"><span id"f45"></span></td>
+        <td id"sizeFile"><span id"f46"></span></td>
+        <td id"sizeFile"><span id"f47"></span></td>
+        <td id"sizeFile"><span id"f48"></span></td>
+        <td id"sizeFile"><span id"f49"></span></td>
+        <td id"sizeFile"><span id"f50"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f51"></span></td>
+        <td id"sizeFile"><span id"f52"></span></td>
+        <td id"sizeFile"><span id"f53"></span></td>
+        <td id"sizeFile"><span id"f54"></span></td>
+        <td id"sizeFile"><span id"f55"></span></td>
+        <td id"sizeFile"><span id"f56"></span></td>
+        <td id"sizeFile"><span id"f57"></span></td>
+        <td id"sizeFile"><span id"f58"></span></td>
+        <td id"sizeFile"><span id"f59"></span></td>
+        <td id"sizeFile"><span id"f60"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f60"></span></td>
+        <td id"sizeFile"><span id"f62"></span></td>
+        <td id"sizeFile"><span id"f63"></span></td>
+        <td id"sizeFile"><span id"f64"></span></td>
+        <td id"sizeFile"><span id"f65"></span></td>
+        <td id"sizeFile"><span id"f66"></span></td>
+        <td id"sizeFile"><span id"f67"></span></td>
+        <td id"sizeFile"><span id"f68"></span></td>
+        <td id"sizeFile"><span id"f69"></span></td>
+        <td id"sizeFile"><span id"f70"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f71"></span></td>
+        <td id"sizeFile"><span id"f72"></span></td>
+        <td id"sizeFile"><span id"f73"></span></td>
+        <td id"sizeFile"><span id"f74"></span></td>
+        <td id"sizeFile"><span id"f75"></span></td>
+        <td id"sizeFile"><span id"f76"></span></td>
+        <td id"sizeFile"><span id"f77"></span></td>
+        <td id"sizeFile"><span id"f78"></span></td>
+        <td id"sizeFile"><span id"f79"></span></td>
+        <td id"sizeFile"><span id"f80"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f81"></span></td>
+        <td id"sizeFile"><span id"f82"></span></td>
+        <td id"sizeFile"><span id"f83"></span></td>
+        <td id"sizeFile"><span id"f84"></span></td>
+        <td id"sizeFile"><span id"f85"></span></td>
+        <td id"sizeFile"><span id"f86"></span></td>
+        <td id"sizeFile"><span id"f87"></span></td>
+        <td id"sizeFile"><span id"f88"></span></td>
+        <td id"sizeFile"><span id"f89"></span></td>
+        <td id"sizeFile"><span id"f90"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f91"></span></td>
+        <td id"sizeFile"><span id"f92"></span></td>
+        <td id"sizeFile"><span id"f93"></span></td>
+        <td id"sizeFile"><span id"f94"></span></td>
+        <td id"sizeFile"><span id"f95"></span></td>
+        <td id"sizeFile"><span id"f96"></span></td>
+        <td id"sizeFile"><span id"f97"></span></td>
+        <td id"sizeFile"><span id"f98"></span></td>
+        <td id"sizeFile"><span id"f99"></span></td>
+        <td id"sizeFile"><span id"f100"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f101"></span></td>
+        <td id"sizeFile"><span id"f102"></span></td>
+        <td id"sizeFile"><span id"f103"></span></td>
+        <td id"sizeFile"><span id"f104"></span></td>
+        <td id"sizeFile"><span id"f105"></span></td>
+        <td id"sizeFile"><span id"f106"></span></td>
+        <td id"sizeFile"><span id"f107"></span></td>
+        <td id"sizeFile"><span id"f108"></span></td>
+        <td id"sizeFile"><span id"f109"></span></td>
+        <td id"sizeFile"><span id"f110"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f111"></span></td>
+        <td id"sizeFile"><span id"f112"></span></td>
+        <td id"sizeFile"><span id"f113"></span></td>
+        <td id"sizeFile"><span id"f114"></span></td>
+        <td id"sizeFile"><span id"f115"></span></td>
+        <td id"sizeFile"><span id"f116"></span></td>
+        <td id"sizeFile"><span id"f117"></span></td>
+        <td id"sizeFile"><span id"f118"></span></td>
+        <td id"sizeFile"><span id"f119"></span></td>
+        <td id"sizeFile"><span id"f120"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f121"></span></td>
+        <td id"sizeFile"><span id"f122"></span></td>
+        <td id"sizeFile"><span id"f123"></span></td>
+        <td id"sizeFile"><span id"f124"></span></td>
+        <td id"sizeFile"><span id"f125"></span></td>
+        <td id"sizeFile"><span id"f126"></span></td>
+        <td id"sizeFile"><span id"f127"></span></td>
+        <td id"sizeFile"><span id"f128"></span></td>
+        <td id"sizeFile"><span id"f129"></span></td>
+        <td id"sizeFile"><span id"f130"></span></td>
+      </tr>
+      <tr>
+        <td id"sizeFile"><span id"f131"></span></td>
+        <td id"sizeFile"><span id"f132"></span></td>
+        <td id"sizeFile"><span id"f133"></span></td>
+        <td id"sizeFile"><span id"f134"></span></td>
+        <td id"sizeFile"><span id"f135"></span></td>
+        <td id"sizeFile"><span id"f136"></span></td>
+        <td id"sizeFile"><span id"f137"></span></td>
+        <td id"sizeFile"><span id"f138"></span></td>
+        <td id"sizeFile"><span id"f139"></span></td>
+        <td id"sizeFile"><span id"f140"></span></td>
+      </tr>
+    </table>
+    <p><h1>Voici ce que retourne le programe</h1></p><button id="calc" onclick="calc()">Calculer</button>
+  </body>
+</html>

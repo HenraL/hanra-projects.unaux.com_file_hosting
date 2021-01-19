@@ -1,0 +1,439 @@
+.samplev{
+                font-size: 12px;
+                padding-top: 0%;
+                padding-bottom: 0%;
+                border: 0px solid #ddd;
+                display: inline-block;
+                padding: 5px;
+                /*display:flex;
+                flex-wrap: wrap;*/
+                overflow: hidden;
+                width: 96%;
+                /*text-align: center;*/
+            }
+            .sample,.sampleOD2ABI,.sampleODABI,.sample, .sampleODB, .sampleODI, .sampleODR, .sampleODAI, .sampleODAR, .sampleODMR, .sampleBODB, .sampleBODBI, .sampleBODR, .sampleOD2B, .sampleOD2I, .sampleOD2R, .sampleOD2AB, .sampleOD2AI, .sampleOD2AR, .sampleOD3B, .sampleOD3R, .sampleODM{
+                font-size: 12px;
+                padding-top: 0%;
+                padding-bottom: 0%;
+                border: 0px solid #ddd;
+                display: inline-block;
+                padding: 5px;
+                display:flex;
+                flex-wrap: wrap;
+                /*word-break: normal;*/
+                overflow: hidden;
+                width: 96%;
+                /*text-align: center;*/
+            }
+            .sampleOD2ABI,.sampleODABI{font-size:6px;}
+            .sample {
+                font-family: 'Times New Roman';
+                /*display:flex;
+                flex-wrap:wrap;*/
+                /*height: fit-content;*/
+                /*word-break: normal;*/
+            }
+            .norm{font-family:'Times New Roman', Cambria, Cochin, Georgia, Times,  serif;font-size: 12px;}
+            .sampleODB{font-family:var(--ODB), var(--segoe);}
+            .sampleODI{font-family:var(--ODI), var(--segoe);}
+            .sampleODR{font-family:var(--ODR), var(--segoe);}
+            .sampleODABI{font-family:var(--ODABI), var(--segoe);}
+            .sampleODAI{font-family:var(--ODAI), var(--segoe);}
+            .sampleODAR{font-family:var(--ODAR), var(--segoe);}
+            .sampleODMR{font-family:var(--ODMR), var(--segoe);}
+            /* 2020 */
+            .sampleBODB{font-family:var(--BODB), var(--segoe);}
+            .sampleBODBI{font-family:var(--BODBI), var(--segoe);}
+            .sampleBODR{font-family:var(--BODR), var(--segoe);}
+            .sampleOD2B{font-family:var(--OD2B), var(--segoe);}
+            .sampleOD2I{font-family:var(--OD2I), var(--segoe);}
+            .sampleOD2R{font-family:var(--OD2R), var(--segoe);}
+            .sampleOD2AB{font-family:var(--OD2AB), var(--segoe);}
+            .sampleOD2ABI{font-family:var(--OD2ABI), var(--segoe);}
+            .sampleOD2AI{font-family:var(--OD2AI), var(--segoe);}
+            .sampleOD2AR{font-family:var(--OD2AR), var(--segoe);}
+            .sampleOD3B{font-family:var(--OD3B), var(--segoe);}
+            .sampleOD3R{font-family:var(--OD3R), var(--segoe);}
+            .sampleODM{font-family:var(--ODM), var(--segoe);}
+            .upper{text-transform: uppercase;}
+            .lower{text-transform: lowercase;}
+            table, td, th, caption, #choice{border: black 3px groove;border-collapse: collapse;}
+            table, .choice, #choice{width: 100%;}
+            .choice{height: fit-content;}
+            /* The switch tr, - the box around the slider */
+            .switch {
+                position: relative;
+                display: inline-block;
+                width: 60px;
+                height: 34px;
+            }
+            /* Hide default HTML checkbox */
+            .switch input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+            /* The slider */
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #ccc;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 26px;
+                width: 26px;
+                left: 4px;
+                bottom: 4px;
+                background-color: white;
+                -webkit-transition: .4s;
+                transition: .4s;
+            }
+            input:checked + .slider {
+                background-color: #2196F3;
+            }
+            input:focus + .slider {
+                box-shadow: 0 0 1px #2196F3;
+            }
+            input:checked + .slider:before {
+                -webkit-transform: translateX(26px);
+                -ms-transform: translateX(26px);
+                transform: translateX(26px);
+            }
+            /* Rounded sliders */
+            .slider.round {
+                border-radius: 34px;
+            }
+            .slider.round:before {
+                border-radius: 50%;
+            }
+            .unNorm{
+                text-align: left;
+            }
+            .arange{
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content:space around;
+                align-items: center;
+                padding-top:0px;
+                /*flex-margin-top:0px;*/
+            }
+            .first{
+                padding-left:6px;
+            }
+              
+              
+            .adjust{
+                width:60%;
+                padding-left:100px;
+            }
+            /*#allFonts1,#allFonts2,#allFonts3,#allFonts4,#allFonts5,#allFonts6{display:none;}*/
+
+/* Font stylesheet */
+/*To import this stylesheet into your own place the line @import Stylesheet.css on the top of your file*/
+/* This stylesheet was made for the fonts open Dyslexia of 2020 by Henry Letellier for the website he created: How_to_install_Open_Dyslexia*/
+/*The website is avaidable at:*/
+/*- https://github.com/HenraL/How_to_install_Open_Dyslexia (on github)*/
+/*- https://drive.google.com/drive/folders/1shXaZLFiIQmfhN4a3FlX0_GCQ_TMwjdd?usp=sharing (on Google Drive)*/
+/* ############################################################### A Simpler Way To Apply The Webfont ############################################################### */
+:root{
+  /*If a caracter is not avaidable in the font below, the font segoe print will show it in blue if it has it*/
+  /* --segoe:Segoe-Print; */
+  --segoe:Segoe-Print, 'Segoe UI';
+  /* 2018 */
+  --ODB:OpenDyslexic-Bold;
+  --ODI:OpenDyslexic-Italic;
+  --ODR:OpenDyslexic-Regular;
+  --ODABI:OpenDyslexic-Alt-a-Bold-Italic;
+  --ODAI:OpenDyslexic-Alt-a-Italic;
+  --ODAR:OpenDyslexic-Alt-a-Regular;
+  --ODMR:OpenDyslexic-Mono-Regular;
+  /* 2020 */
+  --BODB:Beta-OpenDyslexic-Bold;
+  --BODBI:Beta-OpenDyslexic-Bold-Italic;
+  --BODR:Beta-OpenDyslexic-Regular;
+  --OD2B:OpenDyslexic2-Bold;
+  --OD2I:OpenDyslexic2-Italic;
+  --OD2R:OpenDyslexic2-Regular;
+  --OD2AB:OpenDyslexic2-Alt-a-Bold;
+  --OD2ABI:OpenDyslexic2-Alt-a-Bold-Italic;
+  --OD2AI:OpenDyslexic2-Alt-a-Italic;
+  --OD2AR:OpenDyslexic2-Alt-a-Regular;
+  --OD3B:OpenDyslexic3-Bold;
+  --OD3R:OpenDyslexic3-Regular;
+  --ODM:OpenDyslexic-Mono;
+}
+
+pre{font-family: var(--ODB);}
+h6{font-family: var(--ODM),var(--OD2B);}
+th{font-family: var(--ODM),var(--OD2B),-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+/*Intergrate these variables into your js file to easaly link the different fonts*/
+/*var ODB='OpenDyslexic-Bold',
+    ODI='OpenDyslexic-Italic',
+    ODR='OpenDyslexic-Regular',
+    ODABI='OpenDyslexic-Alt-a-Bold-Italic',
+    ODAI='OpenDyslexic-Alt-a-Italic',
+    ODAR='OpenDyslexic-Alt-a-Regular',
+    ODMR='OpenDyslexic-Mono-Regular',
+    BODB='Beta-OpenDyslexic-Bold',
+    BODBI='Beta-OpenDyslexic-Bold-Italic',
+    BODR='Beta-OpenDyslexic-Regular',
+    OD2B='OpenDyslexic2-Bold',
+    OD2I='OpenDyslexic2-Italic',
+    OD2R='OpenDyslexic2-Regular',
+    OD2AB='OpenDyslexic2-Alt-a-Bold',
+    OD2ABI='OpenDyslexic2-Alt-a-Bold-Italic',
+    OD2AI='OpenDyslexic2-Alt-a-Italic',
+    OD2AR='OpenDyslexic2-Alt-a-Regular',
+    OD3B='OpenDyslexic3-Bold',
+    OD3R='OpenDyslexic3-Regular',
+    ODM='OpenDyslexic-Mono';*/
+
+/* ####################################################################### Fonts From 2018 ####################################################################### */
+
+@font-face {
+  font-family: "OpenDyslexic-Bold";
+  src: url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.woff") format("woff"),
+    url("./fonts/2018/opendyslexic-bold/opendyslexic-bold.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexic-bold/original-opendyslexic-bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Italic";
+  src: url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.woff") format("woff"),
+    url("./fonts/2018/opendyslexic-italic/opendyslexic-italic.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexic-italic/original-opendyslexic-italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Regular";
+  src: url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.woff") format("woff"),
+    url("./fonts/2018/opendyslexic-regular/opendyslexic-regular.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexic-regular/original-opendyslexic-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Alt-a-Bold-Italic";
+  src: url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.woff") format("woff"),
+    url("./fonts/2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexicalta-bolditalic/original-opendyslexicalta-bolditalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Alt-a-Italic";
+  src: url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.woff") format("woff"),
+    url("./fonts/2018/opendyslexicalta-italic/opendyslexicalta-italic.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexicalta-italic/original-opendyslexicalta-italic.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Alt-a-Regular";
+  src: url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.woff") format("woff"),
+    url("./fonts/2018/opendyslexicalta-regular/opendyslexicalta-regular.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexicalta-regular/original-opendyslexicalta-regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "OpenDyslexic-Mono-Regular";
+  src: url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.woff") format("woff"),
+    url("./fonts/2018/opendyslexicmono-regular/opendyslexicmono-regular.woff2") format("woff2"), /* Modern Browsers */
+    url("./fonts/2018/opendyslexicmono-regular/original-opendyslexicmono-regular.otf") format("opentype");
+}
+/* ####################################################################### Fonts From 2020 ####################################################################### */
+
+@font-face {
+    font-family: "Beta-OpenDyslexic-Bold";
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/New_ opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/") format("woff"),
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "Beta-OpenDyslexic-Bold-Italic";
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.woff") format("woff"),
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "Beta-OpenDyslexic-Italic";
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.woff") format("woff"),
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Italic/OpenDyslexic-Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "Beta-OpenDyslexic-Regular";
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.woff") format("woff"),
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Bold";
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Bold/OpenDyslexic-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Italic";
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Italic/OpenDyslexic-Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Regular";
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_(Windows,_MacOS,_Linux_OTF)/OpenDyslexic-Regular/OpenDyslexic-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Alt-a-Bold";
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Alt-a-Bold-Italic";
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Alt-a-Italic";
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic2-Alt-a-Regular";
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic2_Alt-A_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic3-Bold";
+    src: url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Bold/OpenDyslexic3-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic3-Regular";
+    src: url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic_3_(Beta_-_Windows,_MacOS,_Linux_TTF)/OpenDyslexic3-Regular/OpenDyslexic3-Regular.otf") format("opentype");
+}
+@font-face {
+    font-family: "OpenDyslexic-Mono";
+    src: url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.woff") format("woff"),
+      url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/2020/OpenDyslexic_Mono_(Windows,_MacOS,_Linux_OTF)/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.otf") format("opentype");
+}
+
+@font-face{
+  font-family: 'Segoe-Print';
+  src: url("./fonts/falback/segoepr.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/falback/segoepr.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("./fonts/falback/segoepr.svg") format("svg"), /* Legacy iOS */
+      url("./fonts/falback/segoepr.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("./fonts/falback/segoepr.woff") format("woff"),
+      url("./fonts/falback/segoepr.woff2") format("woff2"), /* Modern Browsers */
+      url("./fonts/falback/segoepr.otf") format("opentype");
+  color:blue;
+  font-weight: normal;
+  font-size: xx-large;
+  font-style:blue;
+}
+
+/*@font-face {
+    font-family: "OpenDyslexic-Bold";
+    src: url("./fonts/OpenDyslexic-Bold.eot"); /* IE9 Compat Modes */
+    /*src: url("./fonts/OpenDyslexic-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    /*  url("./fonts/OpenDyslexic-Bold.svg") format("svg"), /* Legacy iOS */
+    /*  url("./fonts/OpenDyslexic-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+    /*  url("./fonts") format("woff"),
+      url("./fonts/OpenDyslexic-Bold.woff2") format("woff2"), /* Modern Browsers */
+    /*  url("./fonts/OpenDyslexic-Bold.otf") format("opentype");
+}*/

@@ -1,0 +1,406 @@
+/* _____________________________________________________ entre 1024 et 1280 ______________________________________________ */
+
+@media all and (min-width: 10px) and (max-width: 1280px){
+
+    body{
+
+        background-image: url("https://media.joomeo.com/medium/5c6dcb9edcd87.jpg");
+
+        margin: 0%;
+
+        min-width:"150";
+
+        min-height:"105";
+
+    }
+
+    .t{
+
+        background-color: white;
+
+    }
+
+    .z, .sommaire{
+
+        background-color:rgba(255,255,255,0.9);
+
+        text-align: center;
+
+        position: fixed;
+
+        width: 100%;
+
+        display: block;
+
+        top: 0%;
+
+        list-style: none;
+
+        list-style-type: none;
+
+        left: 0;
+
+        box-shadow: 0px 3px 27px -3px rgba(0,0,0,0.75);
+
+    }
+
+    .sommaire{
+
+        font-size: 2em;
+
+        width: 100%;
+
+    }
+
+    .li_i{
+
+        padding: 0%;
+
+        box-sizing: border-box;
+
+        list-style: none;
+
+    }
+
+    .li_u{
+
+        padding: 0%;
+
+        zoom: 1;
+
+        font-weight: 2000;
+
+        list-style: none;
+
+    }
+
+    .y{
+
+        padding: 4.9%;
+
+    }
+
+    .x:hover{
+
+        color: darkturquoise;
+
+        background-color: yellow;
+
+        font-style: normal;
+
+        font-weight: bold;
+
+    }
+
+    .x{
+
+        text-decoration: none;
+
+        color: black;
+
+        font-style: normal;
+
+        font-weight: bold;
+
+    }
+
+    .diese{
+
+        text-align: right;
+
+        background-color: white;
+
+        width: 100%;
+
+        display: block;
+
+    }
+
+    footer{
+
+        background-color: white;
+
+        position:static;
+
+        width: 100%;
+
+        display: block;
+
+        border-left: 0%;
+
+        border-right: 0%;
+
+        bottom: 0%;
+
+        left: 0;
+
+        margin: 0%;
+
+        outline: 0ch;
+
+        z-index: 0%;
+
+    }
+
+    .T{
+
+        background-color: rgba(255, 255, 255, 0);
+
+        list-style-type: none;
+
+    }
+
+    .joom:hover{
+
+        background-color: black;
+
+    }
+
+    .img_norm, .img_big{
+
+        max-width: 1480px;
+
+        min-width: 1224px;
+
+        max-height: 1280px;
+
+        min-height: 1024px;
+
+        margin-top: 0px;
+
+    }
+
+    .img_norm_hig, .img_big_hight{
+
+        max-width: 1480px;
+
+        min-width: 1224px;
+
+        max-height: 1280px;
+
+        min-height: 1024px;
+
+        margin-top: 0px;
+
+    }
+
+    .maestro-nav__logo{
+
+        width: 32px;
+
+        height: 32px;
+
+    }
+
+    .w{
+
+        background-color: white;
+
+    }
+
+    p{
+
+        background-color: rgb(43, 182, 89);
+
+    }
+
+}
+
+/*  _______________________________________________________ CSS de base ___________________________________________________*/
+
+body
+
+{
+
+    background-image: url("https://media.joomeo.com/large/5c6dc1173d4a8/MUY5NjQxOTIpLRsiOoWf3Bw4kFD5OW1_.jpg");
+
+    margin: 0%;
+
+    min-width:"150";
+
+    min-height:"105";
+
+}
+
+.t{
+
+    background-color: white;
+
+}
+
+.z, .sommaire{
+
+    background-color:rgba(255,255,255,0.9);
+
+    text-align: center;
+
+    position: fixed;
+
+    width: 100%;
+
+    display: block;
+
+    top: 0%;
+
+    left: 0;
+
+        box-shadow: 0px 3px 27px -3px rgba(0,0,0,0.75);
+
+}
+
+.sommaire{
+
+    font-size: 2em;
+
+    width: 100%;
+
+}
+
+.li_i{
+
+    padding: 0%;
+
+    box-sizing: border-box;
+
+}
+
+.li_u{
+
+    padding: 0%;
+
+    zoom: 1;
+
+    text-transform: uppercase;
+
+        font-weight: 2000;
+
+    list-style-type: none;
+
+}
+
+.y{
+
+    padding: 4.9%;
+
+}
+
+.x:hover{
+
+    color: darkturquoise;
+
+    background-color: yellow;
+
+    font-style: normal;
+
+    font-weight: bold;
+
+}
+
+.x{
+
+    text-decoration: none;
+
+    color: black;
+
+    font-style: normal;
+
+    font-weight: bold;
+
+}
+
+.diese{
+
+    text-align: right;
+
+    background-color: white;
+
+    width: 100%;
+
+    display: block;
+
+}
+
+footer{
+
+    background-color: white;
+
+    position:static;
+
+    width: 100%;
+
+    display: block;
+
+    border-left: 0%;
+
+    border-right: 0%;
+
+    bottom: 0%;
+
+    left: 0;
+
+    margin: 0%;
+
+    outline: 0ch;
+
+    z-index: 0%;
+
+
+
+}
+
+.T{
+
+    background-color: white;
+
+    list-style-type: none;
+
+}
+
+.joom:hover{
+
+    background-color: black;
+
+}
+
+.img_big{
+
+    min-width: 1040px;
+    min-height: 800px;
+    margin-top: 0px;
+    /* width: 1040px; */
+
+}
+
+.img_norm{
+
+    width: 580.5px;
+
+    height: 387px;
+
+    margin-top: 0px;
+
+}
+
+.img_big_hight{
+
+    width: 900px;
+
+    height: 1250px;
+
+    margin-top: 0px;
+
+}
+
+/* .maestro-nav__logo{
+
+    width: 32px;
+
+    height: 32px; */
+
+/* } */
+
+.w{
+
+    background-color: white;
+
+}
