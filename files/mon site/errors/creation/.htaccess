@@ -1,0 +1,64 @@
+#400-Bad Request
+ErrorDocument 400 http://hanra-projects.unaux.com/errors/400
+#401-Unauthorized
+ErrorDocument 401 http://hanra-projects.unaux.com/errors/401
+#402-Payment Required
+ErrorDocument 402 http://hanra-projects.unaux.com/errors/402
+#403-Forbidden
+ErrorDocument 403 http://hanra-projects.unaux.com/errors/403
+#404-Not Found
+ErrorDocument 404 http://hanra-projects.unaux.com/errors/404
+#405-Method Not Allowed
+ErrorDocument 405 http://hanra-projects.unaux.com/errors/405
+#406-Not Acceptable
+ErrorDocument 406 http://hanra-projects.unaux.com/errors/406
+#407-Proxy Authentication Required
+ErrorDocument 407 http://hanra-projects.unaux.com/errors/407
+#408-Request Time-out
+ErrorDocument 408 http://hanra-projects.unaux.com/errors/408
+#409-Conflict
+ErrorDocument 409 http://hanra-projects.unaux.com/errors/409
+#410-Gone
+ErrorDocument 410 http://hanra-projects.unaux.com/errors/410
+#411-Length Required
+ErrorDocument 411 http://hanra-projects.unaux.com/errors/411
+#412-Precondition Failed
+ErrorDocument 412 http://hanra-projects.unaux.com/errors/412
+#413-Request Entity Too Large
+ErrorDocument 413 http://hanra-projects.unaux.com/errors/413
+#414-Request-URI Too Long
+ErrorDocument 414 http://hanra-projects.unaux.com/errors/414
+#415-Unsupported Media Type
+ErrorDocument 415 http://hanra-projects.unaux.com/errors/415
+#416-Requested range unsatisfiable
+ErrorDocument 416 http://hanra-projects.unaux.com/errors/416
+#417-Expectation failed
+ErrorDocument 417 http://hanra-projects.unaux.com/errors/417
+#418-I’m a teapot
+ErrorDocument 418 http://hanra-projects.unaux.com/errors/418
+#421-Bad mapping / Misdirected Request
+ErrorDocument 421 http://hanra-projects.unaux.com/errors/421
+#422-Unprocessable entity
+ErrorDocument 422 http://hanra-projects.unaux.com/errors/422
+#423-Locked
+ErrorDocument 423 http://hanra-projects.unaux.com/errors/423
+#424-Method failure
+ErrorDocument 424 http://hanra-projects.unaux.com/errors/424
+#425-Too Early
+ErrorDocument 425 http://hanra-projects.unaux.com/errors/425
+#426-Upgrade Required
+ErrorDocument 426 http://hanra-projects.unaux.com/errors/426
+#428-Precondition Required
+ErrorDocument 428 http://hanra-projects.unaux.com/errors/428
+#429-Too Many Requests
+ErrorDocument 429 http://hanra-projects.unaux.com/errors/429
+#431-Request Header Fields Too Large
+ErrorDocument 431 http://hanra-projects.unaux.com/errors/431
+#449-Retry With
+ErrorDocument 449 http://hanra-projects.unaux.com/errors/449
+#450-Blocked by Windows Parental Controls
+ErrorDocument 450 http://hanra-projects.unaux.com/errors/450
+#451-Unavailable For Legal Reasons
+ErrorDocument 451 http://hanra-projects.unaux.com/errors/451
+#456-Unrecoverable Error
+ErrorDocument 456 http://hanra-projects.unaux.com/errors/456
