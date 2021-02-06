@@ -1,0 +1,10 @@
+<!--[if lte IE 8]>
+<style>
+
+.mobilesidemenu > label{
+	border: 6px solid black;
+	background: #eee;
+	height: 30px;
+}
+
+</style>

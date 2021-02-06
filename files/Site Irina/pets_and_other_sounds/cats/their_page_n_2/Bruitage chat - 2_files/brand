@@ -1,0 +1,38 @@
+(function () {
+  /*
+​
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+  var e,
+    q = function (a) {
+      var b = 0;
+      return function () {
+        return b < a.length ? { done: !1, value: a[b++] } : { done: !0 };
+      };
+    },
+    r = function (a) {
+      var b =
+        "undefined" != typeof Symbol && Symbol.iterator && a[Symbol.iterator];
+      return b ? b.call(a) : { next: q(a) };
+    },
+    t =
+      "function" == typeof Object.defineProperties
+        ? Object.defineProperty
+        : function (a, b, c) {
+            if (a == Array.prototype || a == Object.prototype) return a;
+            a[b] = c.value;
+            return a;
+          },
+    u = function (a) {
+      a = [
+        "object" == typeof globalThis && globalThis,
+        a,
+        "object" == typeof window && window,
+        "object" == typeof self && self,
+        "object" == typeof global && global
+      ];
+      for (var b = 0; b < a.length; ++b) {
+        var c = a[b];
+        if (c && c.Math == Math) return c;
+      }

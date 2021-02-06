@@ -1,0 +1,31 @@
+#background_page{
+    background-color: black;
+}
+
+p,h1,h2,h3,h4,h5,h6,h7,h8{
+    color: aliceblue;
+}
+a{
+    color:gold;
+    text-decoration: underline;
+}
+a:clicked{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    font-style:italic;
+}
+a:hover{
+    color:springgreen;
+    text-decoration: underline;
+}
+
+#theme{
+    display: flex;
+    /* side:left; */
+    float: right;
+    /* anchor:left; */
+    /* flex-direction: ; */
+    text-align: right;
+}

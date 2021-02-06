@@ -1,0 +1,232 @@
+@font-face {
+    font-family: 'OpenDyslexic-Bold';
+    src: url('fonts/from_2018/opendyslexic-bold/opendyslexic-bold.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexic-bold/opendyslexic-bold.woff') format('woff'),
+    url('fonts/from_2018/opendyslexic-bold/opendyslexic-bold.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexic-bold/opendyslexic-bold.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexic-bold/opendyslexic-bold.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Bold-Italic';
+    src: url('fonts/from_2018/opendyslexic-bolditalic/opendyslexic-bolditalic.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexic-bolditalic/opendyslexic-bolditalic.woff') format('woff'),
+    url('fonts/from_2018/opendyslexic-bolditalic/opendyslexic-bolditalic.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexic-bolditalic/opendyslexic-bolditalic.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexic-bolditalic/opendyslexic-bolditalic.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Italic';
+    src: url('fonts/from_2018/opendyslexic-italic/opendyslexic-italic.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexic-italic/opendyslexic-italic.woff') format('woff'),
+    url('fonts/from_2018/opendyslexic-italic/opendyslexic-italic.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexic-italic/opendyslexic-italic.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexic-italic/opendyslexic-italic.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Regular';
+    src: url('fonts/from_2018/opendyslexic-regular/opendyslexic-regular.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexic-regular/opendyslexic-regular.woff') format('woff'),
+    url('fonts/from_2018/opendyslexic-regular/opendyslexic-regular.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexic-regular/opendyslexic-regular.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexic-regular/opendyslexic-regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Alt-a-Bold';
+    src: url('fonts/from_2018/opendyslexicalta-bold/opendyslexicalta-bold.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexicalta-bold/opendyslexicalta-bold.woff') format('woff'),
+    url('fonts/from_2018/opendyslexicalta-bold/opendyslexicalta-bold.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexicalta-bold/opendyslexicalta-bold.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexicalta-bold/opendyslexicalta-bold.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Alt-a-Bold-Italic';
+    src: url('fonts/from_2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.woff') format('woff'),
+    url('fonts/from_2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexicalta-bolditalic/opendyslexicalta-bolditalic.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Alt-a-Italic';
+    src: url('fonts/from_2018/opendyslexicalta-italic/opendyslexicalta-italic.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexicalta-italic/opendyslexicalta-italic.woff') format('woff'),
+    url('fonts/from_2018/opendyslexicalta-italic/opendyslexicalta-italic.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexicalta-italic/opendyslexicalta-italic.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexicalta-italic/opendyslexicalta-italic.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Alt-a-Regular';
+    src: url('fonts/from_2018/opendyslexicalta-regular/opendyslexicalta-regular.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexicalta-regular/opendyslexicalta-regular.woff') format('woff'),
+    url('fonts/from_2018/opendyslexicalta-regular/opendyslexicalta-regular.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexicalta-regular/opendyslexicalta-regular.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexicalta-regular/opendyslexicalta-regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'OpenDyslexic-Mono-Regular';
+    src: url('fonts/from_2018/opendyslexicmono-regular/opendyslexicmono-regular.eot') format('embedded-opentype'),
+    url('fonts/from_2018/opendyslexicmono-regular/opendyslexicmono-regular.woff') format('woff'),
+    url('fonts/from_2018/opendyslexicmono-regular/opendyslexicmono-regular.woff2') format('woff2'),
+    url('fonts/from_2018/opendyslexicmono-regular/opendyslexicmono-regular.ttf') format('truetype'),
+    url('fonts/from_2018/opendyslexicmono-regular/opendyslexicmono-regular.svg') format('svg');
+}
+@font-face {
+    font-family: 'Beta-OpenDyslexic-Bold';
+    src: url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.eot') format('embedded-opentype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.woff') format('woff'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.woff2') format('woff2'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.ttf') format('truetype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold/OpenDyslexic-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Beta-OpenDyslexic-Bold-Italic';
+    src: url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.eot') format('embedded-opentype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.woff') format('woff'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.woff2') format('woff2'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.ttf') format('truetype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Bold-Italic/OpenDyslexic-Bold-Italic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'Beta-OpenDyslexic-Regular';
+    src: url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.eot') format('embedded-opentype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.woff') format('woff'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.woff2') format('woff2'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/001_New_opendyslexic-0.9.10-beta-2019.09.16/OpenDyslexic-Regular/OpenDyslexic-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Bold';
+    src: url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Bold/OpenDyslexic-Bold.eot') format('embedded-opentype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Bold/OpenDyslexic-Bold.woff') format('woff'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Bold/OpenDyslexic-Bold.woff2') format('woff2'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Bold/OpenDyslexic-Bold.ttf') format('truetype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Bold/OpenDyslexic-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Italic';
+    src: url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Italic/OpenDyslexic-Italic.eot') format('embedded-opentype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Italic/OpenDyslexic-Italic.woff') format('woff'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Italic/OpenDyslexic-Italic.woff2') format('woff2'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Italic/OpenDyslexic-Italic.ttf') format('truetype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Italic/OpenDyslexic-Italic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Bold-Italic';
+    src: url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-BoldItalic/OpenDyslexic-BoldItalic.eot') format('embedded-opentype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-BoldItalic/OpenDyslexic-BoldItalic.woff') format('woff'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-BoldItalic/OpenDyslexic-BoldItalic.woff2') format('woff2'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-BoldItalic/OpenDyslexic-BoldItalic.ttf') format('truetype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-BoldItalic/OpenDyslexic-BoldItalic.svg') format('svg');
+}
+
+
+@font-face {
+    font-family: 'OpenDyslexic2-Regular';
+    src: url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('embedded-opentype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('woff'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('woff2'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/002_OpenDyslexic2/OpenDyslexic-Regular/OpenDyslexic-Regular.ttf') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Alt-a-Bold';
+    src: url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.eot') format('embedded-opentype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.woff') format('woff'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.woff2') format('woff2'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.ttf') format('truetype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Bold/OpenDyslexicAlta-Bold.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Alt-a-Bold-Italic';
+    src: url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.eot') format('embedded-opentype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.woff') format('woff'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.woff2') format('woff2'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.ttf') format('truetype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-BoldItalic/OpenDyslexicAlta-BoldItalic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Alt-a-Italic';
+    src: url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.eot') format('embedded-opentype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.woff') format('woff'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.woff2') format('woff2'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.ttf') format('truetype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Italic/OpenDyslexicAlta-Italic.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic2-Alt-a-Regular';
+    src: url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.eot') format('embedded-opentype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.woff') format('woff'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.woff2') format('woff2'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/OpenDyslexicAlta-Regular/OpenDyslexicAlta-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic3-Bold';
+    src: url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Bold/OpenDyslexic3-Bold.eot') format('embedded-opentype'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff') format('woff'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff2') format('woff2'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic3-Regular';
+    src: url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.eot') format('embedded-opentype'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff') format('woff'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.woff2') format('woff2'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/005_OpenDyslexic_3/OpenDyslexic3-Regular/OpenDyslexic3-Regular.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'OpenDyslexic-Mono';
+    src: url('fonts/from_2020/004_OpenDyslexic_Mono/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.eot') format('embedded-opentype'),
+    url('fonts/from_2020/004_OpenDyslexic_Mono/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.woff') format('woff'),
+    url('fonts/from_2020/004_OpenDyslexic_Mono/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.woff2') format('woff2'),
+    url('fonts/from_2020/004_OpenDyslexic_Mono/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.ttf') format('truetype'),
+    url('fonts/from_2020/004_OpenDyslexic_Mono/OpenDyslexicMono-Regular/OpenDyslexicMono-Regular.svg') format('svg');
+}
+
+
+/*@font-face {
+    font-family: 'OpenDyslexic';
+    src: url('fonts/from_2020/003_OpenDyslexic2_Alt-A/') format('embedded-opentype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/') format('woff'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/') format('woff2'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/') format('truetype'),
+    url('fonts/from_2020/003_OpenDyslexic2_Alt-A/') format('svg');
+}*/
+
+/* 'OpenDyslexic-Bold', */
+/* 'OpenDyslexic-Italic', */
+/* 'OpenDyslexic-Regular', */
+/* OpenDyslexic-Bold-Italic */
+/* OpenDyslexic-Alt-a-bold */
+/* 'OpenDyslexic-Alt-a-Italic', */
+/* 'OpenDyslexic-Alt-a-Regular', */
+/* 'OpenDyslexic-Alt-a-Bold-Italic', */
+/* 'OpenDyslexic-Mono-Regular', */
+/* 'Beta-OpenDyslexic-Bold', */
+/* 'Beta-OpenDyslexic-Bold-Italic', */
+/* 'Beta-OpenDyslexic-Regular', */
+/*'OpenDyslexic2-Bold',
+'OpenDyslexic2-Italic',
+'OpenDyslexic2-Bold-Italic'
+'OpenDyslexic2-Regular',
+'OpenDyslexic2-Alt-a-Bold',
+'OpenDyslexic2-Alt-a-Bold-Italic',
+'OpenDyslexic2-Alt-a-Italic',
+'OpenDyslexic2-Alt-a-Regular',*/
+/* 'OpenDyslexic3-Bold', */
+/* 'OpenDyslexic3-Regular', */
+/* 'OpenDyslexic-Mono'; */

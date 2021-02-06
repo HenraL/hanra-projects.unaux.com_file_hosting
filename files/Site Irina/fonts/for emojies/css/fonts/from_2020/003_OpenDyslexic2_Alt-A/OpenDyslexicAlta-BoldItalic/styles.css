@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'OpenDyslexicAlta-BoldItalic';
+  src: url(./OpenDyslexicAlta-BoldItalic.eot);
+  src: url(./OpenDyslexicAlta-BoldItalic.eot?#iefix) format('embedded-opentype'),
+       url(./OpenDyslexicAlta-BoldItalic.ttf) format('truetype'),
+       url(./OpenDyslexicAlta-BoldItalic.woff2) format('woff2'),
+       url(./OpenDyslexicAlta-BoldItalic.woff) format('woff'),
+       url(./OpenDyslexicAlta-BoldItalic.svg#OpenDyslexicAlta-BoldItalic) format('svg'),
+       url(./OpenDyslexicAlta-BoldItalic.otf) format('otf');
+}

@@ -1,0 +1,622 @@
+
+	body {
+	background: #F0F0F0;
+    border: 3px solid grey; /* border color */
+    border-width: 2px;	
+	}
+	.titre
+	 {
+background: url(images/beige0521.jpg) repeat-x center left;
+width: 100%;
+height:60px;
+font: bold 1.4em verdana;
+text-align: left;
+padding: 2px; 
+}
+.titre a{
+text-decoration: none;
+color: black;
+}
+.titre a:hover{
+text-decoration: none;
+color: blue;
+}
+}.arrowlistmenu2{
+width: 100%; /*width of menu*/
+}
+
+.arrowlistmenu2 .headerbar{
+font: bold 11px Arial;
+color: white;
+background: url(images/gradient2.jpg) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+}
+.arrowlistmenu2 .headerbar a{
+text-decoration: none;
+list-style-type: none;
+font: bold 11px Arial;
+color: white;
+background: url(images/gradient2.jpg) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+}
+.arrowlistmenu2 .headerbar a:hover{
+text-decoration: none;
+list-style-type: none;
+font: bold 11px Arial;
+background: blue url(images/gradient3.jpg) repeat-x center left;
+margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+text-transform: uppercase;
+padding: 4px 0 4px 10px; /*header text is indented 10px*/
+}
+.arrowlistmenu2 ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+margin-bottom: 8px; /*bottom spacing between each UL and rest of content*/
+}
+
+.arrowlistmenu2 ul li{
+padding-bottom: 2px; /*bottom spacing between menu items*/
+background-color: #F8F8F8;
+}
+
+.tabsmenuclass ul{
+overflow: hidden;
+width: 100%;
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-decoration: none;
+ color: #000000;
+}
+
+.tabsmenuclass li{
+float: left;
+}
+
+.tabsmenuclass a{
+display: block;
+padding: 5px 7px;
+background: url(images/gradient2.jpg) repeat-x center left;
+color: white;
+margin-right: 1px;
+list-style-type: none;
+text-decoration: none;
+font: bold 12px Arial;
+}
+
+.tabsmenuclass a:hover, .tabsmenuclass a.selected{
+background: black;
+color: white;
+}
+
+/* ######### CSS for sub menu container below ######### */
+
+.tabsmenucontentclass{
+clear: left;
+background: #103845;
+width: 100%;
+height: 70px;
+padding: 5px 7px;
+border: 5px solid grey;
+color:white;
+font: bold 12px Arial;
+
+}
+.tabsmenucontentclass a:hover, .tabsmenuclass a.selected{
+background: #F3F3F3;
+color: white;
+}
+.tabsmenucontentclass ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font-color: white;
+}
+
+.tabsmenucontentclass li{
+float: left;
+margin-right: 1em;
+padding: 2px 2px 1px 2px;
+
+}.tabsmenucontentclass li a{
+text-decoration: none;
+color: black;
+}.pagination{
+padding: 2px;
+margin: 1em 0;
+clear: both;
+}
+.mobilesidemenu {
+    width: 0;
+    /* width of main container doesn't need width */
+}
+
+.mobilesidemenu, .mobilesidemenu * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mobilesidemenu input[type="checkbox"] {
+    /* checkbox used to toggle menu state */
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.mobilesidemenu > label {
+    /* Main label icon to toggle menu state */
+    z-index: 100;
+    display: block;
+    position: relative;
+    font-size: 10px;
+    /* change font size to change label dimensions. Leave width/height below alone */
+    width: 3.5em;
+    height: 3em;
+    top: 0;
+    left: 0;
+    background: white;
+    text-indent: -1000px;
+    border: 0.6em solid black;
+    /* border color */
+    border-width: 0.6em 0;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for animating label */
+}
+
+
+.mobilesidemenu > label::before, .mobilesidemenu > label::after {
+    /* inner stripes inside label */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.6em;
+    top: 50%;
+    margin-top: -0.3em;
+    left: 0;
+    background: black;
+    /* stripes background color. Change to match border color of parent label above */
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for flipping label */
+}
+
+.mobilesidemenu nav {
+    /* NAV menu inside container */
+    margin: 0;
+    padding: 5px;
+    position: fixed;
+    text-transform: uppercase;
+    border-right: 1px solid gray;
+    font: bold 0.8em Verdana;
+    width: 100%;
+    /* width of nav menu */
+    height: 100%;
+    left: -100%;
+    /* set left to -width of menu */
+    top: 0;
+    z-index: 10000;
+		-webkit-transform: translate3d(0, 0, 0); /* trigger hardware acceleration */
+		transform: translate3d(0, 0, 0);
+    background: rgb(242,242,242);
+    /* Old browsers */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%, rgba(219,219,219,1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(219,219,219,1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%,rgba(219,219,219,1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%,rgba(219,219,219,1) 100%);
+    /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(242,242,242,1) 0%,rgba(219,219,219,1) 100%);
+    /* IE10+ */
+    background: radial-gradient(ellipse at center, rgba(242,242,242,1) 0%,rgba(219,219,219,1) 100%);
+    /* W3C */
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for animating nav in and out */
+}
+
+
+.mobilesidemenu nav h2 {
+    color: black;
+    margin-bottom: 1px;
+    border-bottom: 2px solid #73462d;
+	background: url(images/beige0521.jpg) repeat-x center left;
+width: 100%;
+font-size: 0.9em;
+}
+
+.mobilesidemenu ul {
+    /* UL menu inside container */
+    
+    margin: 0;
+    padding: 0;
+	  display: block;
+    text-decoration: none;
+    font-size: 0.9em;
+    /* font size of menu links */
+    border-left: 2px solid gray;
+ 
+    color: #eee;
+
+}
+
+.mobilesidemenu li {
+}
+
+
+.mobilesidemenu ul a {
+
+   text-decoration: none;
+}
+
+.mobilesidemenu ul a:hover {
+    background: black;
+    color: white;
+}
+
+
+.mobilesidemenu nav label {
+    /* label button inside nav to close menu */
+    cursor: pointer;
+    position: absolute;
+    text-transform: lowercase;
+    right: 0;
+    top: 0;
+    -moz-border-radius: 0 0 0 40px;
+    -webkit-border-radius: 0 0 0 40px;
+    border-radius: 0 0 0 40px;
+    width: 40px;
+    height: 30px;
+    background: black;
+    box-shadow: 0 0 5px gray;
+    text-align: center;
+}
+
+
+.mobilesidemenu nav label::after {
+    /* label button x */
+    content: "x";
+    color: white;
+    display: block;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 6px;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.mobilesidemenu .overlay {
+    /* overlay that covers entire page when menu is open */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    background: black;
+    z-index: 1001;
+    visibility: hidden;
+}
+
+.mobilesidemenu .overlay label {
+    /* label of overlay that closes menu when clicked on */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.mobilesidemenu nav label:hover::after {
+    /* state of NAV label::after when mouse moves over */
+    -moz-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    -webkit-transform: rotatey(180deg);
+    transform: rotatey(180deg);
+    /* flip labels vertically onMouseover */
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label {
+    /* state of main menu label when menu is open  */
+    border-color: transparent;
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label::before {
+    /* state of main menu label::before when menu is open  */
+    transform: rotate(-45deg);
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label::after {
+    /* state of main menu label::after when menu is open  */
+    transform: rotate(45deg);
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ nav {
+    /* state of NAV when menu is open  */
+    left: 0;
+    /* set left to 0 to animate it into view  */
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ div.overlay {
+    /* state of overlay when menu is open  */
+    visibility: visible;
+}/* Paragraphes en bleu par d&eacute;faut */
+p
+{
+    color: white;
+	font-size: 1em;
+	}
+	
+/* Nouvelles r&egrave;gles si la fen&ecirc;tre fait au plus 1024px de large */
+@media only screen and (max-width: 650px)
+{
+    p
+    {
+         
+       font-color: white; 
+        font-size: 1.2em;
+    }
+}
+.dropcontent{
+width: 100%;
+height: AUTO;
+
+background-color: #CCCCCC;
+display:block;
+ text-decoration: none;
+ font-color : #000000;
+}
+.dropcontent a{
+color : #000000;
+ text-decoration: none;
+}
+.dropcontent a:hover{
+color : blue;
+}
+.dropcontent a:selected{
+color : green;
+}
+.dropcontent2{
+width: 100%;
+height: AUTO;
+min-width: 300px;
+background-color: #C6E2E8;
+display:block;
+border: 1px solid blue;
+padding: 5px;
+font-color : #000000;
+}
+.dropcontent2 a{
+color : #000000;
+ text-decoration: none;
+}
+.dropcontent2 a{
+color : #000000;
+ text-decoration: none;
+}
+.dropcontent2 a:hover{
+color : blue;
+}
+.dropcontent2 a:selected{
+color : green;
+}
+.blabla { 
+    margin: 0;
+    padding: 0;
+		background: #103845;
+border: 5px solid grey;
+    
+    margin-left: 2px;
+   font-color: white;
+   width:100%;
+   font-size: 1em;
+	text-decoration: none;
+    text-align: left;
+    list-style: none;
+ 
+    }.blibli {
+	 
+    margin: 0;
+    padding: 5px;
+		background: #103845;
+border: 2px solid grey;
+    
+    
+   font-color: white;
+   width:100%;
+   font-size: 1em;
+	text-decoration: none;
+    text-align: left;
+    list-style: none;
+ 
+    }.blue { 
+   
+  font-color: white; 
+    }
+	
+	.mp3 {
+    margin: 0;
+    padding: 0;
+		background: white;
+    margin-left: 2px;
+   font-color: black;
+   max-width:1024px;
+   
+	text-decoration: none;
+    text-align: left;
+    list-style: none;
+ 
+    }
+.rsspaginate{ /*Style for Pagination DIV*/
+text-align: left;
+padding: 2px 0;
+margin: 10px 0;
+color : #000000;
+
+}
+
+.rsspaginate form{ /*Style for Pagination DIV's form element*/
+margin: 0;
+padding: 0 5px 0px 5px;
+color : #000000;
+}
+
+.rsspaginate .paginateselect{ /*Style for Pagination DIV's drop down menu*/
+border: 1px solid navy;
+margin: 0 10px;
+}
+
+.rsspaginate a{ /*Pagination links*/
+padding: 0 5px 0px 5px;
+text-decoration: none;
+border: 1px solid black;
+color: navy;
+background-color: white;
+}
+
+
+.rsspaginate a:hover, .rsspaginate a.selected{
+color: #000;
+background-color: #FEE496;
+}
+.rsspaginate a.visited
+{
+color: #000;
+background-color: #FEE496;
+}
+.but{
+padding: 0px 0px 0px 100px;
+color: white;
+background: url(images/gradient2.jpg) repeat-x center left;
+width:100%;
+
+}
+	.bottom
+	 {
+background: url(images/beige0521.jpg) repeat-x center left;
+width: 100%;
+height:30px;
+font: normal 0.6em verdana;
+text-align: left;
+padding: 2px; 
+}
+.titre a{
+text-decoration: none;
+color: black;
+}
+.titre a:hover{
+text-decoration: none;
+color: blue;
+}
+.blybly { 
+ 
+padding: 0px 0px 0px 10px;
+		background: #103845;
+border: 5px solid grey;
+    height:50px;
+	   width:100%;
+ 
+    }.blublu { 
+ 
+padding: 0px 0px 0px 0px;
+		background: #CCCCCC;
+border: 5px solid grey;
+ 
+	   width:100%;
+ 
+    }.b2{
+
+color: white;
+background: url(images/gradient2.jpg) repeat-x center left;
+width:100%;
+}
+.co{
+background: url(images/gradient6.jpg) repeat-x center left;
+color: white;
+width:100%;
+height:60;
+font-size:0.8em;
+}.co a{
+text-decoration: none;
+color :white;
+
+}.co a:hover, .co a.selected{
+background: black;
+color: white;
+}.menu { 
+ 
+padding: 5px 5px 5px 8px;}
+.tep { 
+ 
+padding: 0px 0px 0px 20px;}
+
+.rsspaginatou a{ /*Pagination links*/
+padding: 0 5px 0px 5px;
+text-decoration: none;
+font: bold 0.9em verdana;
+color: white;
+
+}.rsspaginatou a:hover, .rsspaginatou a.selected{
+color: blue;
+background-color: white;
+font: bold 0.9em verdana;
+}.rsspaginatoc a{ /*Pagination links*/
+padding: 0 5px 0px 5px;
+text-decoration: none;
+width:95%;
+color: white;
+display:block;
+
+}
+.rsspaginatoc 
+{
+color: blue;
+background-color: #EEF8F0;
+font: bold 1em verdana;
+border: 3px solid grey;
+
+}
+.rsspaginatoc a
+{
+color: #103845;
+padding: 3px 3px 3px 3px;
+
+}
+.rsspaginatoc a:hover, .rsspaginatou a.selected{
+color: blue;
+background-color: white;
+font: bold 1em verdana;
+}.bloublou { 
+ 
+padding: 0px 0px 0px 10px;
+		background: #103845;
+border: 5px solid grey;
+    height:50px;
+	   width:100%;
+ 
+    }
+	.blocbloc { 
+ 
+padding: 0px 0px 0px 10px;
+		background: #103845;
+border: 5px solid grey;
+    height:50px;
+	   width:100%;
+ 
+    }

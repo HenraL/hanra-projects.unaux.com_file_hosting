@@ -1,0 +1,71 @@
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --acol:blue;
+    } 
+}
+@media tv
+{
+    :root{
+        --max:111%;
+        --acol:blue;
+    }  
+}
+@media screen and (min-width: 851px)
+{
+    :root{
+        --max:99%;
+        --acol:blue;
+    }  
+}
+
+html,head,body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    width: var(--max);
+}
+
+p,h1,h2,h3,h4,h5,h6,h7,h8{
+    color: black;
+}
+a{color:var(--acol)}
+a:clicked{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    color:coral;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.inner_buttons{float: right;/*width: 100%;*/}
+.aside_boxes{border-style: none;}
+.gap{float: right;}
+.button {
+    padding: 5px 15px; 
+    background-color: black; 
+    color: white; 
+    border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:grey;
+    color:lightblue;
+    border-style: inset;
+    cursor: hand;
+}
+.aside_boxes{border-style: none;}
+        /* <table class="gap">
+            <tr>
+                <td><span class="button" onclick='window.location.href="index_dark.html"'>Dark Theme</span></td>
+                <td>       </td>
+                <td><span class="button" onclick='window.location.href="http://hanra-projects.unaux.com/index.html"'>Home</span></td>
+            </tr>
+        </table>   
+*/

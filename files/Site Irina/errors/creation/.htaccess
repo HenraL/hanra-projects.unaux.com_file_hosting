@@ -1,0 +1,10 @@
+#400-Bad Request
+ErrorDocument 400 http://hanra-projects.unaux.com/errors/400
+#401-Unauthorized
+ErrorDocument 401 http://hanra-projects.unaux.com/errors/401
+#403-Forbidden
+ErrorDocument 403 http://hanra-projects.unaux.com/errors/403
+#404-Not Found
+ErrorDocument 404 http://hanra-projects.unaux.com/errors/404
+#503-Service Unavailable
+ErrorDocument 503 http://hanra-projects.unaux.com/errors/503
