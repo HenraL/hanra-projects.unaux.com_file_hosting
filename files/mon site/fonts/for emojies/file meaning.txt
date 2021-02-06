@@ -1,0 +1,5 @@
+Segoe UI Emoji    (seguiemj.ttf)
+
+Segoe MDL2 Assets (segmdl2.ttf)
+
+MS Gothic, MS UI Gothic, MS PGothic (msgothic.ttc)

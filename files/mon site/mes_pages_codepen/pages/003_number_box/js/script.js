@@ -14,7 +14,7 @@ function resetx(){
   document.getElementById('x').innerHTML=xx;
 }
 function resety(){
-  document.getElementById('X').value=0;
+  document.getElementById('Y').value=0;
   yy=0;
   document.getElementById('y').innerHTML=yy;
 }
