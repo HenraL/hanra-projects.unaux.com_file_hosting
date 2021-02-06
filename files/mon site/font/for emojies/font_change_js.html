@@ -1,0 +1,465 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/dislexic_fonts_style_sheet.css">
+    </head>
+    <body id="e">
+        <script>
+            var th=20;
+            document.getElementsByClassName("textBox").value=20;
+
+            function st(){
+                document.getElementById('e').style.fontFamily='Algerian';
+            };
+            function h(){
+                th=document.getElementById('fsize').value;
+                document.getElementsByClassName("textBox").value=th+"px";
+                document.getElementById("e").style.fontSize=th+"px";
+            };
+            var ODB='OpenDyslexic-Bold',
+                ODI='OpenDyslexic-Italic',
+                ODR='OpenDyslexic-Regular',
+                ODBI="OpenDyslexic-Bold-Italic"
+                ODABI='OpenDyslexic-Alt-a-Bold-Italic',
+                ODAB='OpenDyslexic-Alt-a-Bold',
+                ODAI='OpenDyslexic-Alt-a-Italic',
+                ODAR='OpenDyslexic-Alt-a-Regular',
+                ODMR='OpenDyslexic-Mono-Regular',
+                BODB='Beta-OpenDyslexic-Bold',
+                BODBI='Beta-OpenDyslexic-Bold-Italic',
+                BODR='Beta-OpenDyslexic-Regular',
+                OD2B='OpenDyslexic2-Bold',
+                OD2I='OpenDyslexic2-Italic',
+                OD2BI='OpenDyslexic2-Bold-Italic'
+                OD2R='OpenDyslexic2-Regular',
+                OD2AB='OpenDyslexic2-Alt-a-Bold',
+                OD2ABI='OpenDyslexic2-Alt-a-Bold-Italic',
+                OD2AI='OpenDyslexic2-Alt-a-Italic',
+                OD2AR='OpenDyslexic2-Alt-a-Regular',
+                OD3B='OpenDyslexic3-Bold',
+                OD3R='OpenDyslexic3-Regular',
+                ODM='OpenDyslexic-Mono',
+                current_font="current_font"
+                nothing="nothing"
+                _apple_system="-apple-system",
+                Arial="Arial",
+                Arial_Narrow="Arial Narrow",
+                Arial_Narrow_Bold="Arial Narrow Bold",
+                BlinkMacSystemFont="BlinkMacSystemFont",
+                Calibri="Calibri",
+                Cambria="Cambria",
+                Cantarell="Cantarell",
+                Cochin="Cochin",
+                Courier="Courier",
+                Courier_New="Courier New",
+                Franklin_Gothic_Medium="Franklin Gothic Medium",
+                Geneva="Geneva",
+                Georgia="Georgia",
+                Gill_Sans="Gill Sans",
+                Gill_Sans_MT="Gill Sans MT",
+                Haettenschweiler="Haettenschweiler",
+                Helvetica="Helvetica",
+                Helvetica_Neue="Helvetica Neue",
+                Impact="Impact",
+                Lucida_Grande="Lucida Grande",
+                Lucida_Sans="Lucida Sans",
+                Lucida_Sans_Regular="Lucida Sans Regular",
+                Lucida_Sans_Unicode="Lucida Sans Unicode",
+                Open_Sans="Open Sans",
+                Oxygen="Oxygen",
+                Roboto="Roboto",
+                Segoe_UI="Segoe UI",
+                Tahoma="Tahoma",
+                Times="Times",
+                Times_New_Roman="Times New Roman",
+                Trebuchet_MS="Trebuchet MS",
+                Ubuntu="Ubuntu",
+                Verdana="Verdana",
+                cursive="cursive",
+                fantasy="fantasy",
+                monospace="monospace",
+                sans_serif="sans-serif",
+                serif="serif";
+            function viewFont(){
+                var val;
+                var vall;
+                var colChoice;
+                var befcolChoice="Times New Roman";
+                var semiiChoice;
+                var disp="inherit";
+                vaal=document.getElementById('baliseColor').value;
+                if (colChoice!="nothing"){befcolChoice=colChoice;};
+                if (vaal=="nothing"){colChoice=befcolChoice;};
+                if (vaal=="ODB"){colChoice="OpenDyslexic-Bold";};
+                if (vaal=="ODI"){colChoice="OpenDyslexic-Italic";};
+                if (vaal=="ODR"){colChoice="OpenDyslexic-Regular";};
+                if (vaal=="ODABI"){colChoice="OpenDyslexic-Alt-a-Bold-Italic";};
+                if (vaal=="ODAB"){colChoice="OpenDyslexic-Alt-a-Bold";};
+                if (vaal=="ODAI"){colChoice="OpenDyslexic-Alt-a-Italic";};
+                if (vaal=="ODAR"){colChoice="OpenDyslexic-Alt-a-Regular";};
+                if (vaal=="ODMR"){colChoice="OpenDyslexic-Mono-Regular";};
+                if (vaal=="BODB"){colChoice="Beta-OpenDyslexic-Bold";};
+                if (vaal=="BODBI"){colChoice="Beta-OpenDyslexic-Bold-Italic";};
+                if (vaal=="BODR"){colChoice="Beta-OpenDyslexic-Regular";};
+                if (vaal=="OD2B"){colChoice="OpenDyslexic2-Bold";};
+                if (vaal=="OD2I"){colChoice="OpenDyslexic2-Italic";};
+                if (vaal=="'OD2BI"){colChoice="OpenDyslexic2-Bold-Italic";};
+                if (vaal=="OD2R"){colChoice="OpenDyslexic2-Regular";};
+                if (vaal=="OD2AB"){colChoice="OpenDyslexic2-Alt-a-Bold";};
+                if (vaal=="OD2ABI"){colChoice="OpenDyslexic2-Alt-a-Bold-Italic";};
+                if (vaal=="OD2AI"){colChoice="OpenDyslexic2-Alt-a-Italic";};
+                if (vaal=="OD2AR"){colChoice="OpenDyslexic2-Alt-a-Regular";};
+                if (vaal=="OD3B"){colChoice="OpenDyslexic3-Bold";};
+                if (vaal=="OD3R"){colChoice="OpenDyslexic3-Regular";};
+                if (vaal=="ODM"){colChoice="OpenDyslexic-Mono";};
+                if (vaal=="current_font"){colChoice="current_font";};
+                if (vaal=="nothing"){colChoice="nothing";};
+                if (vaal=="_apple_system"){colChoice="-apple-system";};
+                if (vaal=="Arial"){colChoice="Arial";};
+                if (vaal=="Arial_Narrow"){colChoice="Arial Narrow";};
+                if (vaal=="Arial_Narrow_Bold"){colChoice="Arial Narrow Bold";};
+                if (vaal=="BlinkMacSystemFont"){colChoice="BlinkMacSystemFont";};
+                if (vaal=="Calibri"){colChoice="Calibri";};
+                if (vaal=="Cambria"){colChoice="Cambria";};
+                if (vaal=="Cantarell"){colChoice="Cantarell";};
+                if (vaal=="Cochin"){colChoice="Cochin";};
+                if (vaal=="Courier"){colChoice="Courier";};
+                if (vaal=="Courier_New"){colChoice="Courier New";};
+                if (vaal=="Franklin_Gothic_Medium"){colChoice="Franklin Gothic Medium";};
+                if (vaal=="Geneva"){colChoice="Geneva";};
+                if (vaal=="Georgia"){colChoice="Georgia";};
+                if (vaal=="Gill_Sans"){colChoice="Gill Sans";};
+                if (vaal=="Gill_Sans_MT"){colChoice="Gill Sans MT";};
+                if (vaal=="Haettenschweiler"){colChoice="Haettenschweiler";};
+                if (vaal=="Helvetica"){colChoice="Helvetica";};
+                if (vaal=="Helvetica_Neue"){colChoice="Helvetica Neue";};
+                if (vaal=="Impact"){colChoice="Impact";};
+                if (vaal=="Lucida_Grande"){colChoice="Lucida Grande";};
+                if (vaal=="Lucida_Sans"){colChoice="Lucida Sans";};
+                if (vaal=="Lucida_Sans_Regular"){colChoice="Lucida Sans Regular";};
+                if (vaal=="Lucida_Sans_Unicode"){colChoice="Lucida Sans Unicode";};
+                if (vaal=="Open_Sans"){colChoice="Open Sans";};
+                if (vaal=="Oxygen"){colChoice="Oxygen";};
+                if (vaal=="Roboto"){colChoice="Roboto";};
+                if (vaal=="Segoe_UI"){colChoice="Segoe UI";};
+                if (vaal=="Tahoma"){colChoice="Tahoma";};
+                if (vaal=="Times"){colChoice="Times";};
+                if (vaal=="Times_New_Roman"){colChoice="Times New Roman";};
+                if (vaal=="Trebuchet_MS"){colChoice="Trebuchet MS";};
+                if (vaal=="Ubuntu"){colChoice="Ubuntu";};
+                if (vaal=="Verdana"){colChoice="Verdana";};
+                if (vaal=="cursive"){colChoice="cursive";};
+                if (vaal=="fantasy"){colChoice="fantasy";};
+                if (vaal=="monospace"){colChoice="monospace";};
+                if (vaal=="sans_serif"){colChoice="sans-serif";};
+                if (vaal=="serif"){colChoice="serif";};
+//"                if (vaal==\"{}\"){}colChoice=\"{}\";{}".format(vars[i],chr(123),fontss[i],chr(125))
+
+                document.querySelector("body").style.fontFamily=colChoice;
+            };
+        </script>
+        <style>
+            p{
+                font-family: '-apple-system', 'Arial', 'Arial Narrow', 'Arial Narrow Bold', 'BlinkMacSystemFont', 'Calibri', 'Cambria', 'Cantarell', 'Cochin', 'Courier', 'Courier New', 'Franklin Gothic Medium', 'Geneva', 'Georgia', 'Gill Sans', 'Gill Sans MT', 'Haettenschweiler', 'Helvetica', 'Helvetica Neue', 'Impact', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', 'Open Sans', 'Oxygen', 'Roboto', 'Segoe UI', 'Tahoma', 'Times', 'Times New Roman', 'Trebuchet MS', 'Ubuntu', 'Verdana', 'cursive', 'fantasy', 'inherit', 'initial', 'monospace', 'sans-serif', 'serif', 'unset';
+            }
+            .taable{
+                border-color: black, 3px;
+                color: black;
+                background-color: black;
+                
+            }
+            .caption{font-weight: bold;border-color: black, 3px;background-color: aliceblue;}
+            .tr{background-color: aliceblue;}
+            #td{border-collapse: collapse;}
+            .current_font{font-family: "Times New Roman";}
+            .sampleODB{font-family:"OpenDyslexic-Bold";}
+            .sampleODI{font-family:"OpenDyslexic-Italic";}
+            .sampleODBI{font-family: "OpenDyslexic-Bold-Italic";}
+            .sampleODR{font-family:"OpenDyslexic-Regular";}
+            .sampleODABI{font-family:"OpenDyslexic-Alt-a-Bold-Italic";}
+            .sampleODAB{font-family:"OpenDyslexic-Alt-a-Bold";}
+            .sampleODAI{font-family:"OpenDyslexic-Alt-a-Italic";}
+            .sampleODAR{font-family:"OpenDyslexic-Alt-a-Regular";}
+            .sampleODMR{font-family:"OpenDyslexic-Mono-Regular";}
+            .sampleBODB{font-family:"Beta-OpenDyslexic-Bold";}
+            .sampleBODBI{font-family:"Beta-OpenDyslexic-Bold-Italic";}
+            .sampleBODR{font-family:"Beta-OpenDyslexic-Regular";}
+            .sampleOD2B{font-family:"OpenDyslexic2-Bold";}
+            .sampleOD2I{font-family:"OpenDyslexic2-Italic";}
+            .sampleOD2BI{font-family:"OpenDyslexic2-Bold-Italic";}
+            .sampleOD2R{font-family:"OpenDyslexic2-Regular";}
+            .sampleOD2AB{font-family:"OpenDyslexic2-Alt-a-Bold";}
+            .sampleOD2ABI{font-family:"OpenDyslexic2-Alt-a-Bold-Italic";}
+            .sampleOD2AI{font-family:"OpenDyslexic2-Alt-a-Italic";}
+            .sampleOD2AR{font-family:"OpenDyslexic2-Alt-a-Regular";}
+            .sampleOD3B{font-family:"OpenDyslexic3-Bold";}
+            .sampleOD3R{font-family:"OpenDyslexic3-Regular";}
+            .sampleODM{font-family:"OpenDyslexic-Mono";}
+            ._apple_system{font-family:"-apple-system";}
+            .Arial{font-family:"Arial";}
+            .Arial_Narrow{font-family:"Arial Narrow";}
+            .Arial_Narrow_Bold{font-family:"Arial Narrow Bold";}
+            .BlinkMacSystemFont{font-family:"BlinkMacSystemFont";}
+            .Calibri{font-family:"Calibri";}
+            .Cambria{font-family:"Cambria";}
+            .Cantarell{font-family:"Cantarell";}
+            .Cochin{font-family:"Cochin";}
+            .Courier{font-family:"Courier";}
+            .Courier_New{font-family:"Courier New";}
+            .Franklin_Gothic_Medium{font-family:"Franklin Gothic Medium";}
+            .Geneva{font-family:"Geneva";}
+            .Georgia{font-family:"Georgia";}
+            .Gill_Sans{font-family:"Gill Sans";}
+            .Gill_Sans_MT{font-family:"Gill Sans MT";}
+            .Haettenschweiler{font-family:"Haettenschweiler";}
+            .Helvetica{font-family:"Helvetica";}
+            .Helvetica Neue{font-family:"Helvetica Neue";}
+            .Impact{font-family:"Impact";}
+            .Lucida_Grande{font-family:"Lucida Grande";}
+            .Lucida_Sans{font-family:"Lucida Sans";}
+            .Lucida_Sans_Regular{font-family:"Lucida Sans Regular";}
+            .Lucida_Sans_Unicode{font-family:"Lucida Sans Unicode";}
+            .Open_Sans{font-family:"Open Sans";}
+            .Oxygen{font-family:"Oxygen";}
+            .Roboto{font-family:"Roboto";}
+            .Segoe_UI{font-family:"Segoe UI";}
+            .Tahoma{font-family:"Tahoma";}
+            .Times{font-family:"Times";}
+            .Times_New_Roman{font-family:"Times New Roman";}
+            .Trebuchet_MS{font-family:"Trebuchet MS";}
+            .Ubuntu{font-family:"Ubuntu";}
+            .Verdana{font-family:"Verdana";}
+            .cursive{font-family:"cursive";}
+            .fantasy{font-family:"fantasy";}
+            .inherit{font-family:"inherit";}
+            .initial{font-family:"initial";}
+            .monospace{font-family:"monospace";}
+            .sans_serif{font-family:"sans-serif";}
+            .serif{font-family:"serif";}
+            .unset{font-family:"unset";}
+            #e{
+                font-family: 'Courier New', Courier, monospace;
+            }
+        </style>
+        <div class="main_container">
+            <div class="Buton">
+                <div class="container">
+                    <p>Afficher</p>
+                </div>
+            </div>
+            <div class="side_container">
+                <p><h1>Page settings:</h1></p>
+                <button onclick="st()">ee</button>
+                <p id="hei">height</p>
+                <p>Aa=<input class="textBox" type="number" id="fsize" onchange="h()" min=0 step=1></input></p>
+                <div class="choice">
+                    <div class="ppvx_dropdown">
+                        <select id="baliseColor" class="ppvx_dropdown__control" onchange="viewFont();">
+                            <option class="current_font" value="nothing">Rien (Police par défaut)</option>
+                            <option class="current_font"value="current_font">---------------- 2018 -------------------</option>
+                            <option class="sampleODB" value="ODB">Open Dyslexic Bold</option>
+                            <option class="sampleODI" value="ODI">Open Dyslexic Italic</option>
+                            <option class="sampleODR" value="ODR">Open Dyslexic Regular</option>
+                            <option class="sampleODBI" value="ODBI">Open Dyslexic Bold Italic</option>
+                            <option class="sampleODABI" value="ODABI">Open Dyslexic Alta Bold Italic</option>
+                            <option class="sampleODAB" value="ODAB">Open Dyslexic Alta Bold</option>
+                            <option class="sampleODAI" value="ODAI">Open Dyslexic OpenDyslexic Alta Italic</option>
+                            <option class="sampleODAR" value="ODAR">Open Dyslexic Alta Regular</option>
+                            <option class="sampleODMR" value="ODMR">Open Dyslexic Mono Regular</option>
+                            <option class="current_font" value="current_font">---------------- 2020 -------------------</option>
+                            <option class="sampleBODB" value="BODB">Beta Open Dyslexic Bold</option>
+                            <option class="sampleBODBI" value="BODBI">Beta Open Dyslexic Bold Italic</option>
+                            <option class="sampleBODR" value="BODR">Beta Open Dyslexic Regular</option>
+                            <option class="sampleOD2B" value="OD2B">Open Dyslexic2 Bold</option>
+                            <option class="sampleOD2I" value="OD2I">Open Dyslexic2 Italic</option>
+                            <option class="sampleOD2BI" value="OD2BI">Open Dyslexic2 Bold Italic</option>
+                            <option class="sampleOD2R" value="OD2R">Open Dyslexic2 Regular</option>
+                            <option class="sampleOD2AB" value="OD2AB">Open Dyslexic2 Alta Bold</option>
+                            <option class="sampleOD2ABI" value="OD2ABI">Open Dyslexic2 Alta Bold Italic</option>
+                            <option class="sampleOD2AI" value="OD2AI">Open Dyslexic2 Alta Italic</option>
+                            <option class="sampleOD2AR" value="OD2AR">Open Dyslexic2 Alta Regular</option>
+                            <option class="sampleOD3B" value="OD3B">Open Dyslexic3 Bold</option>
+                            <option class="sampleOD3R" value="OD3R">Open Dyslexic3 Regular</option>
+                            <option class="sampleODM" value="ODM">Open Dyslexic Mono</option>
+                            <option class="current_font" value="current_font">---------------- Polices Habituelles -------------------</option>
+                            <option class="_apple_system" value="_apple_system">-apple-system</option>
+                            <option class="Arial" value="Arial">Arial</option>
+                            <option class="Arial_Narrow" value="Arial_Narrow">Arial Narrow</option>
+                            <option class="Arial_Narrow_Bold" value="Arial_Narrow_Bold">Arial Narrow Bold</option>
+                            <option class="BlinkMacSystemFont" value="BlinkMacSystemFont">BlinkMacSystemFont</option>
+                            <option class="Calibri" value="Calibri">Calibri</option>
+                            <option class="Cambria" value="Cambria">Cambria</option>
+                            <option class="Cantarell" value="Cantarell">Cantarell</option>
+                            <option class="Cochin" value="Cochin">Cochin</option>
+                            <option class="Courier" value="Courier">Courier</option>
+                            <option class="Courier_New" value="Courier_New">Courier New</option>
+                            <option class="Franklin_Gothic_Medium" value="Franklin_Gothic_Medium">Franklin Gothic Medium</option>
+                            <option class="Geneva" value="Geneva">Geneva</option>
+                            <option class="Georgia" value="Georgia">Georgia</option>
+                            <option class="Gill_Sans" value="Gill_Sans">Gill Sans</option>
+                            <option class="Gill_Sans_MT" value="Gill_Sans_MT">Gill Sans MT</option>
+                            <option class="Haettenschweiler" value="Haettenschweiler">Haettenschweiler</option>
+                            <option class="Helvetica" value="Helvetica">Helvetica</option>
+                            <option class="Helvetica Neue" value="Helvetica_Neue">Helvetica Neue</option>
+                            <option class="Impact" value="Impact">Impact</option>
+                            <option class="Lucida_Grande" value="Lucida_Grande">Lucida Grande</option>
+                            <option class="Lucida_Sans" value="Lucida_Sans">Lucida Sans</option>
+                            <option class="Lucida_Sans_Regular" value="Lucida_Sans_Regular">Lucida Sans Regular</option>
+                            <option class="Lucida_Sans_Unicode" value="Lucida_Sans_Unicode">Lucida Sans Unicode</option>
+                            <option class="Open_Sans" value="Open_Sans">Open Sans</option>
+                            <option class="Oxygen" value="Oxygen">Oxygen</option>
+                            <option class="Roboto" value="Roboto">Roboto</option>
+                            <option class="Segoe_UI" value="Segoe_UI">Segoe UI</option>
+                            <option class="Tahoma" value="Tahoma">Tahoma</option>
+                            <option class="Times" value="Times">Times</option>
+                            <option class="Times_New_Roman" value="Times_New_Roman">Times New Roman</option>
+                            <option class="Trebuchet MS" value="Trebuchet_MS">Trebuchet MS</option>
+                            <option class="Ubuntu" value="Ubuntu">Ubuntu</option>
+                            <option class="Verdana" value="Verdana">Verdana</option>
+                            <option class="cursive" value="cursive">cursive</option>
+                            <option class="fantasy" value="fantasy">fantasy</option>
+                            <!-- <option class="inherit" value="inherit">inherit</option> -->
+                            <!-- <option class="initial" value="initial">initial</option> -->
+                            <option class="monospace" value="monospace">monospace</option>
+                            <option class="sans_serif" value="sans_serif">sans-serif</option>
+                            <option class="serif" value="serif">serif</option>
+                            <!-- <option class="unset" value="unset">unset</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- "                        <option value=\"{}\" style=\"font-family: {};\">{}</option>".format(font[i],font[i],font[i]) -->
+        <br>
+        <table class="taable">
+            <tr class="tr">
+                <th colspan="3">Font Testing:</th>
+            </tr>
+            <tr class="tr">
+                <th id="td">Font name:</th>
+                <th id="td"></th>
+                <th id="td">Appearance</th>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODB">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODR">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Bold-Italic</td>
+                <td id="td"  class="current_font">:</td>
+                <td id="td" class="sampleODBI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Alt-a-bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODAB">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Alt-a-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODAI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Alt-a-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODAR">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Alt-a-Bold-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODABI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Mono-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODMR">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">Beta-OpenDyslexic-Bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleBODB">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">Beta-OpenDyslexic-Bold-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleBODBI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">Beta-OpenDyslexic-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleBODR">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2B">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2I">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Bold-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2BI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2R">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Alt-a-Bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2AB">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Alt-a-Bold-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2ABI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Alt-a-Italic</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2AI">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic2-Alt-a-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD2AR">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic3-Bold</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD3B">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic3-Regular</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleOD3R">Sample Text</td>
+            </tr>
+            <tr class="tr">
+                <td id="td" class="current_font">OpenDyslexic-Mono</td>
+                <td id="td" class="current_font">:</td>
+                <td id="td" class="sampleODM">Sample Text</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+
+<!-- '-apple-system', 'Arial', 'Arial', 'Arial', 'Arial Narrow', 'Arial Narrow Bold', 'BlinkMacSystemFont', 'Calibri', 'Cambria', 'Cantarell', 'Cochin', 'Courier', 'Courier New', 'Franklin Gothic Medium', 'Geneva', 'Geneva', 'Geneva', 'Georgia', 'Georgia', 'Gill Sans', 'Gill Sans MT', 'Haettenschweiler', 'Helvetica', 'Helvetica Neue', 'Impact', 'Lucida Grande', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', 'Lucida Sans Unicode', 'Open Sans', 'Oxygen', 'Roboto', 'Segoe UI', 'Segoe UI', 'Tahoma', 'Tahoma', 'Times', 'Times', 'Times', 'Times New Roman', 'Times New Roman', 'Times New Roman', 'Trebuchet MS', 'Trebuchet MS', 'Ubuntu', 'Verdana', 'Verdana', 'Verdana', 'cursive', 'fantasy', 'inherit', 'initial', 'monospace', 'monospace', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'sans-serif', 'serif', 'serif', 'serif', 'serif', 'unset' -->
+<!-- 
+vars=["ODB","ODI","ODR","ODABI","ODAI","ODAR","ODMR","BODB","BODBI","BODR","OD2B","OD2I","OD2R","OD2AB","OD2ABI","OD2AI","OD2AR","OD3B","OD3R","ODM","current_font","nothing","_apple_system","Arial","Arial_Narrow","Arial_Narrow_Bold","BlinkMacSystemFont","Calibri","Cambria","Cantarell","Cochin","Courier","Courier_New","Franklin_Gothic_Medium","Geneva","Georgia","Gill_Sans","Gill_Sans_MT","Haettenschweiler","Helvetica","Helvetica_Neue","Impact","Lucida_Grande","Lucida_Sans","Lucida_Sans_Regular","Lucida_Sans_Unicode","Open_Sans","Oxygen","Roboto","Segoe_UI","Tahoma","Times","Times_New_Roman","Trebuchet_MS","Ubuntu","Verdana","cursive","fantasy","monospace","sans_serif","serif"]
+fontss=['OpenDyslexic-Bold','OpenDyslexic-Italic','OpenDyslexic-Regular','OpenDyslexic-Alt-a-Bold-Italic','OpenDyslexic-Alt-a-Italic','OpenDyslexic-Alt-a-Regular','OpenDyslexic-Mono-Regular','Beta-OpenDyslexic-Bold','Beta-OpenDyslexic-Bold-Italic','Beta-OpenDyslexic-Regular','OpenDyslexic2-Bold','OpenDyslexic2-Italic','OpenDyslexic2-Regular','OpenDyslexic2-Alt-a-Bold','OpenDyslexic2-Alt-a-Bold-Italic','OpenDyslexic2-Alt-a-Italic','OpenDyslexic2-Alt-a-Regular','OpenDyslexic3-Bold','OpenDyslexic3-Regular','OpenDyslexic-Mono',"current_font","nothing","-apple-system","Arial","Arial Narrow","Arial Narrow Bold","BlinkMacSystemFont","Calibri","Cambria","Cantarell","Cochin","Courier","Courier New","Franklin Gothic Medium","Geneva","Georgia","Gill Sans","Gill Sans MT","Haettenschweiler","Helvetica","Helvetica Neue","Impact","Lucida Grande","Lucida Sans","Lucida Sans Regular","Lucida Sans Unicode","Open Sans","Oxygen","Roboto","Segoe UI","Tahoma","Times","Times New Roman","Trebuchet MS","Ubuntu","Verdana","cursive","fantasy","monospace","sans-serif","serif"] -->
