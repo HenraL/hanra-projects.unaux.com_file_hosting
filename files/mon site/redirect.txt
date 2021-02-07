@@ -1,0 +1,27 @@
+timeout redirection:
+
+<html>
+  <head>
+    <script type="text/javascript">
+      function RedirectionJavascript(){
+        document.location.href="http://manouvellepage.com";
+      }
+   </script>
+  </head>
+  <body onLoad="setTimeout('RedirectionJavascript()', 2000)">
+     <div>Dans 2 secondes vous allez être redirigé vers http://manouvellepage.com</div>
+  </body>
+</html>
+
+onclick redirection:
+inner html redirection
+<input name="bouton_terminer" type="button" value="Terminer" 
+    onclick="document.location.href='http://manouvellepage.com'">
+with js redireciton:
+<script>
+function RedirectionJavascript(){
+  document.location.href="http://manouvellepage.com"; 
+}
+</script>
+<input name="bouton_terminer" type="button" value="Terminer"
+    onclick="RedirectionJavascript()">
