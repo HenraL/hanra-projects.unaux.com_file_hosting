@@ -1,0 +1,29 @@
+1	Message 		Entrez votre message:
+2	DelayLetter		Donnez le délais entre chaque lettre: 
+3	DelayWord		Donnez le délais entre chaque mot:
+4	TitleText		Entrez le le texte à afficher dans le titre:
+5	ButtonText		Entrez Le texte à afficher dans le boutton: 
+6	BGColor 		Choisissez la couleur d'arrière-plan de la boite: 
+7	BGButtonColor   	Choisissez la couleur d'arrière-plan du boutton: 
+8	ButtonTextColor 	Choisissez la couleur du texte du boutton:
+9	BGMessageColor  	Choisissez la couleur d'arrière-plan de la boite contenant le message: 
+10	MessageTextColor	Choisissez la couleur du texte du message: 
+11	BGTitleColor		Choisissez la couleur d'arrière-plan du titre:
+12	TitleTextColor		Choisissez la couleur du texte du titre:
+0	nothing			Quelques paramètres du texte du message:
+13	MessageBold		Gras
+14	MessageItalic		Italique
+15	MessageDecoration	Souligné
+16	MessageFontSize		Taille du texte:
+0	Nothing 		Quelques paramètres du texte du titre:
+17	TitleBold		Gras
+18	TitleItalic		Italique
+19	TitleDecoration		Souligné
+20	TitleFontSize		Taille du texte:
+0	Nothing 		Quelques paramètres du texte du Boutton:
+21	ButtonBold		Gras
+22	ButtonItalic		Italique
+23	ButtonDecoration	Souligné
+24	ButtonFontSize		Taille du texte:
+ID's:
+'GivenMessage','inWord','inSentence','TitleText','ButtonText','Background-color_Box','Background-color_Button','FG-color_Button','Background-color_MSBox','Message-color','TitleBG-color','Title-color','MBold','MItalic','Munderline','fontSizeM','TBold','TItalic','Tunderline','fontSizeT','BBold','BItalic','Bunderline','fontSizeB'

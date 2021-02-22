@@ -1,0 +1,142 @@
+:root{
+    /* global vars */
+    --full-radius:100%;
+    --no-radius:0%;
+    /* head width */
+    --head-width:272px;
+    --head-height:var(--head-width);
+    /* eye box */
+    --eyes-main-width: 272px;
+    --eyes-main-height: 69px;
+    /* eye 1 */
+    --eye1-width:62px;
+    --eye1-height:var(--eye1-width);
+    /* eye2 */
+    --eye2-width:var(--eye1-width);
+    --eye2-height:var(--eye1-width);
+    /* eye box padding */
+    --Top-width:10px;
+    --Top-height:32px;
+    /* eye padding */
+    --bef-eye1-padding-left:44px;
+    --eye-padding-left:62px;
+    /* gap between the top and middle box */
+    --gap-top-mid-width:26px;
+    --gap-top-mid-height:var(--gap-top-mid-width);
+    --gap-top-mid-bg:blueviolet;
+    /* padding before nose */
+    --mid-n-padding:50px;
+    /* size box Mid */
+    --size-mid-width:50px;
+    --size-mid-height:var(--size-mid-width);
+    --bg-mid:cyan;
+    /* nose properties */
+    --nose-radius:50px;
+    --border-nose:groove 3px black;
+    --boder-color-nose:black;
+    --bg-color-nose:transparent;
+    /* gap between the middle and bottom box */
+    --gap-mid-bot-width:50px;
+    --gap-mid-bot-height:var(--gap-mid-bot-width);
+    --gap-mid-bot-bg:chartreuse;
+    /* size box bottom */
+    --size-bot-width:50px;
+    --size-bot-height:var(--size-mid-width);
+    --bot-bg:coral;
+    /* mouth customisation */
+    --bg-color-mouth:gold;
+    --width-mouth:50px;
+    --height-mouth:40px;
+}
+#backgroundpage{
+    background-color: black;
+    color:white;
+}
+#ms,#message,#shsf,#textsadface{display: none;}
+#center{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+#head{
+    border-color: black;
+    border-width: 3px;
+    /* border: 3px,white, groove; */
+    background-color:rgb(231, 201, 31);
+    border-radius: var(--full-radius);
+    width: var(--head-width);
+    height: var(--head-height);
+}
+#Top{
+    width:var(--Top-width);
+    height: var(--Top-height);
+    display: block;
+    /* background-color: aqua; */
+}
+#eyes{
+    display: flex;
+    flex-wrap: nowrap;
+    border-color: transparent;
+    background-color: transparent /*blue*/;
+    /* border: groove,aqua,5px; */
+    border-radius: var(--no-radius);
+    width: var(--eyes-main-width);
+    height: var(--eyes-main-height);
+}
+#eye1,#eye2{
+    border-color: black;
+    background-color: white;
+    border-radius: var(--full-radius);
+}
+#befeye1{
+    padding-left: var(--bef-eye1-padding-left);
+    background-color: transparent;
+    border-color: transparent;
+}
+#eye1{
+    width: var(--eye1-width);
+    height: var(--eye1-height);
+}
+#eyepadding{
+    padding-left: var(--eye-padding-left);
+    background-color: transparent;
+    border-color: transparent;
+}
+#eye2{
+    width: var(--eye2-width);
+    height: var(--eye2-height);
+}
+#gaptopmid{
+    background-color: var(--gap-top-mid-bg);
+    width: var(--gap-top-mid-width);
+    height: var(--gap-top-mid-height);
+}
+#Middle{
+    background-color: var(--bg-mid);
+    width: var(--size-mid-width);
+    height: var(--size-mid-height);
+}
+#padding{
+    padding-left: var(--mid-n-padding);
+}
+#nose{
+    border-radius: var(--nose-radius);
+    border: var(--border-nose);
+    /* border-color: var(--boder-color-nose); */
+    background-color: var(--bg-color-nose);
+}
+#gapmidbot{
+    background-color: var(--gap-mid-bot-bg);
+    width: var(--gap-mid-bot-width);
+    height: var(--gap-mid-bot-height);
+}
+#Bottom{
+    background-color:var(--bot-bg);
+    width: var(--size-bot-width);
+    height: var(--size-bot-height);
+}
+#mouth{
+    background-color: var(--bg-color-mouth);
+    width: var(--width-mouth);
+    height: var(--height-mouth);
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hanra Projects - Remerciements Bac</title>
+        <link rel="canonical" href="http://hanra-projects.unaux.com/" />
+        <link rel="stylesheet" href="css/stylesheet.css"/>
+        <script src="http://hanra-projects.unaux.com/side_add_ons/js/head2.js"></script>
+        <script src="js/sleep.js" type="text/javascript"></script>
+        <script src="js/script.js" type="text/javascript"></script>
+        <script src="js/message_creator.js" type="text/javascript"></script>
+        <!-- <script src="E:/Henry PC/Documents/001 Github prog Sharing/hanra-projects.unaux.com_file_hosting/files/mon site/side_add_ons/js/links/sorter.js" type="text/javascript"></script>var orders=initialise_tracking(); -->
+        <!-- <script src="js/actions.js" type="text/javascript"></script> -->
+    </head>
+    
+    <body>
+        <script src="js/actions.js" type="text/javascript"></script>
+        <div id="Nothing"><p>Nothing to declare:<a href="http://www.hanra-projects.unaux.com">Take me back home</a></p></div>
+        <div id="messages">
+            <div id="message_for_Irina">
+                <p>Message &agrave; l'intention d'Irina Marchand: <button onclick="playMessageI(100,200)">Afficher le Message</button></p>
+                <br>
+                <div id="messageBoxI">
+                    <span id="MCI">...</span>
+                </div>
+                <br>
+                <br>
+            </div>
+            <div id="CYOMessage">
+                <p>Créez vos propres messages:</p>
+                <br>
+                <p>Entrez votre message: <input type="text" id="GivenMessage" placeholder="Mon<br>Message"/> (entrez <&sol;;br> pour avoir un retour &agrave; la ligne, entrez &amp;Tab&semi; pour une tabulation)</p>
+                <p>Donnez le d&eacute;lais entre chaque lettre: <input type="number" min="0" max="31536000000" step="1" id="inWord"/> ms (Valeur maximale: 31536000000 (1 an)</p>
+                <p>Donnez le d&eacute;lais entre chaque mot: <input type="number" min="0" max="31536000000" step="1" id="inSentence"/> ms (Valeur maximale: 31536000000 (1 an)</p>
+                <p>Entrez le le texte &agrave; afficher dans le titre: <input type="text" id="TitleText" placeholder="Mon Titre<br>Mon explication (optionel)"/> (entrez <&sol;;br> pour avoir un retour &agrave; la ligne)</p>
+                <p>Entrez Le texte &agrave; afficher dans le boutton: <input type="text" id="ButtonText" placeholder="Afficher Message"/></p>
+                <p>Param&egrave;tres avanc&eacute;s:<label class="switch">
+                    <input type="checkbox" onchange="ShowHideA()" id="SHADVS" checked><!--checked-->
+                    <span class="slider round"></span>
+                  </label></p>
+                <div id="advanced_settings">
+                    <p>Choisissez la couleur d'arri&egrave;re-plan de la boite: <input type="color" id="Background-color_Box"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur d'arri&egrave;re-plan du boutton: <input type="color" id="Background-color_Button"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur du texte du boutton: <input type="color" id="FG-color_Button"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur d'arri&egrave;re-plan de la boite contenant le message: <input type="color" id="Background-color_MSBox"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur du texte du message: <input type="color" id="Message-color"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur d'arri&egrave;re-plan du titre: <input type="color" id="TitleBG-color"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Choisissez la couleur du texte du titre: <input type="color" id="Title-color"/> (couleur par d&eacute;faut: Blanc)</p>
+                    <p>Quelques param&egrave;tres du texte du message:</p>
+                    <p><input type="checkbox" id="MBold" onchange="Preview('MBold','MItalic','Munderline','fontSizeM','MPreview')"/> Gras <input type="checkbox" id="MItalic" onchange="Preview('MBold','MItalic','Munderline','fontSizeM','MPreview')"/> Italique <input type="checkbox" id="Munderline" onchange="Preview('MBold','MItalic','Munderline','fontSizeM','MPreview')"/> Soulign&eacute;</p>
+                    <p>Taille du texte: <input type="number" min="1" step="1" id="fontSizeM" onchange="Preview('MBold','MItalic','Munderline','fontSizeM','MPreview')"/>px.</p>
+                    <p id="MPreview">Text Example</p>
+                    <p>Quelques param&egrave;tres du texte du titre:</p>
+                    <p><input type="checkbox" id="TBold" onchange="Preview('TBold','TItalic','Tunderline','fontSizeT','TPreview')"/> Gras <input type="checkbox" id="TItalic" onchange="Preview('TBold','TItalic','Tunderline','fontSizeT','TPreview')"/> Italique <input type="checkbox" id="Tunderline" onchange="Preview('TBold','TItalic','Tunderline','fontSizeT','TPreview')"/> Soulign&eacute;</p>
+                    <p>Taille du texte: <input type="number" min="1" step="1" id="fontSizeT" onchange="Preview('TBold','TItalic','Tunderline','fontSizeT','TPreview')"/>px.</p>
+                    <p id="TPreview">Text Example</p>
+                    <p>Quelques param&egrave;tres du texte du Boutton:</p>
+                    <p><input type="checkbox" id="BBold" onchange="Preview('BBold','BItalic','Bunderline','fontSizeB','BPreview')"/> Gras <input type="checkbox" id="BItalic" onchange="Preview('BBold','BItalic','Bunderline','fontSizeB','BPreview')"/> Italique <input type="checkbox" id="Bunderline" onchange="Preview('BBold','BItalic','Bunderline','fontSizeB','BPreview')"/> Soulign&eacute;</p>
+                    <p>Taille du texte: <input type="number" min="1" step="1" id="fontSizeB" onchange="Preview('BBold','BItalic','Bunderline','fontSizeB','BPreview')"/>px.</p>
+                    <p id="BPreview">Text Example</p>
+                </div>
+                <p><button onclick="GenCode('GivenMessage','inWord','inSentence','TitleText','ButtonText','Background-color_Box','Background-color_Button','FG-color_Button','Background-color_MSBox','Message-color','TitleBG-color','Title-color','MBold','MItalic','Munderline','fontSizeM','TBold','TItalic','Tunderline','fontSizeT','BBold','BItalic','Bunderline','fontSizeB','Preview_Area')">G&eacute;n&eacute;rer code</button><button onclick="GenPreview('GivenMessage','inWord','inSentence','TitleText','ButtonText','Background-color_Box','Background-color_Button','FG-color_Button','Background-color_MSBox','Message-color','TitleBG-color','Title-color','MBold','MItalic','Munderline','fontSizeM','TBold','TItalic','Tunderline','fontSizeT','BBold','BItalic','Bunderline','fontSizeB')">G&eacute;n&eacute;rer Apper&ccedil;u</button></p>
+                <div id="Preview_Area"></div>
+                <div id="Code_Area"></div>
+                <div id="How_To_Link"></div>
+                <script type="text/javascript">init_creator_vals()</script>
+            </div>
+        </div>
+        <div id="sleep">
+            <table>
+                <thead>
+                    <th>Avaidable modules:</th>
+                </thead>
+                <tbody id="AModules"></tbody>
+            </table>
+            <p>Délais:</p>
+            <p>Type de boucle: <input type="number" min="0" max="2" step="1" id="function"/></p>
+            <p>Temps (en ms): <input type="number" min="0" max="31536000000" step="1" id="time"/></p>
+            <button onclick="start()">Attendre</button>
+            <p>Résultat:<br><span id="w1">...</span><span id="w2">...</span><span id="w3">...</span></p>
+            <script type="text/javascript">avaidable_modules()</script>
+        </div>
+        
+        <div id="cesar">
+            <p>Codeur: Langage César</p>
+            <p>Entrez Message à coder:<input type="text" id="message" /></p>
+            <p><input type="number" min="0" max="25" step="1" id="start" onchange="show_letter('start','current_letter')"/><span id="current_letter"></span><button onclick="generate('code','start','message','coded_result')">Coder</button><button onclick="generate('decode','start','message','coded_result')">Décoder</button></p>
+            <p>Result: <br><span id="coded_result"></span></p>
+            <br>
+            <div id="side_info_cd">
+                <p>Side Info:</p>
+                <p>alphabet={<span id="list_alphabet"></span>}</p>
+                <p>startIndex=<span id="var_startIndex"></span></p>
+                <p>toCode=<span id="var_toCode"></span></p>
+            </div>
+            <script type="text/javascript">init_crypto()</script>
+        </div>
+        <script type="text/javascript">GenCode('GivenMessage','inWord','inSentence','TitleText','ButtonText','Background-color_Box','Background-color_Button','FG-color_Button','Background-color_MSBox','Message-color','TitleBG-color','Title-color','MBold','MItalic','Munderline','fontSizeM','TBold','TItalic','Tunderline','fontSizeT','BBold','BItalic','Bunderline','fontSizeB','Preview_Area')</script>
+        <div id="Code">
+        <pre>
+<!-- <script>
+    var FFF=`<script> -->
+        function initialise(ID){
+            document.getElementById("StyleMainBix").style.backgroundColor=${BGColor};
+            document.getElementById("Title").style.backgroundColor=${BGTitleColor};
+            document.getElementById("Title").style.color=${TitleTextColor};
+            document.getElementById("Title").style.fontWeight=${TitleBold};
+            document.getElementById("Title").style.fontStyle=${TitleItalic};
+            document.getElementById("Title").style.textDecoration=${TitleDecoration};
+            document.getElementById("Title").style.fontSize=${TitleFontSize}"px";
+            document.getElementById("LaunchTextStyle").style.backgroundColor=${BGButtonColor};
+            document.getElementById("LaunchTextStyle").style.color=${ButtonTextColor};
+            document.getElementById("LaunchTextStyle").style.fontWeight=${ButtonBold};
+            document.getElementById("LaunchTextStyle").style.fontStyle=${ButtonItalic};
+            document.getElementById("LaunchTextStyle").style.textDecoration=${ButtonDecoration};
+            document.getElementById("LaunchTextStyle").style.fontSize=${ButtonFontSize}"px";
+            document.getElementById("messageBox").style.backgroundColor=${BGMessageColor};
+            document.getElementById("messageBox").style.color=${MessageTextColor};
+            document.getElementById("messageBox").style.fontWeight=${MessageBold};
+            document.getElementById("messageBox").style.fontStyle=${MessageItalic};
+            document.getElementById("messageBox").style.textDecoration=${MessageDecoration}
+            document.getElementById("messageBox").style.fontSize=${MessageFontSize}"px";
+            
+        }
+        async function playMessage(time1,time2,tYW,IDToWrite){
+            var c="";
+            for (var i=0;i<tYW.length;i++){
+                for (var b=0;b<tYW[i].length;b++){
+                    if (tYW[i][b]==="\n"){
+                        c+='<br>';
+                    } else {
+                        c+=tYW[i][b];
+                    };
+                    document.getElementById(IDToWrite).innerHTML=c;
+                    await sleep(time1);
+                }
+                await sleep(time2);
+            }
+        }
+        function sleep(time) {
+            return new Promise((resolve, reject) => {
+                setTimeout(resolve, time)
+            })
+        }
+        function shred(Message){
+            var word=[],
+            tYW=[];
+            Message+=" ";
+            for (var i=0;i<Message.length;i++){
+                if (Message[i]===" "){
+                    word.push(" ");
+                    tYW.push(word);
+                    word=[];
+                }else if ((Message[i]+Message[i+1]+Message[i+2]+Message[i+3])==="<br>"){
+                    word.push("<br>");
+                    i+=4;
+                } else {
+                    word.push(Message[i]);
+                };
+            };
+        }
+        function Apply_styles(MessageBold,MessageItalic,MessageDecoration,TitleBold,TitleItalic,TitleDecoration,ButtonBold,ButtonItalic,ButtonDecoration){
+            if (MessageBold===true){MessageBold="Bold";} else {MessageBold="normal";};
+            if (MessageItalic===true) {MessageItalic="Italic";} else {MessageItalic="normal";};
+            if (MessageDecoration===true) {MessageDecoration="underline";} else {MessageDecoration="none";};
+            
+            if (TitleBold===true){TitleBold="Bold";} else {TitleBold="normal";};
+            if (TitleItalic===true) {TitleItalic="Italic";} else {TitleItalic="normal";};
+            if (TitleDecoration===true) {TitleDecoration="underline";} else {TitleDecoration="none";};
+            
+            if (ButtonBold===true){ButtonBold="Bold";} else {ButtonBold="normal";};
+            if (ButtonItalic===true) {ButtonItalic="Italic";} else {ButtonItalic="normal";};
+            if (ButtonDecoration===true) {ButtonDecoration="underline";} else {ButtonDecoration="none";};
+            
+        }
+        //&copy; created By Henry Letellier
+    <&sol;script>
+    <<span/>div id="StyleMainBix">
+        <<span/>p id="Title">${TitleText}: <<span/>button id="LaunchTextStyle" onclick="playMessage(${DelayLetter},${DelayWord})">${ButtonText}<&sol;button><&sol;p>
+        <<span/>br>
+        <<span/>div id="messageBox">
+            <<span/>span id="${IDToWrite}">...<&sol;span>
+        <&sol;div>
+        <<span/>br>
+        <<span/>br>
+    <&sol;div>
+    <<span/>script>initialise(${DelayLetter},${DelayWord},${Message},${IDToWrite})<&sol;script>
+    <!-- `; -->
+<!-- </script> -->
+        </pre>
+        </div>
+        <script type="text/javascript">var c=initialise_tracking();Activate(c);</script>
+    </body>
+</html>
