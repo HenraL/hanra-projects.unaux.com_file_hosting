@@ -1,0 +1,100 @@
+/* @import url("http://hanra-projects.unaux.com/side_add_ons/bootstrap_style/bootstrap_dark.css"); */
+/* tr,td{border-color: transparent;} */
+.letter_list,.bullet_list{
+    padding-left: 32px;
+}
+.DDE{
+    list-style-type: none;
+}
+.bullet_list{
+    list-style-type: disc;
+}
+.child_list{
+    list-style-type: circle;
+    padding-left: 32px;
+    margin-left: 54px;
+}
+Docs{
+    font-weight: bold;
+    text-decoration: underline;
+}
+#Right_arrow{
+    font-weight: bold;
+}
+.box{
+    border-width: 2px;
+    border-color: black;
+    border-style: groove;
+    padding: 2px;
+    /* border: 30px,black,groove; */
+}
+.TOP_hoock,.MID_hoock,.BOT_hoock{
+    border-color: transparent;
+    border-style: groove;
+    border-width: 2px;
+    padding: 2px;
+}
+.TOP_hoock{
+    border-top-color:black;
+    border-right-color: black;
+}
+.MID_hoock{
+    border-right-color: black;
+}
+.BOT_hoock{
+    border-right-color: black;
+    border-bottom-color: black;
+}
+td{
+    border-color: black;
+
+}
+#show_hide_chevron{
+    background-image: url("img/black_panther_movement_olympic/OIP.jpg");
+}
+#show_hide_chevron:clicked{
+    transition: all;
+}
+.PDFS{
+    width: 100%;
+    height: 1192px;
+}
+.color_red{
+    color:red;
+}
+.img_boat_statue_width{
+    width:606px;
+    height:442px;
+}
+.img_Doc6EEAHB{
+    width: 494px;
+    height:300px;
+}
+.img_doc7_1{
+    width:500px;
+    height:300px;
+}
+.img_doc7_2{
+    width:224px;
+    height:300px;
+}
+.img_doc7_3{
+    width:200px;
+    height:300px;
+}
+.img_doc7_4{
+    width:300px;
+    height:300px;
+}
+.img_doc7_5{
+    width:300px;
+    height:300px;
+}
+.img_doc7_6{
+    width:374px;
+    height:300px;
+}
+h1{
+    font-weight: bolder;
+    font-family: 'Time New Roman';
+}

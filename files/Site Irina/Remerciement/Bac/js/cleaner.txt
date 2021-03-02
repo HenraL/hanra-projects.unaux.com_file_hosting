@@ -1,0 +1,1414 @@
+a="""<tbody>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/yellow-heart_1f49b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Jaune U+1F49B" title="Emoji Cœur Jaune U+1F49B" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/yellow-heart_1f49b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9658972679322559">
+            </td>
+            <td id="U+1F49B">
+			    💛&nbsp;<b>Cœur jaune</b><br>
+                Un coeur en or. Symbolise un amour sincère et la pureté du coeur. Moins utilisé dans des contextes romantiques, mais plutôt pour le bonheur, l'amitié et la joie de vivre.</td>
+            <td>U+1F49B</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/green-heart_1f49a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cœur Vert Whatsapp U+1F49A" title="Cœur Vert Whatsapp U+1F49A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/green-heart_1f49a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5096111980962799">
+            </td>
+            <td id="U+1F49A">
+			    💚&nbsp;<b>Cœur vert</b><br>
+                Expression de la vie ou d'un mode de vie (par exemple une alimentation saine) ainsi que d'un lien avec la nature. Connu aussi comme un coeur jaloux, il peut indiquer des problèmes relationnels ou l'espoir d'une réconciliation. Souvent utilisé lors du jour irlandais de la Saint Patrick.</td>
+            <td>U+1F49A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/blue-heart_1f499.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Bleu U+1F499" title="Emoji Cœur Bleu U+1F499" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/blue-heart_1f499.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7992609411822822">
+            </td>
+            <td id="U+1F499">
+			    💙&nbsp;<b>Cœur bleu</b><br>
+                Je te fais totalement confiance ! Le cœur bleu représente un amour platonique, la fidélité et l'amitié. Mais aussi : soutien des causes telles que l'autisme, passion des sports d'eau profonde ou expression d'un fétichisme.</td>
+            <td>U+1F499</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/purple-heart_1f49c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Violet U+1F49C" title="Emoji Cœur Violet U+1F49C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/purple-heart_1f49c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7476898974785049">
+            </td>
+            <td id="U+1F49C">
+			    💜&nbsp;<b>Cœur violet</b><br>
+                Expression d'un amour compréhensif et bienvellant. Représente la sympathie et l'assistance. Pour le jour de la fête des mères ou pour donner des nouvelles entre parents et enfants. Utilisé par les amateurs de mode ou les célébrités pour exprimer le glamour ou la richesse. Aux Etats-Unis, c'est un ordre militaire pour les soldats blessés.</td>
+            <td>U+1F49C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-heart_1f5a4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Noir U+1F5A4" title="Emoji Cœur Noir U+1F5A4" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-heart_1f5a4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.039135238906857106">
+            </td>
+            <td id="U+1F5A4">
+			    🖤&nbsp;<b>Cœur Noir</b><br>
+                Le cœur noir indique un sens de l'humour sombre et tortueux. Il peut refléter le côté sombre de l'âme. Il est également utilisé pour exprimer la tristesse et la douleur.</td>
+            <td>U+1F5A4</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/broken-heart_1f494.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Smiley Cœur Brisé U+1F494" title="Smiley Cœur Brisé U+1F494" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/broken-heart_1f494.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9750450015718044">
+            </td>
+            <td id="U+1F494">
+			    💔&nbsp;<b>Cœur brisé</b><br>
+                Je suis terriblement malheureux ! Le cœur rouge brisé exprime la tristesse et la douleur. Son auteur vit un chagrin d'amour.</td>
+            <td>U+1F494</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heavy-heart-exclamation-mark-ornament_2763.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur en Point d'Exclamation U+2763" title="Emoji Cœur en Point d'Exclamation U+2763" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heavy-heart-exclamation-mark-ornament_2763.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6231663730575712">
+            </td>
+            <td id="U+2763">
+			    ❣&nbsp;<b>Cœur en point d'exclamation</b><br>
+                Je suis d'accord ! Un coeur avec point en-dessous dessine un point d'exclamation décoratif. Ce geste vient du coeur et souligne que l'on aime particulièrement quelqu'un ou quelque chose.</td>
+            <td>U+2763</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/two-hearts_1f495.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Deux Cœurs Roses U+1F495" title="Emoji Deux Cœurs Roses U+1F495" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/two-hearts_1f495.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3318351744243062">
+            </td>
+            <td id="U+1F495">
+			    💕&nbsp;<b>Deux coeurs</b><br>
+                Il y a de l'amour dans l'air ! Peu utilisé dans un contexte de passion, plutôt comme décoration. Dans les textes romantiques, cet emoji exprime la sympathie pour quelqu'un ou l'amitié entre filles.</td>
+            <td>U+1F495</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/revolving-hearts_1f49e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cœurs Roses qui tournent U+1F49E" title="Cœurs Roses qui tournent U+1F49E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/revolving-hearts_1f49e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.015729881565281767">
+            </td>
+            <td id="U+1F49E">
+			    💞&nbsp;<b>Cœurs tournant l'un autour de l'autre</b><br>
+                Deux cœurs tournant l'un autour de l'autre représentent l'amour entre deux personnes. Quelqu'un souhaite conquérir ton cœur.</td>
+            <td>U+1F49E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/beating-heart_1f493.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Battant U+1F493" title="Emoji Cœur Battant U+1F493" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/beating-heart_1f493.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7023000583217129">
+            </td>
+            <td id="U+1F493">
+			    💓&nbsp;<b>Cœur qui bat</b><br>
+                Je t'aime tellement ! L'emoji représentant un cœur qui bat symbolise une relation forte et exprime des sentiments intenses pour quelqu'un ou quelque chose. C'est aussi un symbole de vie : un bébé est en route.</td>
+            <td>U+1F493</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/growing-heart_1f497.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Smiley Trois Cœurs Imbriqués U+1F497" title="Smiley Trois Cœurs Imbriqués U+1F497" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/growing-heart_1f497.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6103861534742219">
+            </td>
+            <td id="U+1F497">
+			    💗&nbsp;<b>Cœur qui grandit</b><br>
+                Les trois coeurs l'un dans l'autre représentent un coeur en train de gonfler. Les sentiments deviennent toujours plus profonds, l'amour grandit. Le battement de coeur augmente après une discussion pleine d'émotion ou une expérience forte.</td>
+            <td>U+1F497</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/sparkling-heart_1f496.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cœur Etincelant U+1F496" title="Emoji Cœur Etincelant U+1F496" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/sparkling-heart_1f496.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9045291878365296">
+            </td>
+            <td id="U+1F496">
+			    💖&nbsp;<b>Cœur étincelant</b><br>
+                Tu es vraiment génial ! Un cœur scintillant signifie que quelqu'un est séduit par toi. La persévérance est ici de rigueur !</td>
+            <td>U+1F496</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heart-with-arrow_1f498.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cœur avec Flèche U+1F498" title="Cœur avec Flèche U+1F498" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heart-with-arrow_1f498.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9326860556574692">
+            </td>
+            <td id="U+1F498">
+			    💘&nbsp;<b>Cœur traversé par une flèche</b><br>
+                La flèche de l'amour t'a touché, tu es désormais désespérément amoureux ! Exprime des sentiments romantiques dans les messages. Souvent utilisé au moment de la Saint-Valentin.</td>
+            <td>U+1F498</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heart-with-ribbon_1f49d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cœur avec Ruban U+1F49D" title="Cœur avec Ruban U+1F49D" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heart-with-ribbon_1f49d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5035394300134015">
+            </td>
+            <td id="U+1F49D">
+			    💝&nbsp;<b>Cœur avec ruban</b><br>
+                Tu as gagné mon coeur ! Dans la boîte en forme de coeur avec un ruban, on peut trouver des chocolats ou des bijoux. Populaire pour la Saint-Valentin ou pour les anniversaires. Ou bien quelqu'un t'offre son cœur.</td>
+            <td>U+1F49D</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heart-decoration_1f49f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cœur dans un Cadre U+1F49F" title="Cœur dans un Cadre U+1F49F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heart-decoration_1f49f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.744241334799598">
+            </td>
+            <td id="U+1F49F">
+			    💟&nbsp;<b>Cœur décoratif</b><br>
+                Une variante décorative du symbole cœur. Représente l'amour, l'attention et l'affection de ton interlocuteur.</td>
+            <td>U+1F49F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/peace-symbol_262e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Paix U+262E" title="Symbole Paix U+262E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/peace-symbol_262e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.021954683586280055">
+            </td>
+            <td id="U+262E">
+			    ☮&nbsp;<b>Symbole de paix</b><br>
+                Love, Peace and Harmony. Dans les années 60, un symbole de la protestation contre le nucléaire, aujourd'hui mondialement connu comme symbole de la paix. Peut symboliser l'équilibre intérieur. Une dispute doit être mise de côté ou bien on demande à l'interlocuteur de tchat de se montrer pacifique.</td>
+            <td>U+262E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/star-and-crescent_262a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Etoiles et croissant de lune U+262A" title="Etoiles et croissant de lune U+262A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/star-and-crescent_262a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.32428573449662346">
+            </td>
+            <td id="U+262A">
+			    ☪&nbsp;<b>Etoile et croissant de lune</b><br>
+                Nous partons en Turquie ou “Le ramadan commence“. Hilal (le terme arabe pour indiquer le croissant de la lune montante) et l'étoile à cinq branches composent ensemble un important symbole musulman. On les retrouve sur le drapeau de nombreux pays.</td>
+            <td>U+262A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/om-symbol_1f549.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Om U+1F549" title="Emoji Om U+1F549" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/om-symbol_1f549.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5974234111675356">
+            </td>
+            <td id="U+1F549">
+			    🕉&nbsp;<b>Symbole Om</b><br>
+                „Om“ (un mot sanskrit). Ce mantra est considéré comme sacré dans des religions telles que le bouddhisme ou l'hindouisme. C'est le son originel de la naissance de l'univers. Egalement connu sous le nom de Namaste, cet emoji représente le développement spirituel, la méditation et le yoga.</td>
+            <td>U+1F549</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/wheel-of-dharma_2638.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Roue du Dharma U+2638" title="Emoji Roue du Dharma U+2638" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/wheel-of-dharma_2638.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5012987698719744">
+            </td>
+            <td id="U+2638">
+			    ☸&nbsp;<b>Roue du Dharma</b><br>
+                Roue de l'enseignement. Un signe important dans l'hindouisme et le bouddhisme. Il rappelle les huit chemins de la connaissance et le fait que seul le corps meurt, l'âme demeurant vivante sous une autre forme.</td>
+            <td>U+2638</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/star-of-david_2721.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Etoile de David U+2721" title="Emoji Etoile de David U+2721" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/star-of-david_2721.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.13720959857337411">
+            </td>
+            <td id="U+2721">
+			    ✡&nbsp;<b>Etoile de David</b><br>
+                L'étoile de David est un symbole important du peuple d'Israël et de la religion juive, on le voit donc sur le drapeau national. Il est, le plus souvent, envoyé pour Hanukkah.</td>
+            <td>U+2721</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/six-pointed-star-with-middle-dot_1f52f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Etoile à six branches U+1F52F" title="Symbole Etoile à six branches U+1F52F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/six-pointed-star-with-middle-dot_1f52f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.35826992651519807">
+            </td>
+            <td id="U+1F52F">
+			    🔯&nbsp;<b>Hexagramme avec point</b><br>
+                L'étoile à six branches avec un point en son milieu réunit deux triangles. La symbolique est multiple : les francs-maçons, l'union de l'esprit et la matière, l'expulsion des mauvais esprits et des démons.</td>
+            <td>U+1F52F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/menorah-with-nine-branches_1f54e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Menora U+1F54E" title="Emoji Menora U+1F54E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/menorah-with-nine-branches_1f54e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.08609955693300986">
+            </td>
+            <td id="U+1F54E">
+			    🕎&nbsp;<b>Menora</b><br>
+                Le Hanoukkia est un chandelier à neuf branches que l'on allume seulement lors de la fête juive de Hanouka. Chaque bougie représente l'un des huit jours de la fête. La neuvième chandelle sert à allumer chacune des huit autres.</td>
+            <td>U+1F54E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/yin-yang_262f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Yin et Yang U+262F" title="Emoji Yin et Yang U+262F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/yin-yang_262f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9084155136674832">
+            </td>
+            <td id="U+262F">
+			    ☯&nbsp;<b>Yin et Yang</b><br>
+                L'émoji Yin et Yang indique l'interdépendance entre des concepts apparemment contradictoires, comme le sont le corps et l'esprit. Représente l'équilibre et la sérénité.</td>
+            <td>U+262F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/orthodox-cross_2626.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Croix Orthodoxe U+2626" title="Emoji Croix Orthodoxe U+2626" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/orthodox-cross_2626.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5529264747376319">
+            </td>
+            <td id="U+2626">
+			    ☦&nbsp;<b>Croix orthodoxe</b><br>
+                Ce symbole russe orthodoxe est un élargissement de la croix chrétienne avec des branches additionnelles. Avec sa “poutre pour pieds“, il rappelle la crucifixion de Jésus.</td>
+            <td>U+2626</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/place-of-worship_1f6d0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Personne Agenouillée U+1F6D0" title="Emoji Personne Agenouillée U+1F6D0" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/place-of-worship_1f6d0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.12664047135841017">
+            </td>
+            <td id="U+1F6D0">
+			    🛐&nbsp;<b>Lieu de prière</b><br>
+                La personne agenouillée sous un toit symbolise un lieu de prière. Il peut s'agir d'une église ou d'une mosquée. On retrouve par exemple ce signe dans les aéroports.</td>
+            <td>U+1F6D0</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/ophiuchus_26ce.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji U avec Vague U+26CE" title="Emoji U avec Vague U+26CE" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/ophiuchus_26ce.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.902603541948821">
+            </td>
+            <td id="U+26CE">
+			    ⛎&nbsp;<b>Ophiuchus</b><br>
+                Le signe astronomique de la constellation du Sagittaire (en latin : Ophiuchus). L'une des 48 constellations de la Grèce Antique et le sujet de nombreux mythes grecs. Dans de nombreux cercles, il fait office de treizième signe du zodiaque secret.</td>
+            <td>U+26CE</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/pisces_2653.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe zodiacal Poissons U+2653" title="Signe zodiacal Poissons U+2653" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/pisces_2653.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8194832907525984">
+            </td>
+            <td id="U+2653">
+			    ♓&nbsp;<b>Poissons</b><br>
+                Les personnes du signe des Poissons (20 février au 20 mars) s'illustrent par leur grande sensibilité. Ce sont de bons confidents, fidèles en amitié.</td>
+            <td>U+2653</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-id_1f194.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole ID Whatsapp U+1F194" title="Symbole ID Whatsapp U+1F194" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-id_1f194.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5398094341658648">
+            </td>
+            <td id="U+1F194">
+			    🆔&nbsp;<b>Touche ID</b><br>
+                Les lettres capitales ID dans un carré sont une abréviation pour Identification Number. Ce nombre permet une attribution directe à un objet, une personne ou un produit.</td>
+            <td>U+1F194</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/biohazard-sign_2623.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Risque Biologique U+2623" title="Symbole Risque Biologique U+2623" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/biohazard-sign_2623.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5584743163548653">
+            </td>
+            <td id="U+2623">
+			    ☣&nbsp;<b>Risque biologique</b><br>
+                Le symbole du risque biologique avertit contre les substances représentant un danger pour les personnes et l'environnement. Quelqu'un va au travail alors qu'il est malade et contagieux.</td>
+            <td>U+2623</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/mobile-phone-off_1f4f4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Mobile éteint U+1F4F4" title="Symbole Mobile éteint U+1F4F4" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/mobile-phone-off_1f4f4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.09986281968913002">
+            </td>
+            <td id="U+1F4F4">
+			    📴&nbsp;<b>Téléphone mobile éteint</b><br>
+                Les téléphones mobiles doivent être éteints, par exemple au cinéma ou à l'hôpital. Peut également être utilisé pour signaler aux autres : je ne suis pas joignable !</td>
+            <td>U+1F4F4</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/aries_2648.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Zodiacal Bélier U+2648" title="Signe Zodiacal Bélier U+2648" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/aries_2648.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5025388113255767">
+            </td>
+            <td id="U+2648">
+			    ♈&nbsp;<b>Bélier</b><br>
+                Ce symbole astrologique est celui du bélier. Ce signe du zodiaque est caractérisé par sa combattivité, son dynamisme et sa spontanéité. En amour, il est souvent le partenaire le plus dominant du couple.</td>
+            <td>U+2648</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/taurus_2649.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Signe Zodiacal Taureau U+2649" title="Emoji Signe Zodiacal Taureau U+2649" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/taurus_2649.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.046641414437167406">
+            </td>
+            <td id="U+2649">
+			    ♉&nbsp;<b>Taureau</b><br>
+                Le Taureau (21 avril au 20 mai) est persévérant et a le goût des belles choses. Il est déconseillé d'essayer d'influencer les décisions du Taureau. Il aime faire les choses à son propre rythme.</td>
+            <td>U+2649</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/gemini_264a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Signe Zodiacal Gémeaux U+264A" title="Emoji Signe Zodiacal Gémeaux U+264A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/gemini_264a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6063825963167808">
+            </td>
+            <td id="U+264A">
+			    ♊&nbsp;<b>Gémeaux</b><br>
+                Entre le 21 mai et le 21 juin, on retrouve le signe astrologique des Gémeaux. Le besoin de variété et de mouvement est typique des Gémeaux. Ceux-ci sont animés par une grande curiosité.</td>
+            <td>U+264A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/cancer_264b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Signe Astrologique du Cancer U+264B" title="Emoji Signe Astrologique du Cancer U+264B" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/cancer_264b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.1396064721966146">
+            </td>
+            <td id="U+264B">
+			    ♋&nbsp;<b>Cancer</b><br>
+                Le signe du Cancer dans le calendrier astrologique occidental. Le Cancer est de tempérament doux, serviable et modeste.</td>
+            <td>U+264B</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/leo_264c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Zodiacal Lion U+264C" title="Signe Zodiacal Lion U+264C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/leo_264c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8620727558606314">
+            </td>
+            <td id="U+264C">
+			    ♌&nbsp;<b>Lion</b><br>
+                Je suis un lion ! Le signe astrologique du Lion se trouve entre le 23 juillet et le 23 août. Le Lion a confiance en lui, est chaleureux et généreux.</td>
+            <td>U+264C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/virgo_264d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Astrologique de la Vierge Whatsapp U+264D" title="Signe Astrologique de la Vierge Whatsapp U+264D" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/virgo_264d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7523593006609623">
+            </td>
+            <td id="U+264D">
+			    ♍&nbsp;<b>Vierge</b><br>
+                Le signe astrologique de la Vierge. La Vierge sait ce qu'elle veut et comment l'atteindre.</td>
+            <td>U+264D</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/libra_264e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Signe Astrologique de la Balance U+264E" title="Emoji Signe Astrologique de la Balance U+264E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/libra_264e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7322947566244107">
+            </td>
+            <td id="U+264E">
+			    ♎&nbsp;<b>Balance</b><br>
+                Le signe zodiacal de la Balance. La Balance est en recherche d'harmonie, d'équilibre et de diplomatie. Ce signe est sensible aux manières polies et à l'étiquette.</td>
+            <td>U+264E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/scorpius_264f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Zodiacal Scorpion U+264F" title="Signe Zodiacal Scorpion U+264F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/scorpius_264f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.09162729075235765">
+            </td>
+            <td id="U+264F">
+			    ♏&nbsp;<b>Scorpion</b><br>
+                Le scorpion est le huitième signe du zodiaque et se retrouve du 24 octobre et le 22 novembre. Les Scorpions veulent tout explorer et investiguer. Ils sont sélectifs et préfèrent la sincérité.</td>
+            <td>U+264F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/sagittarius_2650.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Astrologique du Sagittaire U+2650" title="Signe Astrologique du Sagittaire U+2650" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/sagittarius_2650.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7951313739443246">
+            </td>
+            <td id="U+2650">
+			    ♐&nbsp;<b>Sagittaire</b><br>
+                Ce symbole de flèche traversée d'un trait représente le signe astrologique du Sagittaire. Les Sagittaires sont indépendants, généreux et optimistes.</td>
+            <td>U+2650</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/capricorn_2651.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Capricorne U+2651" title="Emoji Capricorne U+2651" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/capricorn_2651.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8784804624104803">
+            </td>
+            <td id="U+2651">
+			    ♑&nbsp;<b>Capricorne</b><br>
+                Le Capricorne, dixième signe du zodiaque, se trouve dans la période allant du 22 décembre au 20 janvier. Le Capricorne ne croit que ce qu'il voit. Il ne faut donc pas tenter de le tromper !</td>
+            <td>U+2651</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/aquarius_2652.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Zodiacal Verseau U+2652" title="Signe Zodiacal Verseau U+2652" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/aquarius_2652.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9684592320214058">
+            </td>
+            <td id="U+2652">
+			    ♒&nbsp;<b>Verseau</b><br>
+                Le symbole du signe du zodiaque Verseau. Les Verseau, nés entre le 21 janvier et le 29 février, sont des personnes originales, ouvertes à la nouveauté et aimant la diversité.</td>
+            <td>U+2652</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/white-flower_1f4ae.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Fleurs Blanches avec Inscription Whatsapp U+1F4AE" title="Fleurs Blanches avec Inscription Whatsapp U+1F4AE" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/white-flower_1f4ae.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.4640928962147137">
+            </td>
+            <td id="U+1F4AE">
+			    💮&nbsp;<b>Fleur blanche</b><br>
+                Une fleur blanche avec une phrase en japonais signifiant « très bon travail ». Au Japon, ce symbole est utilisé comme tampon pour féliciter les bons résulatts.</td>
+            <td>U+1F4AE</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/mahjong-tile-red-dragon_1f004.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Mahjong U+1F004" title="Emoji Mahjong U+1F004" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/mahjong-tile-red-dragon_1f004.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7867947988388582">
+            </td>
+            <td id="U+1F004">
+			    🀄&nbsp;<b>Pierre de Mah-Jong « Dragon rouge »</b><br>
+                Un symbole (le dragon rouge) issu du jeu japonais du Mah-Jong. Le joueur qui réussit le premier à réunir tous ses jetons par paires gagne la partie. Le dragon rouge est l'un de ces jetons.</td>
+            <td>U+1F004</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/circled-ideograph-accept_1f251.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Idéogramme Squared CJK Unified-7981 U+1F251" title="Idéogramme Squared CJK Unified-7981 U+1F251" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/circled-ideograph-accept_1f251.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9463470648536818">
+            </td>
+            <td id="U+1F251">
+			    🉑&nbsp;<b>Acceptable</b><br>
+                C'est bon pour moi ! L'émoji se prononce “ka“ en japonais et “ke“ en chinois. Sa signification globale : “possible“, “convenable“ ou encore “autorisé“.</td>
+            <td>U+1F251</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/vibration-mode_1f4f3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbol Mode Vibreur U+1F4F3" title="Symbol Mode Vibreur U+1F4F3" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/vibration-mode_1f4f3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7161876617185632">
+            </td>
+            <td id="U+1F4F3">
+			    📳&nbsp;<b>Mode vibreur</b><br>
+                L'émoji montre un smartphone configuré en mode silencieux, qui ne fait que vibrer. Il peut s'agir d'une incitation à ne pas déranger ou d'une sollicitation à répondre.</td>
+            <td>U+1F4F3</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6709_1f236.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared CJK Unified Ideograph-6709 U+1F236" title="Squared CJK Unified Ideograph-6709 U+1F236" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6709_1f236.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9769907887237952">
+            </td>
+            <td id="U+1F236">
+			    🈶&nbsp;<b>Payant</b><br>
+                Ce n'est pas gratuit ! Cet émoji montre une phrase japonaise et chinoise. Signifie “Péage“, ou bien “Taxe“, ou encore “Possession“.</td>
+            <td>U+1F236</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7121_1f21a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared CJK Unified Ideograph-7121 U+1F21A" title="Squared CJK Unified Ideograph-7121 U+1F21A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7121_1f21a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.46589019615328575">
+            </td>
+            <td id="U+1F21A">
+			    🈚&nbsp;<b>Sans frais</b><br>
+                Cet émoji est connu au Japon en tant que symbole de la radio gratuite. Il est utilisé pour représenter une offre sans frais. Peut également signifier “Je ne possède rien“. Emoji contraire : [LINK “Payant“]</td>
+            <td>U+1F21A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-55b6_1f23a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared CJK Unified Ideograph-55b6 U+1F23A" title="Squared CJK Unified Ideograph-55b6 U+1F23A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-55b6_1f23a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7941075889728011">
+            </td>
+            <td id="U+1F23A">
+			    🈺&nbsp;<b>Ouvert</b><br>
+                Nous avons ouvert ! Le symbole japonais indique qu'un commerce est opérationnel et ouvert, ou qu'un service est proposé.</td>
+            <td>U+1F23A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7533_1f238.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared CJK Unified Ideograph-7533 U+1F238" title="Squared CJK Unified Ideograph-7533 U+1F238" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7533_1f238.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3411494019128476">
+            </td>
+            <td id="U+1F238">
+			    🈸&nbsp;<b>Demande</b><br>
+                Cet émoji est utilisé au Japon pour désigner les demandes d'information et formulaires. Il peut aussi désigner le singe dans le zodiaque chinois.</td>
+            <td>U+1F238</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6708_1f237.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared-cjk-unified-ideograph-6708 U+1F237" title="Squared-cjk-unified-ideograph-6708 U+1F237" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6708_1f237.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.305089262760728">
+            </td>
+            <td id="U+1F237">
+			    🈷&nbsp;<b>Mensuel / Signe astrologique</b><br>
+                La signification chinoise (yue) et japonaise (tsuki) de ce signe est “mensuel“ ou “Lune“. Il peut ainsi servir à réclamer un montant dû mensuellement.</td>
+            <td>U+1F237</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/eight-pointed-black-star_2734.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Etoile Orange U+2734" title="Emoji Etoile Orange U+2734" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/eight-pointed-black-star_2734.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.58431226613667">
+            </td>
+            <td id="U+2734">
+			    ✴&nbsp;<b>Etoile à huit branches</b><br>
+                L'étoile à huit branches est, le plus souvent, utilisée de manière décorative. Elle exprime la joie, la vitalité et l'exubérance.</td>
+            <td>U+2734</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-vs_1f19a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji VS U+1F19A" title="Emoji VS U+1F19A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-vs_1f19a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8035932856403436">
+            </td>
+            <td id="U+1F19A">
+			    🆚&nbsp;<b>Bouton VS</b><br>
+                Le symbole VS (abréviation du mot latin “versus“) est le plus souvent utilisé pour comparer deux choses ou situations. Par exemple burger vs. pizza, Klitschko vs. Tyson. Peut également signifier “Objection !“</td>
+            <td>U+1F19A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/circled-ideograph-advantage_1f250.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Circled Ideograph Advantage U+1F250" title="Circled Ideograph Advantage U+1F250" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/circled-ideograph-advantage_1f250.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.343267600366159">
+            </td>
+            <td id="U+1F250">
+			    🉐&nbsp;<b>Réduction de prix</b><br>
+                Tu peux faire une bonne affaire ici ! Au Japon, ce symbole indique des offres spéciales et des réductions.</td>
+            <td>U+1F250</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/circled-ideograph-secret_3299.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Circled Ideograph Secret U+3299" title="Circled Ideograph Secret U+3299" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/circled-ideograph-secret_3299.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8153921714509744">
+            </td>
+            <td id="U+3299">
+			    ㊙&nbsp;<b>Secret</b><br>
+                Garde ça pour toi! Le symbole est utilisé au Japon et en Chine pour indiquer un secret.</td>
+            <td>U+3299</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/circled-ideograph-congratulation_3297.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Circled Ideograph Congratulation U+3297" title="Circled Ideograph Congratulation U+3297" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/circled-ideograph-congratulation_3297.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9712439179399677">
+            </td>
+            <td id="U+3297">
+			    ㊗&nbsp;<b>Vœux de bonheur</b><br>
+                Je te souhaite beaucoup de bonheur ! Un signe de meilleurs vœux et de bénédiction. Il est également utilisé pour une fête nationale.</td>
+            <td>U+3297</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-5408_1f234.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Examen Validé U+1F234" title="Symbole Examen Validé U+1F234" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-5408_1f234.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3498250774879119">
+            </td>
+            <td id="U+1F234">
+			    🈴&nbsp;<b>Examen validé</b><br>
+                C'est un accord ! Cet émoji japonais peut signifier une association, comme par exemple un partenariat. Il peut également s'agir d'une rencontre. Le symbole s'avère également utile lorsqu'un examen ou un test a été réussi.</td>
+            <td>U+1F234</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6e80_1f235.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Signe Japonais Plein U+1F235" title="Emoji Signe Japonais Plein U+1F235" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6e80_1f235.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7039140561222772">
+            </td>
+            <td id="U+1F235">
+			    🈵&nbsp;<b>Symbole plein / occupé dans un carré</b><br>
+                Un symbole japonais écrit en blanc sur fond rouge. Il représente l'énergie et la capacité. Ce symbole est par exemple utilisé pour indiquer que l'on fait le plein d'une voiture ou représenter une chambre d'hôtel. Emoji contraire : 🈳</td>
+            <td>U+1F235</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-5272_1f239.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Réduction U+1F239" title="Emoji Réduction U+1F239" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-5272_1f239.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7131165289640344">
+            </td>
+            <td id="U+1F239">
+			    🈹&nbsp;<b>Signe « soldes » dans un carré</b><br>
+                Le symbole japonais des soldes. Il est suspendu à l'entrée des boutiques en cas de réduction, afin que les clients en soient avertis.</td>
+            <td>U+1F239</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7981_1f232.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Interdit Japonais U+1F232" title="Signe Interdit Japonais U+1F232" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7981_1f232.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.594245261368787">
+            </td>
+            <td id="U+1F232">
+			    🈲&nbsp;<b>Signe interdit</b><br>
+                Attention, interdit ! Ce signe japonais indique une interdiction ou une restriction. Un type d'action ou de comportement précis n'est pas désiré.</td>
+            <td>U+1F232</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/cross-mark_274c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Croix Rouge U+274C" title="Emoji Croix Rouge U+274C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/cross-mark_274c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.825828789630006">
+            </td>
+            <td id="U+274C">
+			    ❌&nbsp;<b>Croix rouge</b><br>
+                “Cela n'est pas permis !“ ou “Ne fais pas ça !“ Cette grosse croix rouge est plus particulièrement utilisée quand quelque chose n'est pas souhaité. Peut également être utilisé comme signe de multiplication ou pour indiquer un baiser.</td>
+            <td>U+274C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/carp-streamer_1f38f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Drapeau Poissons U+1F38F" title="Emoji Drapeau Poissons U+1F38F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/carp-streamer_1f38f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3505965557585662">
+            </td>
+            <td id="U+1F38F">
+			    🎏&nbsp;<b>Drapeaux Carpes</b><br>
+                Une hampe portant des manches à air faites maison en forme de carpe (Koi-Nobori). Pour la fête des enfants, deux carpes sont suspendues : grosses pour les parents et petites pour les enfants.</td>
+            <td>U+1F38F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/no-entry_26d4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Rond Rouge avec Trait Blanc U+26D4" title="Emoji Rond Rouge avec Trait Blanc U+26D4" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/no-entry_26d4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.043499649290876574">
+            </td>
+            <td id="U+26D4">
+			    ⛔&nbsp;<b>Accès interdit</b><br>
+                Stop, n'allez pas plus loin ! Symbole signifiant “accès interdit“ ou “entrée interdite“. On l'utilise aussi pour symboliser que son interlocuteur est en colère.</td>
+            <td>U+26D4</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/name-badge_1f4db.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Plaque Nominative U+1F4DB" title="Emoji Plaque Nominative U+1F4DB" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/name-badge_1f4db.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.06937423494095762">
+            </td>
+            <td id="U+1F4DB">
+			    📛&nbsp;<b>Plaque signalétique</b><br>
+                L'émoji de la plaque signalétique est utilisé à des fins d'identification, par exemple au travail. Le dessin en forme de tulipe est typique des jardins d'enfants japonais.</td>
+            <td>U+1F4DB</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/no-entry-sign_1f6ab.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Interdit U+1F6AB" title="Emoji Interdit U+1F6AB" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/no-entry-sign_1f6ab.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8006061120336294">
+            </td>
+            <td id="U+1F6AB">
+			    🚫&nbsp;<b>Entrée interdite</b><br>
+                N'allez pas plus loin ! L'entrée de bâtiments ou de pièces est interdit. Ressemble à un signe d'interdiction telle que celle de fumer.</td>
+            <td>U+1F6AB</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/anger-symbol_1f4a2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Colère Whatsapp U+1F4A2" title="Emoji Colère Whatsapp U+1F4A2" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/anger-symbol_1f4a2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5435115284690197">
+            </td>
+            <td id="U+1F4A2">
+			    💢&nbsp;<b>Symbole de colère</b><br>
+                Ce symbole de comics et de mangas (souvent accompagné du mot “Bam“) indique qu'un coup est donné. Quelqu'un est très en colère ! Cet émoji représente un avertissement : attention, tu vas trop loin.</td>
+            <td>U+1F4A2</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/hot-springs_2668.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Source Thermale U+2668" title="Emoji Source Thermale U+2668" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/hot-springs_2668.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.4870564991913946">
+            </td>
+            <td id="U+2668">
+			    ♨&nbsp;<b>Source thermale</b><br>
+                Une source thermale chaude avec de la vapeur qui s'en échappe. Un symbole des cartes japonaises. « J'ai envie de me détendre » ou bien « allons nous baigner ! ».</td>
+            <td>U+2668</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-question-mark-ornament_2753.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Point d'Interrogation Rouge U+2753" title="Emoji Point d'Interrogation Rouge U+2753" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-question-mark-ornament_2753.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5150543993055365">
+            </td>
+            <td id="U+2753">
+			    ❓&nbsp;<b>Point d'interrogation (noir)</b><br>
+                Comment ? Un point d'interrogation rouge vif, qui souligne l'importance de la question posée. L'interlocuteur attend une réponse immédiate.</td>
+            <td>U+2753</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/white-question-mark-ornament_2754.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Point d'interrogation blanc décoratif U+2754" title="Point d'interrogation blanc décoratif U+2754" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/white-question-mark-ornament_2754.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.24612781427165142">
+            </td>
+            <td id="U+2754">
+			    ❔&nbsp;<b>Point d'interrogation blanc</b><br>
+                Une question doit recevoir sa réponse ! Plus il y a de points d'interrogation, plus la demande est pressante. Le point d'interrogation blanc est moins expressif que le rouge.</td>
+            <td>U+2754</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/double-exclamation-mark_203c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Double point d'exclamation U+203C" title="Symbole Double point d'exclamation U+203C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/double-exclamation-mark_203c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.22110122640680174">
+            </td>
+            <td id="U+203C">
+			    ‼&nbsp;<b>Double point d'exclamation</b><br>
+                La couleur rouge du signal et l'aspect double du point d'exclamation indiquent clairement le sens de l'affirmation. Peut aussi souligner le caractère d'urgence. On donne une valeur particulière à une affirmation ou l'on est choqué par une nouvelle.</td>
+            <td>U+203C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heavy-exclamation-mark-symbol_2757.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Point d'Exclamation U+2757" title="Emoji Point d'Exclamation U+2757" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heavy-exclamation-mark-symbol_2757.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9155572568885941">
+            </td>
+            <td id="U+2757">
+			    ❗&nbsp;<b>Point d'exclamation (épais)</b><br>
+                Symbole d'un point d'exclamation en gras (rouge). Il est utilisé pour souligner une pensée ou pour exprimer ouvertement un souhait.</td>
+            <td>U+2757</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/white-exclamation-mark-ornament_2755.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Point d'exclamaiton blanc décoratif U+2755" title="Point d'exclamaiton blanc décoratif U+2755" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/white-exclamation-mark-ornament_2755.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5361806581361828">
+            </td>
+            <td id="U+2755">
+			    ❕&nbsp;<b>Point d'exclamation blanc</b><br>
+                Le point d'exclamation blanc attire l'attention sur quelque chose. En raison de sa couleur claire, il est moins dramatique que le point d'exclamation rouge.</td>
+            <td>U+2755</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/hundred-points-symbol_1f4af.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji 100 U+1F4AF" title="Emoji 100 U+1F4AF" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/hundred-points-symbol_1f4af.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.042309214343049684">
+            </td>
+            <td id="U+1F4AF">
+			    💯&nbsp;<b>Symbole « 100 points »</b><br>
+                Le nombre 100 écrit en rouge et doublement souligné. Il peut signifier : « je suis fier, tout est parfait » ou « je suis d'accord à 100% », ou encore « j'ai eu la note maximale à l'examen ».</td>
+            <td>U+1F4AF</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/trident-emblem_1f531.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Trident U+1F531" title="Emoji Trident U+1F531" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/trident-emblem_1f531.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.06447405511967852">
+            </td>
+            <td id="U+1F531">
+			    🔱&nbsp;<b>Trident</b><br>
+                Le trident indique une offensive, une défense ou une arme de chasse. On le retrouve ouvent dans la main des statues de dieux. Il peut s'agir d'un avertissement.</td>
+            <td>U+1F531</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/fleur-de-lis_269c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Fleur Dorée Whatsapp U+269C" title="Fleur Dorée Whatsapp U+269C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/fleur-de-lis_269c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6371814875379276">
+            </td>
+            <td id="U+269C">
+			    ⚜&nbsp;<b>Fleur de Lys</b><br>
+                La fleur d'iris stylisée, le plus souvent de couleur dorée ou jaune, est considérée comme chevaleresque. Symbole de l'art héraldique. Ce symbole décoratif se retrouve dans de nombreux logos, comme l'emblème de l'organisation mondiale du scoutisme.</td>
+            <td>U+269C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/part-alternation-mark_303d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji M U+303D" title="Emoji M U+303D" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/part-alternation-mark_303d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.547868020604326">
+            </td>
+            <td id="U+303D">
+			    〽&nbsp;<b>Signe de ponctuation japonais</b><br>
+                Le M arrondi est un symbole japonais qui indique à un chanteur le début de ses paroles dans une chanson. Il est aussi utilisé comme symbole de McDonald's.</td>
+            <td>U+303D</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/warning-sign_26a0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Panneau avertissement U+26A0" title="Symbole Panneau avertissement U+26A0" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/warning-sign_26a0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.316029155421677">
+            </td>
+            <td id="U+26A0">
+			    ⚠&nbsp;<b>Avertissement</b><br>
+                Que cela te serve d'avertissement ! Le point d'exclamation noir dans un triangle jaune est un symbole d'avertissement universel. Symbolise le danger potentiel ou le fait qu'une personne s'aventure sur un terrain à risque.</td>
+            <td>U+26A0</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/children-crossing_1f6b8.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Signe Attention Enfants U+1F6B8" title="Signe Attention Enfants U+1F6B8" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/children-crossing_1f6b8.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9849616440483364">
+            </td>
+            <td id="U+1F6B8">
+			    🚸&nbsp;<b>Attention enfants</b><br>
+                Panneau de signalisation pour les automobilistes, indiquant de rouler particulièrement prudemment et d'être attentif aux enfants pouvant traverser soudainement la voie. Se trouve aux environ des écoles ou sur leur chemin.</td>
+            <td>U+1F6B8</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-universal-recycling-symbol_267b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Recyclage - U+267B U+267B" title="Emoji Recyclage - U+267B U+267B" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-universal-recycling-symbol_267b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.005338202509760581">
+            </td>
+            <td id="U+267B">
+			    ♻&nbsp;<b>Symbole de recyclage</b><br>
+                Un symbole de recyclage vert, composé de trois flèches orientées dans le sens anti-horaire. Indique que quelque chose va être réutilisé. On le retrouve souvent sur les emballages.</td>
+            <td>U+267B</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6307_1f22f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Squared CJK Unified Ideograph-6307 U+1F22F" title="Squared CJK Unified Ideograph-6307 U+1F22F" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-6307_1f22f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7831420452130364">
+            </td>
+            <td id="U+1F22F">
+			    🈯&nbsp;<b>Bouton réservé</b><br>
+                En chinois, ce symbole se prononce “zhi“ et en japonais, “yubi“. Il signifie “doigt“ ou “orteil“ et indique une direction en particulier.</td>
+            <td>U+1F22F</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/chart-with-upwards-trend-and-yen-sign_1f4b9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Diagramme Yen U+1F4B9" title="Diagramme Yen U+1F4B9" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/chart-with-upwards-trend-and-yen-sign_1f4b9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.0287016399647535">
+            </td>
+            <td id="U+1F4B9">
+			    💹&nbsp;<b>Diagramme avec courbe en hausse et symbole Yen</b><br>
+                Le cours est bon pour changer son argent ! Le diagramme montre le cours de la monnaie japonaise, le Yen. Utilisé dans le cas d'une hausse. Désigne l'économie ou le commerce.</td>
+            <td>U+1F4B9</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/globe-with-meridians_1f310.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Globe avec Méridiens U+1F310" title="Globe avec Méridiens U+1F310" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/globe-with-meridians_1f310.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7367300334030038">
+            </td>
+            <td id="U+1F310">
+			    🌐&nbsp;<b>Globe avec méridiens</b><br>
+                Un globe terrestre avec ses méridiens, pour la longitude et la latitude. Symbole d'internationalisation, comme par exemple les mouvements mondiaux ou le World Wide Web. Sur les appareils iOS, c'est le symbole permettant de changer la langue par défaut.</td>
+            <td>U+1F310</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/diamond-shape-with-a-dot-inside_1f4a0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Diamant avec Point Whatsapp U+1F4A0" title="Diamant avec Point Whatsapp U+1F4A0" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/diamond-shape-with-a-dot-inside_1f4a0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7833803236888621">
+            </td>
+            <td id="U+1F4A0">
+			    💠&nbsp;<b>Diamant avec un point au milieu</b><br>
+                Illustre l'expression japonaise “Kawaii“. Sa traduction signifie adorable, mignon, craquant, charmant. Un style de vie faisant la part belle aux côtés enfantins et adorables. Rappelle la forme d'une fleur.</td>
+            <td>U+1F4A0</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/circled-latin-capital-letter-m_24c2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="M majuscule entouré U+24C2" title="M majuscule entouré U+24C2" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/circled-latin-capital-letter-m_24c2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.23756531288544136">
+            </td>
+            <td id="U+24C2">
+			    Ⓜ&nbsp;<b>M majuscule latin entouré</b><br>
+                Je te retrouve à la station de métro ! Ce panneau est majoritairement présent dans les grandes villes et sert à orienter les voyageurs dans les transports locaux. Le métro circule le plus souvent sous terre. Ce panneau indique où se trouve une station.</td>
+            <td>U+24C2</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/cyclone_1f300.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Spirale U+1F300" title="Emoji Spirale U+1F300" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/cyclone_1f300.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.25339194597604275">
+            </td>
+            <td id="U+1F300">
+			    🌀&nbsp;<b>Spirale</b><br>
+                Symbole d'un cyclone (un violent orage tourbillonnant des tropiques). Peut&nbsp;signifier&nbsp;:&nbsp;attention, quelque chose arrive sur toi. La forme de spirale peut aussi être utilisée de manière décorative. A l'origine, ce symbole représentait un étourdissement (“j'ai la tête qui tourne !“)</td>
+            <td>U+1F300</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/sleeping-symbol_1f4a4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Sommeil U+1F4A4" title="Symbole Sommeil U+1F4A4" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/sleeping-symbol_1f4a4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.09212582353745247">
+            </td>
+            <td id="U+1F4A4">
+			    💤&nbsp;<b>Symbole du sommeil</b><br>
+                Je vais dormir tôt ce soir ! Dans les BD, le Zzz indique que quelqu'un dort. Peut représenter le sommeil, mais aussi le manque d'intérêt et l'ennui.</td>
+            <td>U+1F4A4</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/water-closet_1f6be.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole WC U+1F6BE" title="Symbole WC U+1F6BE" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/water-closet_1f6be.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.44826211293298224">
+            </td>
+            <td id="U+1F6BE">
+			    🚾&nbsp;<b>WC</b><br>
+                Je vais aux toilettes ! L'abréviation vient de l'anglais Water Closet, parfois reformulé en “petit coin“. Dans certains pays, ce symbole indique les toilettes dans des lieux publics.</td>
+            <td>U+1F6BE</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7a7a_1f233.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Inoccupé U+1F233" title="Emoji Inoccupé U+1F233" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-cjk-unified-ideograph-7a7a_1f233.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.4967440490116537">
+            </td>
+            <td id="U+1F233">
+			    🈳&nbsp;<b>Symbole inoccupé</b><br>
+                Il y a encore une place libre ici. Cet émoji japonais indique un emplacement vide ou une disponibilité. Il est plus particulièrement d'usage pour désigner des places de parking et des chambres d'hôtel libres.</td>
+            <td>U+1F233</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-katakana-sa_1f202.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Gratuit U+1F202" title="Symbole Gratuit U+1F202" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-katakana-sa_1f202.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8448858655908498">
+            </td>
+            <td id="U+1F202">
+			    🈂&nbsp;<b>Gratuit</b><br>
+                Cet émoji exprime l'existence d'une offre gratuite, plutôt en relation avec un service. Au Japon, il indiquera par exemple un repas ou une boisson gratuits.</td>
+            <td>U+1F202</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/left-luggage_1f6c5.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Panneau valise avec clé U+1F6C5" title="Panneau valise avec clé U+1F6C5" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/left-luggage_1f6c5.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5875533701527109">
+            </td>
+            <td id="U+1F6C5">
+			    🛅&nbsp;<b>Consigne à bagages</b><br>
+                Un panneau de signalisation pour les consignes à clé, dans lesquelles on peut ranger ses bagages de manière sécurisée contre un paiement. On les trouves par exemple dans les aéroports ou dans les gares routières au Japon.</td>
+            <td>U+1F6C5</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/mens-symbol_1f6b9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Toilettes Homme U+1F6B9" title="Symbole Toilettes Homme U+1F6B9" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/mens-symbol_1f6b9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8935083945384932">
+            </td>
+            <td id="U+1F6B9">
+			    🚹&nbsp;<b>Symbole Homme</b><br>
+                Je dois aller chercher les garçons, ou bien ich gehe mal für kleine Königstiger. Ce symbole indique aux hommes quelle porte des toilettes ils doivent utiliser. Les hommes passent plus de temps aux toilettes que les femmes, mais s'y rendent moins souvent.</td>
+            <td>U+1F6B9</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/womens-symbol_1f6ba.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Toilettes Dames Whatsapp U+1F6BA" title="Symbole Toilettes Dames Whatsapp U+1F6BA" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/womens-symbol_1f6ba.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.42709268606422723">
+            </td>
+            <td id="U+1F6BA">
+			    🚺&nbsp;<b>Toilettes pour dames</b><br>
+                Les toilettes pour dames sont souvent représentées vec un schéma de personnage féminin. L'un des mystères les plus universels est celui de la raison pour laquelle les femmes vont ensemble aux toilettes. Peut être utilisé de manière très générale pour désigner la gent féminine.</td>
+            <td>U+1F6BA</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/baby-symbol_1f6bc.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Bébé Whatsapp U+1F6BC" title="Symbole Bébé Whatsapp U+1F6BC" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/baby-symbol_1f6bc.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6605302248822493">
+            </td>
+            <td id="U+1F6BC">
+			    🚼&nbsp;<b>Bébé</b><br>
+                Le symbole désigne généralement une pièce adaptée avec table à langer, afin de changer la couche d'un bébé. Fait référence aux nouveaux-nés ou indique une grossesse.</td>
+            <td>U+1F6BC</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/cinema_1f3a6.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Cinéma Whatsapp U+1F3A6" title="Emoji Cinéma Whatsapp U+1F3A6" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/cinema_1f3a6.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5177691284363202">
+            </td>
+            <td id="U+1F3A6">
+			    🎦&nbsp;<b>Cinéma</b><br>
+                Envie de voir un film ? Un projecteur de cinéma ou un écran avec des rideaux représentent le cinéma.</td>
+            <td>U+1F3A6</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/input-symbol-for-symbols_1f523.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Symbole de Saisie U+1F523" title="Emoji Symbole de Saisie U+1F523" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/input-symbol-for-symbols_1f523.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5101565937758283">
+            </td>
+            <td id="U+1F523">
+			    🔣&nbsp;<b>Symbole de saisie</b><br>
+                Cet émoji représente un bureau de Poste japonais, une note de musique, le “et“ commercial ainsi qu'un signe “%“. Symbole permettant de passer du clavier alphabétique au clavier numérique ou aux symboles et caractères spéciaux.</td>
+            <td>U+1F523</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/squared-ng_1f196.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji NG U+1F196" title="Emoji NG U+1F196" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/squared-ng_1f196.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9847269030325876">
+            </td>
+            <td id="U+1F196">
+			    🆖&nbsp;<b>Bouton NG</b><br>
+                Je ne trouve pas ça bien ! Les lettres NG sont l'abréviation de “No Good“ et sont utilisées au Japon comme antonyme du “Ok“. L'expéditeur veut t'avertir d'une erreur ou te mettre en garde contre quelque chose.</td>
+            <td>U+1F196</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-digit-zero_30-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole touche zéro U+30" title="Symbole touche zéro U+30" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-digit-zero_30-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7024751586485303">
+            </td>
+            <td id="U+30">
+			    0️⃣&nbsp;<b>Touche Zéro</b><br>
+                Touche de clavier aux coins arrondis portant le chiffre 0 en son milieu. La température de congélation de l'eau. Quelqu'un est complètement nul !</td>
+            <td>U+30</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-digit-one_31-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole touche un U+31" title="Symbole touche un U+31" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-digit-one_31-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.34493278755312184">
+            </td>
+            <td id="U+31">
+			    1️⃣&nbsp;<b>Touche Un</b><br>
+                Un carré aux coins arrondis portant le chiffre 1 en son milieu. Ressemble à une touche de clavier. Peut être utilisé pour mettre en avant des données numériques, par exemple l'année en cours.</td>
+            <td>U+31</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-digit-two_32-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole touche deux U+32" title="Symbole touche deux U+32" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-digit-two_32-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3998450700976288">
+            </td>
+            <td id="U+32">
+			    2️⃣&nbsp;<b>Touche Deux</b><br>
+                Carré avec les coins arrondis et le chiffre 2 en son milieu. Rappelle une touche de clavier. Symbole des contraires, par exemple l'homme et la femme ou le yin et le yang.</td>
+            <td>U+32</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-digit-four_34-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole touche quatre U+34" title="Symbole touche quatre U+34" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-digit-four_34-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3612491350712699">
+            </td>
+            <td id="U+34">
+			    4️⃣&nbsp;<b>Touche Quatre</b><br>
+                Touche de clavier avec des coins ronds et le chiffre 4 en son milieu. Quatre points cardinaux, quatre saisons. Dans le monde occidental, ce chiffre est porteur de chance (trèfle à quatre feuilles), alors qu'en Asie il est synonyme de malchance.</td>
+            <td>U+34</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-digit-seven_37-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole touche sept U+37" title="Symbole touche sept U+37" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-digit-seven_37-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6540039318101512">
+            </td>
+            <td id="U+37">
+			    7️⃣&nbsp;<b>Touche Sept</b><br>
+                Un clavier avec le chiffre 7 au milieu. Nombre de jours dans une semaine. Apparaît souvent dans les contes, notamment Blanche-Neige et les sept nains, Tastaturtaste mit der Zahl 7 in der Mitte. Anzahl der Tage einer Woche. Kommt häufig in Märchen vor, z.B. Schneewittchen und die sieben Zwerge, ou le vaillant petit tailleur qui tue sept mouches d'un coup.</td>
+            <td>U+37</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/keycap-number-sign_23-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Hashtag U+20E3" title="Emoji Hashtag U+20E3" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/keycap-number-sign_23-fe0f-20e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.920823803967278">
+            </td>
+            <td id="U+20E3">
+			    #️⃣&nbsp;<b>Touche avec symbole dièse</b><br>
+                Je peux te tagguer ? Cet émoji représente une touche de clavier avec un dièse. Ce signe est connu comme Hashtag et sert à la communication sur des plateformes comme Twitter et Facebook. Il est également utilisé pour rechercher un montant sur un téléphone mobile.</td>
+            <td>U+20E3</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/down-pointing-small-red-triangle_1f53d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole triangle vers le bas U+1F53D" title="Symbole triangle vers le bas U+1F53D" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/down-pointing-small-red-triangle_1f53d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.1809167319685816">
+            </td>
+            <td id="U+1F53D">
+			    🔽&nbsp;<b>Bouton indiquant le bas</b><br>
+                Un signe géométrique avec un triangle pointant vers le bas. Peut être utilisé pour guider la navigation (vers le bas, en-dessous) ou rendre la communication plus expressive.</td>
+            <td>U+1F53D</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-rightwards-arrow_27a1.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Flèche vers la droite U+27A1" title="Emoji Flèche vers la droite U+27A1" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-rightwards-arrow_27a1.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6110731780149514">
+            </td>
+            <td id="U+27A1">
+			    ➡&nbsp;<b>Flèche vers la droite</b><br>
+                Au suivant, s'il vous plaît ! Une flèche indiquant la droite peut désigner la prochaine personne d'un groupe ou un objet. Peut également indiquer une direction à un interlocuteur de tchat.</td>
+            <td>U+27A1</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/leftwards-black-arrow_2b05.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Flèche gauche Whatsapp U+2B05" title="Flèche gauche Whatsapp U+2B05" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/leftwards-black-arrow_2b05.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6804994475290487">
+            </td>
+            <td id="U+2B05">
+			    ⬅&nbsp;<b>Flèche vers la gauche</b><br>
+                Direction Ouest. Cette flèche est utilisée pour indiquer une direction. Quelqu'un devrait regarder vers la gauche. On l'emploie souvent pour faire référence à une déclaration faite précédemment.</td>
+            <td>U+2B05</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/upwards-black-arrow_2b06.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Flèche vers le haut U+2B06" title="Symbole Flèche vers le haut U+2B06" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/upwards-black-arrow_2b06.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.1937974708977459">
+            </td>
+            <td id="U+2B06">
+			    ⬆&nbsp;<b>Flèche vers le haut</b><br>
+                La flèche indique la direction, symboliquement ou littéralement. “Pour ma part, les choses repartent tranquillement !“ ou “Je t'ai déjà parlé de ça dans un précédent message.“</td>
+            <td>U+2B06</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/anticlockwise-downwards-and-upwards-open-circle-arrows_1f504.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Flèches U+1F504" title="Emoji Flèches U+1F504" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/anticlockwise-downwards-and-upwards-open-circle-arrows_1f504.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.46933137232524413">
+            </td>
+            <td id="U+1F504">
+			    🔄&nbsp;<b>Flèches dans le sens des aiguilles d'une montre</b><br>
+                Une flèche tournant dans le sens anti-horaire. On trouve ce symbole sur internet pour actualiser la page. Emblème d'un nouveau départ ou d'une nouvelle vie, ou bien pour exprimer que quelque chose se répète.</td>
+            <td>U+1F504</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/musical-note_1f3b5.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole note U+1F3B5" title="Symbole note U+1F3B5" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/musical-note_1f3b5.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9782952907462772">
+            </td>
+            <td id="U+1F3B5">
+			    🎵&nbsp;<b>Note de musique</b><br>
+                Extrait d'un morceau de musique : deux croches reliées entre elles par un trait. Fait référence à une chanson ou à l'écoute de musique, par exemple à la radio.</td>
+            <td>U+1F3B5</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/multiple-musical-notes_1f3b6.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole notes de musique U+1F3B6" title="Symbole notes de musique U+1F3B6" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/multiple-musical-notes_1f3b6.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.21565791470229678">
+            </td>
+            <td id="U+1F3B6">
+			    🎶&nbsp;<b>Notes de musique</b><br>
+                J'adore la musique ! Les notes de musique font partie d'une chanson et sont utilisées en relation avec la musique ou le chant. Quelqu'un est de bonne humeur ou entonne un refrain. Symbole de la quête d'harmonie.</td>
+            <td>U+1F3B6</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heavy-dollar-sign_1f4b2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Dollar U+1F4B2" title="Emoji Dollar U+1F4B2" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heavy-dollar-sign_1f4b2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.1867710214947591">
+            </td>
+            <td id="U+1F4B2">
+			    💲&nbsp;<b>Symbole dollar</b><br>
+                Tu as des symboles de dollar dans les yeux ! Synonyme de richesse et d'objets de valeur. Peut faire référence à une somme d'argent insuffisante ou à de l'argent prêté. On a beaucoup dépensé en shopping ou quelque chose est plutôt cher.</td>
+            <td>U+1F4B2</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/currency-exchange_1f4b1.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Dollar Yen U+1F4B1" title="Emoji Dollar Yen U+1F4B1" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/currency-exchange_1f4b1.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8843934510422651">
+            </td>
+            <td id="U+1F4B1">
+			    💱&nbsp;<b>Change de monnaie</b><br>
+                Les signes du dollar et du yen avec des flèches. Existe aussi avec les signes de l'Euro et de la Livre Sterling. Il symbolise le change entre deux monnaies.</td>
+            <td>U+1F4B1</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/trade-mark-sign_2122.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole TM U+2122" title="Symbole TM U+2122" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/trade-mark-sign_2122.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.32617552495499">
+            </td>
+            <td id="U+2122">
+			    ™&nbsp;<b>Marque déposée</b><br>
+                Cercle avec un T et un M en son milieu. L'indication trademark, ou marque déposée, derrière un nom de marque provient des Etats-Unis. Il est impossible d'utiliser quelque chose sans accord explicite. Est souvent utilisé sur les tchats avec un nom inventé pour plaisanter.</td>
+            <td>U+2122</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/copyright-sign_a9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Copyright U+A9" title="Symbole Copyright U+A9" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/copyright-sign_a9.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8669852521657115">
+            </td>
+            <td id="U+A9">
+			    ©&nbsp;<b>Symbole Copyright</b><br>
+                Cercle avec un C au milieu. Le C signifie Copyright, ou bien droit d'auteur. Les droits du créateur d'une oeuvre sont protégés par la loi. Lui seul peut décider de la destination d'une publication, d'une diffusion ou d'une production multiple.</td>
+            <td>U+A9</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/registered-sign_ae.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole R Whatsapp U+AE" title="Symbole R Whatsapp U+AE" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/registered-sign_ae.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8168192354093287">
+            </td>
+            <td id="U+AE">
+			    ®&nbsp;<b>Marque enregistrée</b><br>
+                Cercle avec un R au milieu. Le R signifie Registered, “enregistré“ en français. Cette étiquette ne peut être utilisée que pour les marques enregistrées. Le droit des marques protège les marchandises et les services des contrefaçons.</td>
+            <td>U+AE</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/wavy-dash_3030.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Ligne en Vague U+3030" title="Ligne en Vague U+3030" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/wavy-dash_3030.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5318197630349399">
+            </td>
+            <td id="U+3030">
+			    〰&nbsp;<b>Ligne en vague</b><br>
+                Dans les alphabets de caractères asiatiques, la vague a la même signification qu'un trait d'union dans l'alphabet latin.</td>
+            <td>U+3030</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/curly-loop_27b0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Courbe qui fait un Nœud U+27B0" title="Emoji Courbe qui fait un Nœud U+27B0" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/curly-loop_27b0.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.374777320217639">
+            </td>
+            <td id="U+27B0">
+			    ➰&nbsp;<b>Noeud</b><br>
+                La courbe “Curly Loop“ est d'origine japonaise. Ressemble à un symbole astrologique, et est aussi utilisé comme un code secret. Psst, ne le dis à personne !</td>
+            <td>U+27B0</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/double-curly-loop_27bf.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Double Boucle U+27BF" title="Double Boucle U+27BF" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/double-curly-loop_27bf.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.0227658534562305">
+            </td>
+            <td id="U+27BF">
+			    ➿&nbsp;<b>Double boucle</b><br>
+                Au Japon, le double “Curly Loop“ est le symbole des numéros de téléphone gratuits. Symbolise également l'enregistreur cassette ou une messagerie vocale.</td>
+            <td>U+27BF</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heavy-multiplication-x_2716.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji X U+2716" title="Emoji X U+2716" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heavy-multiplication-x_2716.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6522715077044072">
+            </td>
+            <td id="U+2716">
+			    ✖&nbsp;<b>Symbole de multiplication X épais</b><br>
+                Je ne peux pas donner mon accord ! Cet émoji peut être utilisé pour pointer une fausse affirmation. En sport, il est fréquemment employé pour symboliser le mot “contre“.</td>
+            <td>U+2716</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/permanent-paper-sign_267e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Infini U+267E" title="Symbole Infini U+267E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/permanent-paper-sign_267e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.4246203674029123">
+            </td>
+            <td id="U+267E">
+			    ♾&nbsp;<b>Infini</b><br>
+                Mon amour pour toi est infini ! Le huit couché est un symbole mathématique pour un nombre de valeur infiniment grande. Il peut avoir différentes significations. Symbole d'un cercle vicieux, ou pour dire “c'est le serpent qui se mord la queue“. Dans le tarot, il représente l'intégrité. Exprime un lien éternel en amitié ou en amour.</td>
+            <td>U+267E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/eye-in-speech-bubble_1f441-fe0f-200d-1f5e8-fe0f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Œil Dans une Bulle U+1F441 U+1F5E8" title="Emoji Œil Dans une Bulle U+1F441 U+1F5E8" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/eye-in-speech-bubble_1f441-fe0f-200d-1f5e8-fe0f.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.47286375764329747">
+            </td>
+            <td id="U+1F441 U+1F5E8">
+			    👁️‍🗨️&nbsp;<b>Œil dans une bulle</b><br>
+                L'œil dans une bulle représente la campagne anti-harcèlement «&nbsp;Je suis un témoin&nbsp;». On l'utilise aussi souvent contre l'utilisation abusive de données en ligne.</td>
+            <td>U+1F441 U+1F5E8</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/end-with-leftwards-arrow-above_1f51a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji End Flèche U+1F51A" title="Emoji End Flèche U+1F51A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/end-with-leftwards-arrow-above_1f51a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6555034753135611">
+            </td>
+            <td id="U+1F51A">
+			    🔚&nbsp;<b>END surmonté d'une fléche pointant vers la gauche</b><br>
+                “Cette relation est terminée“ ou “L'offre se termine bientôt !“ La flèche orientée à gauche avec le mot “End“ peut aussi signifier un saut rapide jusqu'à la fin d'une chanson, d'un film, etc. Autre cas de figure : il exprime un état émotionnel, comme par exemple “Je suis à bout...“</td>
+            <td>U+1F51A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/back-with-leftwards-arrow-above_1f519.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Flèche Back Whatsapp U+1F519" title="Flèche Back Whatsapp U+1F519" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/back-with-leftwards-arrow-above_1f519.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6305186150917712">
+            </td>
+            <td id="U+1F519">
+			    🔙&nbsp;<b>BACK surmonté d'une flèche indiquant la gauche</b><br>
+                Une flèche pointant vers la gauche avec le mot “retour“ en-dessous. Peut être utilisé littéralement ou métaphoriquement. “Retourne-toi et prends l'autre chemin.“ Recommencer à zéro ou revenir à quelque chose.</td>
+            <td>U+1F519</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/on-with-exclamation-mark-with-left-right-arrow-above_1f51b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Flèche On U+1F51B" title="Flèche On U+1F51B" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/on-with-exclamation-mark-with-left-right-arrow-above_1f51b.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7331440136948231">
+            </td>
+            <td id="U+1F51B">
+			    🔛&nbsp;<b>Flèche “On!“</b><br>
+                Une flèche indiquant à la fois la gauche et la droite, avec le mot “on“ en-dessous. Quelque chose continue, ou il est temps de reprendre. Le principal est de se mettre en route, la direction importe peu, car toutes deux nous raprochent de l'objectif.</td>
+            <td>U+1F51B</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/top-with-upwards-arrow-above_1f51d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Top U+1F51D" title="Emoji Top U+1F51D" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/top-with-upwards-arrow-above_1f51d.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.2660757744952096">
+            </td>
+            <td id="U+1F51D">
+			    🔝&nbsp;<b>Flèche vers le haut</b><br>
+                Je trouve ça TOP ! L'émoji indique littéralement et symboliquement le haut. Souvent utilisé pour exprimer une demande de se référer à une personne plus haut placée.</td>
+            <td>U+1F51D</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/soon-with-rightwards-arrow-above_1f51c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Soon U+1F51C" title="Emoji Soon U+1F51C" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/soon-with-rightwards-arrow-above_1f51c.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3529245433963215">
+            </td>
+            <td id="U+1F51C">
+			    🔜&nbsp;<b>SOON en-dessous d'une flèche indiquant la droite</b><br>
+                Je suis presque là ! Un symbole avec le mot « soon » (tiré de l'anglais) et une flèche : quelque chose va être réglé prochainement, ou aussi vite que possible.</td>
+            <td>U+1F51C</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/heavy-check-mark_2714.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Coché Whatsapp U+2714" title="Emoji Coché Whatsapp U+2714" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/heavy-check-mark_2714.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5061190872616235">
+            </td>
+            <td id="U+2714">
+			    ✔&nbsp;<b>Symbole coché en gras</b><br>
+                Ce sujet est validé ! Une tâche a été terminée avec succès ou bien tous les préparatifs sont terminés. Tout va bien et se déroule comme prévu.</td>
+            <td>U+2714</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/radio-button_1f518.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Bouton de Radio U+1F518" title="Emoji Bouton de Radio U+1F518" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/radio-button_1f518.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.05081568229509581">
+            </td>
+            <td id="U+1F518">
+			    🔘&nbsp;<b>Bouton de radio</b><br>
+                Hé, écoute donc le nouveau tube ! Le bouton de radio est principalement utilisé lorsque l'on parle de musique. C'est l'un des symboles les plus rarement utilisés.</td>
+            <td>U+1F518</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/medium-white-circle_26aa.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cercle Blanc Whatsapp U+26AA" title="Cercle Blanc Whatsapp U+26AA" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/medium-white-circle_26aa.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.08477146603507824">
+            </td>
+            <td id="U+26AA">
+			    ⚪&nbsp;<b>Cercle blanc</b><br>
+                Peut être synonyme de fiançailles car la forme ronde du cercle blanc rappelle une bague. Symbole pour une personne asexuée (Gender).</td>
+            <td>U+26AA</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/medium-black-circle_26ab.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Cercle Noir U+26AB" title="Symbole Cercle Noir U+26AB" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/medium-black-circle_26ab.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6074814215285169">
+            </td>
+            <td id="U+26AB">
+			    ⚫&nbsp;<b>Cercle noir</b><br>
+                L'image d'un parfait cercle noir. La forme géométrique peut indiquer un black-out ou une obscurité totale. La couleur noire indique le plus souvent des sentiments négatifs ou l'aversion.</td>
+            <td>U+26AB</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/large-red-circle_1f534.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cercle Rouge Whatsapp U+1F534" title="Cercle Rouge Whatsapp U+1F534" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/large-red-circle_1f534.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.21721097532115485">
+            </td>
+            <td id="U+1F534">
+			    🔴&nbsp;<b>Gros cercle rouge</b><br>
+                Le cercle rouge est le plus souvent utilisé pour représenter un SMS. Il n'y a pas de signification cachée positive ou négative. C'est aussi un symbole du sport nommé kickball (cousin du baseball).</td>
+            <td>U+1F534</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/small-orange-diamond_1f538.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Losange Orange U+1F538" title="Losange Orange U+1F538" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/small-orange-diamond_1f538.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9220429957268901">
+            </td>
+            <td id="U+1F538">
+			    🔸&nbsp;<b>Petit diamant orange</b><br>
+                Le diamant orange le plus gros du monde est de 14,82 carats et a été acheté en 2013 pour un montant record de 30 millions d'euros. Ce diamant est connu pour sa couleur de feu et son éclat. L'azote lui donne sa couleur orange.</td>
+            <td>U+1F538</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/small-blue-diamond_1f539.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Losange Bleu U+1F539" title="Emoji Losange Bleu U+1F539" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/small-blue-diamond_1f539.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7484232653094323">
+            </td>
+            <td id="U+1F539">
+			    🔹&nbsp;<b>Petit diamant bleu</b><br>
+                Le diamant indique l'invincibilité et la pureté. Les diamants bleus sont très rares et le plus connu est le diamant Hope, que l'on dit ensorcelé et qui porterait malheur à son propriétaire.</td>
+            <td>U+1F539</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/white-square-button_1f533.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Carré noir avec contour blanc U+1F533" title="Carré noir avec contour blanc U+1F533" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/white-square-button_1f533.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9547086544121788">
+            </td>
+            <td id="U+1F533">
+			    🔳&nbsp;<b>Touche blanche carrée</b><br>
+                Le carré noir avec un contour blanc symbolise un bouton. Peut également être utilisé comme forme géométrique ou de manière décorative.</td>
+            <td>U+1F533</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-medium-square_25fc.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Carré Noir Moyen U+25FC" title="Carré Noir Moyen U+25FC" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-medium-square_25fc.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.25414658102185905">
+            </td>
+            <td id="U+25FC">
+			    ◼&nbsp;<b>Carré (noir) de taille moyenne</b><br>
+                Je ne me sens pas bien du tout aujourd'hui ! La signification de ce carré dépend du contexte. On l'utilise aussi pour décrire une tenue vestimentaire noire, par exemple.</td>
+            <td>U+25FC</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/speaker_1f508.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Haut-parleur U+1F508" title="Emoji Haut-parleur U+1F508" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/speaker_1f508.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8744026919312742">
+            </td>
+            <td id="U+1F508">
+			    🔈&nbsp;<b>Haut-parleur</b><br>
+                Une annonce vient d'être faite sur le haut-parleur ! Peut faire référence à une conversation ou à de la musique. Cet emoji est souvent associé à la vie nocturne.</td>
+            <td>U+1F508</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/speaker-with-cancellation-stroke_1f507.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Haut-parleur silencieux U+1F507" title="Haut-parleur silencieux U+1F507" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/speaker-with-cancellation-stroke_1f507.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8579696740283898">
+            </td>
+            <td id="U+1F507">
+			    🔇&nbsp;<b>Haut-parleur en mode muet</b><br>
+                Silence ! Ce haut-parleur est en mode muet. Quelqu'un doit se taire ou bien arrêter immédiatement de parler. Peut-être l'interlocuteur se trouve-t-il actuellement au cinéma ou à la bibliothèque et doit mettre son téléphone en mode silencieux.</td>
+            <td>U+1F507</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/speaker-with-three-sound-waves_1f50a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Augmenter haut-parleur U+1F50A" title="Augmenter haut-parleur U+1F50A" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/speaker-with-three-sound-waves_1f50a.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7803524451993824">
+            </td>
+            <td id="U+1F50A">
+			    🔊&nbsp;<b>Haut-parleur avec trois ondes sonores</b><br>
+                "Je ne t'entends pas" ou "C'est bien trop fort !" Le haut-parleur n'est pas bien réglé et doit être ajusté comme il se doit. Symbole présent sur les appareils électroniques pour augmenter le volume.</td>
+            <td>U+1F50A</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/bell_1f514.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cloche Whatsapp U+1F514" title="Cloche Whatsapp U+1F514" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/bell_1f514.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7562372526118017">
+            </td>
+            <td id="U+1F514">
+			    🔔&nbsp;<b>Cloche</b><br>
+                Je te fais signe plus tard ! La cloche dorée symbolise les messages sur un mobile ou représente une sonnerie d'appel. Peut également être utilisé comme cloche de Noël.</td>
+            <td>U+1F514</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/bell-with-cancellation-stroke_1f515.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Cloche barrée U+1F515" title="Cloche barrée U+1F515" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/bell-with-cancellation-stroke_1f515.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.3643746800267249">
+            </td>
+            <td id="U+1F515">
+			    🔕&nbsp;<b>Cloche barrée d'un trait</b><br>
+                Mon mobile est en mode silencieux ! La cloche barrée peut être un signal. On se trouve actuellement dans une zone calme, par exemple le cinéma ou la bibliothèque, et l'on doit passer son mobile en mode muet.</td>
+            <td>U+1F515</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/cheering-megaphone_1f4e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Porte-Voix Whatsapp U+1F4E3" title="Porte-Voix Whatsapp U+1F4E3" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/cheering-megaphone_1f4e3.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6100472216260999">
+            </td>
+            <td id="U+1F4E3">
+			    📣&nbsp;<b>Porte-voix</b><br>
+                Allez l'équipe ! Le porte-voix sert à encourager lors d'un événement sportif, lors de manifestations ou pour une annonce de la police ou des pompiers. Sa forme d'entonnoir véhicule le son et permet de rendre un discours audible à longue distance.</td>
+            <td>U+1F4E3</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/public-address-loudspeaker_1f4e2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Haut-parleur public U+1F4E2" title="Haut-parleur public U+1F4E2" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/public-address-loudspeaker_1f4e2.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8938846763892798">
+            </td>
+            <td id="U+1F4E2">
+			    📢&nbsp;<b>Haut-parleur pour annonce publique</b><br>
+                Je n'ai pas d'annonce à faire ! Un haut-parleur pour faire une annonce dans un lieu public, par exemple sur un site sportif ou lors d'un événement.</td>
+            <td>U+1F4E2</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/speech-balloon_1f4ac.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Bulle de Dialogue U+1F4AC" title="Emoji Bulle de Dialogue U+1F4AC" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/speech-balloon_1f4ac.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.10336928188913519">
+            </td>
+            <td id="U+1F4AC">
+			    💬&nbsp;<b>Bulle de dialogue en BD</b><br>
+                Il faut que l'on parle ! Le smiley-bulle de BD contenant trois points peut aussi signifier : un instant, je suis en plein milieu d'une discussion.</td>
+            <td>U+1F4AC</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/thought-balloon_1f4ad.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Smiley Bulle de Pensée U+1F4AD" title="Smiley Bulle de Pensée U+1F4AD" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/thought-balloon_1f4ad.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9095239743858765">
+            </td>
+            <td id="U+1F4AD">
+			    💭&nbsp;<b>Bulle de pensée en BD</b><br>
+                Dans les comics, la bulle des pensées indique que le personnage réfléchit. Peut indiquer un dialogue intérieur, la nécessité de réfléchir à la façon de procéder, ou une décision qui doit être prise. Représente aussi la rêverie...</td>
+            <td>U+1F4AD</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/right-anger-bubble_1f5ef.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Bulle de texte Hurlement U+1F5EF" title="Bulle de texte Hurlement U+1F5EF" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/right-anger-bubble_1f5ef.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8688763588692143">
+            </td>
+            <td id="U+1F5EF">
+			    🗯️&nbsp;<b>Bulle de texte en colère</b><br>
+                Mais où diable es-tu donc ? Dans les BD, le bord hérissé de cette bulle de texte indique des paroles fortes et furieuses. Quelqu'un crie, est énervé ou se dispute.</td>
+            <td>U+1F5EF</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-spade-suit_2660.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Pique U+2660" title="Emoji Pique U+2660" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-spade-suit_2660.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5793647332631788">
+            </td>
+            <td id="U+2660">
+			    ♠&nbsp;<b>Symbole Pique</b><br>
+                J'ai encore un as dans ma manche ! L'émoji-pique est le plus souvent utilisé en rapport avec le poker et les jeux de cartes. Au bridge, le pique est la couleur la plus précieuse, au skat c'est la deuxième plus importante.</td>
+            <td>U+2660</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-club-suit_2663.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Trèfle noir U+2663" title="Trèfle noir U+2663" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-club-suit_2663.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.7411603888087639">
+            </td>
+            <td id="U+2663">
+			    ♣‍️&nbsp;<b>Symbole de carte trèfle</b><br>
+                Le symbole du trèfle sur les cartes à jouer est un trèfle à trois feuilles. Fait référence aux jeux de cartes, principalement le poker. Il invite à un moment convivial chez soi ou à une sortie au casino. Le trèfle à trois feuilles symbolise également l'unité du corps et de l'âme.</td>
+            <td>U+2663</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-heart-suit_2665.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Carte Coeur Whatsapp U+2665" title="Carte Coeur Whatsapp U+2665" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-heart-suit_2665.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.035513995443412494">
+            </td>
+            <td id="U+2665">
+			    ♥&nbsp;<b>Carte Cœur</b><br>
+                L'une des quatre couleurs d'un jeu de cartes. Le cœur est généralement le symbole des sentiments et des relations amoureuses. Il faut saisir sa chance et prendre des risques.</td>
+            <td>U+2665</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/black-diamond-suit_2666.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji Carreau U+2666" title="Emoji Carreau U+2666" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/black-diamond-suit_2666.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.8261397568211988">
+            </td>
+            <td id="U+2666">
+			    ♦‍️&nbsp;<b>Symbole de carte carreau</b><br>
+                Envie de jouer au poker ? Le carreau est l'une des couleurs des cartes de jeu. Les cartes sont également utilisées pour la divination : le carreau est alors un signe de bienfait et de richesse matérielle.</td>
+            <td>U+2666</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/playing-card-black-joker_1f0cf.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Whatsapp Carte Joker U+1F0CF" title="Whatsapp Carte Joker U+1F0CF" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/playing-card-black-joker_1f0cf.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.6483938096059427">
+            </td>
+            <td id="U+1F0CF">
+			    🃏&nbsp;<b>Carte Joker</b><br>
+                J'ai encore un joker dans ma manche ! Le joker est présent dans différents jeux et peut remplacer une carte souhaitée. Elle représente le plus souvent un bouffon qui cache son visage derrière un masque.</td>
+            <td>U+1F0CF</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/flower-playing-cards_1f3b4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Symbole Carte Fleur U+1F3B4" title="Symbole Carte Fleur U+1F3B4" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/flower-playing-cards_1f3b4.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5201888027002846">
+            </td>
+            <td id="U+1F3B4">
+			    🎴&nbsp;<b>Carte Fleur japonaise</b><br>
+                Les cartes à jouer japonaises (Hanafuda) avec motif de fleurs. Il existe des cartes pour chaque mois, avec des valeurs différentes, et il y a au total 48 cartes. La carte de la pleine lune est celle du mois d'août.</td>
+            <td>U+1F3B4</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/no-one-under-eighteen-symbol_1f51e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Emoji 18 U+1F51E" title="Emoji 18 U+1F51E" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/no-one-under-eighteen-symbol_1f51e.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.5320608210222844">
+            </td>
+            <td id="U+1F51E">
+			    🔞&nbsp;<b>Symbole « moins de 18 ans »</b><br>
+                Un panneau d'avertissement contenant un 18 barré. Attention ! Les adultes ne sont pas les bienvenus ici !</td>
+            <td>U+1F51E</td>
+        </tr>
+            <tr>
+            <td>
+                <img src="https://www.significationsmileys.fr/img/emojis/no-smoking-symbol_1f6ad.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" width="60" height="60" alt="Interdit de fumer Whatsapp U+1F6AD" title="Interdit de fumer Whatsapp U+1F6AD" ezimgfmt="rs rscb13 src ng ngcb13" class=" ezlazyloaded" data-ezsrc="https://www.significationsmileys.fr/img/emojis/no-smoking-symbol_1f6ad.png?ezimgfmt=rs:60x60/rscb13/ng:webp/ngcb13" ezoid="0.9316519366667524">
+            </td>
+            <td id="U+1F6AD">
+			    🚭&nbsp;<b>Interdit de fumer</b><br>
+                Il est interdit de fumer ici ou bien “j'ai arrêté de fumer !“ Dans les lieux portant ce symbole, on ne pas peut sortir sa cigarette. L'interdiction de fumer permet de prévenir les atteintes durables à la santé.</td>
+            <td>U+1F6AD</td>
+        </tr>
+        </tbody>"""
+c=[]
+for i in a:c.append(i)
+
+def pause():pause=input("Appuyez sur entré pour continuer...")
+
+i=0
+A=0
+link=""
+definition=""
+links=[]
+descriptions=[]
+maximum=len(c)
+while i<maximum:
+ if (c[i]=="s" and c[i+1]=="r" and c[i+2]=="c" and c[i+3]=="=" and c[i+4]=="\"") and not( c[i-2]=="e" and c[i-1]=="z" and c[i]=="s" and c[i+1]=="r" and c[i+2]=="c" and c[i+3]=="=" and c[i+4]=="\""):
+  A=1
+  i+=4
+ elif c[i]=="\"" and c[i+1]==" " and c[i+2]=="w":
+  A=0
+  print("link={}".format(link))
+  links.append(link)
+  link=""
+  i+=2
+ elif A==1:
+  print("link={} c[{}]={}".format(link,i,c[i]))
+  link+=c[i]
+ elif c[i]=="<" and c[i+1]=="b" and c[i+2]==">":
+  A=2
+  i+=2
+ elif c[i]=="<" and c[i+1]=="/" and c[i+2]=="b" and c[i+3]==">":
+  A=0
+  print("definition={}".format(definition))
+  descriptions.append(definition)
+  definition=""
+  i+=3
+ elif A==2:
+  print("definition={} c[{}]={}".format(definition,i,c[i]))
+  definition+=c[i]
+ i+=1
+
+f=open("links.csv","w")
+for i in range(len(links)):
+ f.write("{}\n".format(links[i]))
+
+f.close()
+f=open("names.txt","w")
+for i in range(len(descriptions)):
+ f.write("{}\n".format(descriptions[i]))
+
+f.close()
+
+print(descriptions)
+pause()
+
+print(links)

@@ -1,16 +1,68 @@
-<<<<<<< HEAD
-@media (max-width: 850px){:root{--max:98%;--funtt:normal;--acol:aqua;}}
-@media tv{:root{--max:111%;--funtt:xx-large;--acol:aqua;}}
-@media screen and (min-width: 851px){:root{--max:99%;--funtt:x-large;--acol:aqua;}}
-#html,#head,#body{background-color:black;font-size: 20px;font-family: 'Times New Roman','Courier New', Courier, monospace;width: var(--max);color:aliceblue;}
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --acol:gold;
+        --max-object:100%
+    } 
+}
+@media tv
+{
+    :root{
+        --max:111%;
+        --acol:gold;
+        --max-object:111%
+    }  
+}
+@media screen and (min-width: 851px)
+{
+    :root{
+        --max:99%;
+        --acol:gold;
+        --max-object:99%
+    }  
+}
+
+html,head,body{
+    background-color: black;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    width: var(--max);
+}
+
+p,h1,h2,h3,h4,h5,h6,li,ol{
+    color: aliceblue;
+}
+a{
+    color:var(--acol);
+    text-decoration: underline;
+}
+a:clicked{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    color:springgreen;
+    text-decoration: underline;
+    font-style: italic;
+}
+.inner_buttons{float: right;/*width: 100%;*/}
 .gap{float: right;}
-.button {padding: 5px 15px;background-color: aliceblue;color: black;border-style: outset;border-radius: 3px;border-width: 5px;}
-=======
-@media (max-width: 850px){:root{--max:98%;--funtt:normal;--acol:aqua;}}
-@media tv{:root{--max:111%;--funtt:xx-large;--acol:aqua;}}
-@media screen and (min-width: 851px){:root{--max:99%;--funtt:x-large;--acol:aqua;}}
-#html,#head,#body{background-color:black;font-size: 20px;font-family: 'Times New Roman','Courier New', Courier, monospace;width: var(--max);color:aliceblue;}
-.gap{float: right;}
-.button {padding: 5px 15px;background-color: aliceblue;color: black;border-style: outset;border-radius: 3px;border-width: 5px;}
->>>>>>> 4c476127afd0499a711ccd60eedffaa0d6d2f2dc
-.button:hover {background-color:lightblue;color:grey;border-style: inset;cursor: hand;}
+.button {
+    padding: 5px 15px;
+    background-color: aliceblue;
+    color: black;
+    border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:lightblue;
+    color:grey;
+    border-style: inset;
+    cursor: hand;
+}
+.buttject,.fooject,.main_men_page{border-style: none;width:var(--max),100%;}
+table,tr,td,tbody,thead,tfoot,th{border-color: transparent;}

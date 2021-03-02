@@ -20,9 +20,25 @@ headList.push("        <script type=\"text/javascript\" src=\"http://hanra-proje
 //<link rel="stylesheet" href="css/stylesheet.css"/>
 //<script src="js/script.js"></script>
 
-function head(){
- for (var i=0;i<headList.length;i++){
-  document.write(headList[i]);
- }
+function head(ID){
+    var bb="";
+    for (var i=0;i<headList.length;i++){
+        bb+=headList[i];
+    }
+  document.getElementById(ID).innerHTML=bb;
 };
-head()
+
+{/*    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Index" content="This is a sub page of the server http://hanra-projects.unaux.com/." />
+    <meta name="Language" CONTENT="en,fr" />
+    <meta name="robots" content="index,follow,max-image-preview:standard" />
+    <meta name="copyright" content="&copy; Henry Letellier 2021"/>
+    <meta name="publisher" content="Henry Letellier" />
+    <meta name="googlebot" content="index,follow,nosnippet" />
+    <meta name="google" content="translate,sitelinkssearchbox" />
+    <meta name="google-site-verification" content="LoWnBYKGqfx79IqYViE-Pqkd4dRmGa_lNqUDvjZxv0s" />
+    <meta http-equiv="pragma" content="cache" />
+    <meta http-equiv="Cache-control" content="public" />
+    <link rel="stylesheet" href="http://hanra-projects.unaux.com/side_add_ons/bootstrap_style/bootstrap.css"/>
+    <script type="text/javascript" src="http://hanra-projects.unaux.com/side_add_ons/js/links/sorter.js"></script> */}

@@ -20,9 +20,10 @@ headList.push("        <script type=\"text/javascript\" src=\"http://hanra-proje
 //<link rel="stylesheet" href="css/stylesheet.css"/>
 //<script src="js/script.js"></script>
 
-function head(){
- for (var i=0;i<headList.length;i++){
-  document.write(headList[i]);
- }
+function head(ID){
+    var bb="";
+    for (var i=0;i<headList.length;i++){
+        bb+=headList[i];
+    }
+  document.getElementById(ID).innerHTML=bb;
 };
-head()
