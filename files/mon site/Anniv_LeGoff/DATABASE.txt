@@ -1,0 +1,18 @@
+CREATE TABLE anniv_legoff (
+	index SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT,
+	anniv_legoff TEXT #content (files+folders)
+	anniv_legoff_file_format VARCHAR(10),
+	anniv_legoff_file_size VARCHAR(30)
+	img TEXT,
+	img_in_img TEXT,
+	img_file_format VARCHAR(10),
+	img_file_size VARCHAR(30),
+	css_in_css TEXT,
+	css_file_format VARCHAR(10),
+	css_file_size VARCHAR(50),
+	js_in_js TEXT
+	js_file_format VARCHAR(10),
+	js_file_size VARCHAR(50),
+	PRIMARY KEY (id)
+)
+ENGINE=INNODB;
