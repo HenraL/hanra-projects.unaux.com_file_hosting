@@ -1,0 +1,84 @@
+<<<<<<< HEAD
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --funtt:normal;
+        --acol:blue;
+    }
+}
+@media tv{
+    :root{
+        --max:111%;
+        --funtt:xx-large;
+        --acol:blue;
+    }
+}
+@media screen and (min-width: 851px){
+    :root{
+        --max:99%;
+        --funtt:x-large;
+        --acol:blue;
+    }
+}
+#html,#head,#body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman','Courier New', Courier, monospace;
+    width: var(--max);
+}
+.gap{float: right;}
+.button {
+    padding: 5px 15px;
+    background-color: black;
+    color: white;border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:grey;
+    color:lightblue;
+    border-style: inset;
+    cursor: hand;
+=======
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --funtt:normal;
+        --acol:blue;
+    }
+}
+@media tv{
+    :root{
+        --max:111%;
+        --funtt:xx-large;
+        --acol:blue;
+    }
+}
+@media screen and (min-width: 851px){
+    :root{
+        --max:99%;
+        --funtt:x-large;
+        --acol:blue;
+    }
+}
+#html,#head,#body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Times New Roman','Courier New', Courier, monospace;
+    width: var(--max);
+}
+.gap{float: right;}
+.button {
+    padding: 5px 15px;
+    background-color: black;
+    color: white;border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:grey;
+    color:lightblue;
+    border-style: inset;
+    cursor: hand;
+>>>>>>> 4c476127afd0499a711ccd60eedffaa0d6d2f2dc
+}

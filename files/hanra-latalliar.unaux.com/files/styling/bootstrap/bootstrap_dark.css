@@ -1,0 +1,82 @@
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --acol:gold;
+        --max-object:100%
+    } 
+}
+@media tv
+{
+    :root{
+        --max:111%;
+        --acol:gold;
+        --max-object:111%
+    }  
+}
+@media screen and (min-width: 851px)
+{
+    :root{
+        --max:99%;
+        --acol:gold;
+        --max-object:99%
+    }  
+}
+
+html,head,body{
+    background-color: black;
+    font-family: 'Helvetica';
+    font-size: 20px;
+    width: var(--max);
+}
+
+/* html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td  */
+p,h1,h2,h3,h4,h5,h6,h7,h8,span,
+div, span, applet, object, iframe,
+blockquote, pre,a, abbr, acronym, 
+address, big, cite, code,del, dfn, 
+em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, 
+var,b, u, i, center, dl, dt, dd, ol, ul, 
+li,fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td{
+    color: aliceblue;
+}
+a{
+    color:var(--acol);
+    text-decoration: underline;
+}
+a:clicked{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    color:springgreen;
+    text-decoration: underline;
+    font-style: italic;
+}
+.inner_buttons{float: right;/*width: 100%;*/}
+.gap{float: right;}
+.button {
+    padding: 5px 15px;
+    background-color: aliceblue;
+    color: black;
+    border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:lightblue;
+    color:grey;
+    border-style: inset;
+    cursor: hand;
+}
+.buttject,.fooject,.main_men_page{border-style: none;width:var(--max),100%;}
+/* table,tr,td,tbody,thead,tfoot,th{border-color: transparent;} */
+.TableFooter{background-color:black;width:100%;}
+.TheadFooter{background-color:white;}
+.TbodyFooter{background-color:white;}
+.TrFooter{background-color: black;}
+.ThFooter,.TdFooter{background-color: black;}

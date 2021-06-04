@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+@media (max-width: 850px){:root{--max:98%;--funtt:normal;--acol:aqua;}}
+@media tv{:root{--max:111%;--funtt:xx-large;--acol:aqua;}}
+@media screen and (min-width: 851px){:root{--max:99%;--funtt:x-large;--acol:aqua;}}
+#html,#head,#body{background-color:black;font-size: 20px;font-family: 'Times New Roman','Courier New', Courier, monospace;width: var(--max);color:aliceblue;}
+.gap{float: right;}
+.button {padding: 5px 15px;background-color: aliceblue;color: black;border-style: outset;border-radius: 3px;border-width: 5px;}
+=======
+@media (max-width: 850px){:root{--max:98%;--funtt:normal;--acol:aqua;}}
+@media tv{:root{--max:111%;--funtt:xx-large;--acol:aqua;}}
+@media screen and (min-width: 851px){:root{--max:99%;--funtt:x-large;--acol:aqua;}}
+#html,#head,#body{background-color:black;font-size: 20px;font-family: 'Times New Roman','Courier New', Courier, monospace;width: var(--max);color:aliceblue;}
+.gap{float: right;}
+.button {padding: 5px 15px;background-color: aliceblue;color: black;border-style: outset;border-radius: 3px;border-width: 5px;}
+>>>>>>> 4c476127afd0499a711ccd60eedffaa0d6d2f2dc
+.button:hover {background-color:lightblue;color:grey;border-style: inset;cursor: hand;}

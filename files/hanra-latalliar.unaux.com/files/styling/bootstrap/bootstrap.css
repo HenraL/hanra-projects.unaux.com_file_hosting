@@ -1,0 +1,85 @@
+@media (max-width: 850px){
+    :root{
+        --max:98%;
+        --acol:blue;
+    } 
+}
+@media tv
+{
+    :root{
+        --max:111%;
+        --acol:blue;
+    }  
+}
+@media screen and (min-width: 851px)
+{
+    :root{
+        --max:99%;
+        --acol:blue;
+    }  
+}
+
+html,head,body{
+    background-color: aliceblue;
+    font-size: 20px;
+    font-family: 'Helvetica';
+    width: var(--max);
+}
+
+/* html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center, dl, dt, dd, ol, ul, li,fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td  */
+p,h1,h2,h3,h4,h5,h6,h7,h8,span,
+div, span, applet, object, iframe,
+blockquote, pre,a, abbr, acronym, 
+address, big, cite, code,del, dfn, 
+em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, 
+var,b, u, i, center, dl, dt, dd, ol, ul, 
+li,fieldset, form, label, legend, table, caption, 
+tbody, tfoot, thead, tr, th, td{
+    color: black;
+}
+a{color:var(--acol)}
+a:clicked{
+    color:aqua;
+    text-decoration: underline;
+}
+a:active{
+    text-decoration: none;
+}
+a:hover{
+    color:coral;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.inner_buttons{float: right;/*width: 100%;*/}
+.aside_boxes{border-style: none;}
+.gap{float: right;}
+.button {
+    padding: 5px 15px; 
+    background-color: black; 
+    color: white; 
+    border-style: outset;
+    border-radius: 3px;
+    border-width: 5px;
+}
+.button:hover {
+    background-color:grey;
+    color:lightblue;
+    border-style: inset;
+    cursor: hand;
+}
+
+/*:root{
+    target:var(--max);
+    /* <?php include('link_to_show'); ?> */
+
+/*}*/
+
+.buttject,.fooject,.main_men_page{border-style: none;width:var(--max),100%;}
+
+.TableFooter{background-color:black;width:100%;}
+.TheadFooter{background-color:white;}
+.TbodyFooter{background-color:white;}
+.TrFooter{background-color: white;}
+.ThFooter,.TdFooter{background-color: white;}
