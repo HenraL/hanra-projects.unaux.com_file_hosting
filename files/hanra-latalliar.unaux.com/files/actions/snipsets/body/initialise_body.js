@@ -1,17 +1,20 @@
-function body(ID){
-    var bodyList=[],
-        author="Henry Letellier",
-        home="http://www.hanra-latalliar.unaux.com";
-    
-    bodyList.push("        <script type=\"text/JavaScript\" src=\""+home+"/files/actions/snipsets/body/header/header.js\"></script>");
-    bodyList.push("        <script type=\"text/JavaScript\" src=\""+home+"/files/actions/snipsets/body/main/main.js\"></script>");
-    bodyList.push("        <script type=\"text/JavaScript\" src=\""+home+"/files/actions/snipsets/body/footer/footer.js\"></script>");
-    bodyList.push("        <script type=\"text/JavaScript\">initialise_tracking(\""+ID+","+home+"\");</script>");
-    //<script src="js/script.js"></script>
+function UserBody(ID) {
+    var bodyList = [],
+        author = "Henry Letellier",
+        home = "http://www.hanra-latalliar.unaux.com",
+        home = ".",
+        bb = "";
 
-    var bb="";
-    for (var i=0;i<bodyList.length;i++){
-        bb+=bodyList[i];
+    bodyList.push("        <script type='text/JavaScript' src='" + home + "/files/actions/snipsets/body/header/header.js'></script>");
+    bodyList.push("        <script type='text/JavaScript' src='" + home + "/files/actions/snipsets/body/main/main.js'></script>");
+    bodyList.push("        <script type='text/JavaScript' src='" + home + "/files/actions/snipsets/body/footer/footer.js'></script>");
+    bodyList.push("        <script type='text/JavaScript' id='main'></script>");
+    bodyList.push("        <script type='text/JavaScript' id='insertIntoFooter'></script>");
+    bodyList.push("        <script type='text/JavaScript'>\ninitialise_tracking('" + ID + "," + home + "');\ninit_header('The_page_header');\nchildrenMain.insertInMain('main');\n</script>");
+
+    for (var i = 0; i < bodyList.length; i++) {
+        bb += bodyList[i] + "\n";
     }
-  document.getElementById(ID).innerHTML=bb;
+    console.log("bb=" + bb);
+    document.getElementById(ID).innerHTML = bb;
 };
