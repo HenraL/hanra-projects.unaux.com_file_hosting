@@ -14,19 +14,19 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=275772491003082&ev=PageView&noscript=1"/></noscript>
     <!-- End Facebook Pixel Code -->
-    <meta id="headPrepping">
-    <meta id="bootstrap_theme">
-    <!-- <span type="text/JavaScript" src="http://www.hanra-latalliar.unaux.com/files/actions/snipsets/head/initialiseHeader.js"></span> -->
-    <!-- <span type="text/JavaScript">head("headPrepping");</span> -->
     <script type="text/JavaScript" src="files/actions/snipsets/head/initialiseHeader.js"></script>
-    <script type="text/JavaScript">head("headPrepping",1);</script>
+    <meta id="headPrepping">
+    <script type="text/JavaScript">head(ID="headPrepping",top=1);</script>
+    <script type="text/JavaScript" src="files/actions/snipsets/head/cookie_dealing.js"></script>
+    <script type="text/JavaScript" src="files/actions/snipsets/body/header/theme_toggler.js"></script>
+    <meta id="bootstrap_theme">
+    <script type="text/JavaScript">init_theme("bootstrap_theme");</script>
     <meta name="google-site-verification" content="LoWnBYKGqfx79IqYViE-Pqkd4dRmGa_lNqUDvjZxv0s" />
-    <!-- <span type="text/JavaScript" src="script.js"></span> -->
 </head>
 
 <body>
     <header id="The_page_header">
-        <input type="checkbox" id="toggle_checkbox">
+        <input type="checkbox" id="toggle_checkbox" onclick="applyTheme(theme_type,ID,home)">
 
         <label for="toggle_checkbox">
                     <div id="star">
@@ -37,6 +37,9 @@
                 </label>
         <!-- <input type="checkbox" id="theme_on_off" onchange="updateTheme('theme_on_off','bootstrap_theme')"/> -->
     </header>
+    <bootHeader>
+        
+    </bootHeader>
     <main>
         <h1>
             <center>Welcome to the Home page</center>
@@ -50,15 +53,16 @@
             </div>
         </div>
     </main>
+    <bootMain>
+        
+    </bootMain>
     <footer id="footer">
     </footer>
+    <bootFooter>
+        
+    </bootFooter>
     <bootAll>
-        <script type="text/JavaScript" src="files/actions/snipsets/body/initialise_body.js"></script>
-        <script type="text/JavaScript" id="bodyJavascript"></script>
-        <script type="text/JavaScript">UserBody("bodyJavascript");</script>
-
-        <!-- <script type="text/JavaScript" id="main"></script>
-            <script type="text/JavaScript">childrenMain.insertInMain('main');</script> -->
+        
     </bootAll>
 
 </body>
