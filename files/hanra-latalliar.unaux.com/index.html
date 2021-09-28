@@ -14,6 +14,17 @@
     </script>
     <noscript><img height="1" width="1" style="display:none"src="https://www.facebook.com/tr?id=275772491003082&ev=PageView&noscript=1"/></noscript>
     <!-- End Facebook Pixel Code -->
+    <meta charset="utf-8"> <!--Meta settign the charset to utf-8-->
+    <meta lang="eng"> <!--Meta setting the language of the website to english-->
+    <script type="text/JavaScript" src="script.js"></script> <!--script for actions in this page-->
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/cookie_dealing.js"></script> <!--Script for dealing with cookies-->
+    <script type="text/JavaScript" src="files/actions/js/head.js"></script> <!--Script linking the header of the head-->
+    <script type="text/JavaScript" src="files/actions/js/BodyHeader.js"></script> <!--Script for linking the header of the body-->
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/apply_d_l_from_theme.js"></script> <!--Script applying the a dark or a light boostrap.css-->
+    <meta id="theme"> <!--Meta that will host the theme linking code-->
+    <meta id="theHead"> <!--Additional linking for info in the header-->
+    <script type="text/JavaScript">initialiseHeader("theHead",1);</script> <!--Calling the function.-->
+    <link rel="stylesheet" href="https://hanralatalliardwork.github.io/My_styling/files/css/toggle.css">
     <script type="text/JavaScript" src="files/actions/snipsets/head/initialiseHeader.js"></script>
     <meta id="headPrepping">
     <script type="text/JavaScript">head(ID="headPrepping",top=1);</script>
@@ -22,49 +33,45 @@
     <meta id="bootstrap_theme">
     <script type="text/JavaScript">init_theme("bootstrap_theme");</script>
     <meta name="google-site-verification" content="LoWnBYKGqfx79IqYViE-Pqkd4dRmGa_lNqUDvjZxv0s" />
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/cookie_dealing.js"></script>
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/dark_light.js"></script>
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/show_hide_id.js"></script>
+    <script type="text/JavaScript" src="files/actions/js/head.js"></script>
+    <script type="text/JavaScript" src="files/actions/js/BodyHeader.js"></script>
+    <script type="text/JavaScript" src="https://hanralatalliardwork.github.io/My_styling/files/js/apply_d_l_from_theme.js"></script>
+    
 </head>
 
 <body>
-    <header id="The_page_header">
-        <input type="checkbox" id="toggle_checkbox" onclick="applyTheme(theme_type,ID,home)">
-
-        <label for="toggle_checkbox">
-                    <div id="star">
-                        <div class="star" id="star-1">&starf;</div>
-                        <div class="star" id="star-2">&starf;</div>
-                    </div>
-                    <div id="moon"></div>
-                </label>
-        <!-- <input type="checkbox" id="theme_on_off" onchange="updateTheme('theme_on_off','bootstrap_theme')"/> -->
-    </header>
-    <bootHeader>
-        
-    </bootHeader>
-    <main>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v11.0" nonce="XJZzd85a"></script>
+    <header id="header"></header>
+    <main class="GapMain">
         <h1>
-            <center>Welcome to the Home page</center>
+            <center>Welcome hanra-latalliar.unaux.com - Home</center>
+            <br>
+            <center>This is the first part of the website: <a class="link" href="hanra-latalliar.unaux.com">hanra-latalliar.unaux.com</a></center>
+            <br>
+            <center>This site hosts everything except the blog and youtube part.</center>
+            <br>
+            <center>If you whish to have access to this part you can click here: <a class="link" href="https://hanralatalliar.wordpress.com/">here (https://hanralatalliar.wordpress.com/)</a> or access it by navigating thought the table of contents.</center>
+            <br>
         </h1>
-        <p id="sucess"></p>
-        <!-- <span>writee()</span> -->
-        <div class="ContentsStyle">
-            <div onclick="show_Contents('Contents','text')"><span id="text">Hide</span> contents</div>
-            <div id="Contents">
-                <span id="WriteContentsHere"></span>
-            </div>
-        </div>
+        <h1>Contents:</h1>
+        <Contents id="content">
+        </Contents>
+        <script type="text/JavaScript" src="files/customisation/js/TableOfContens.js"></script>
+        <script type="text/JavaScript">TableOfContents("content","home");</script>
+        
     </main>
-    <bootMain>
-        
-    </bootMain>
-    <footer id="footer">
-    </footer>
-    <bootFooter>
-        
-    </bootFooter>
-    <bootAll>
-        
-    </bootAll>
-
+    <footer></footer>
+    <bootJS>
+        <script type="text/JavaScript">writeBodyHeader("header");</script>
+        <script type="text/JavaScript">initialiseTheme("theme","darkOrLight",'https://hanralatalliardwork.github.io/wolf_escape_home/','files/customisation/css/boostrap_dark.css','files/customisation/css/bootstrap.css');</script>
+        <script type='text/JavaScript'>UpdateTheme()</script>
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+    </bootJS>
 </body>
 
 </html>
