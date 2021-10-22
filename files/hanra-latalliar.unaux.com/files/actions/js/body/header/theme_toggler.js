@@ -1,3 +1,4 @@
+console.log("theme_toggler initialising");
 //get the ?=t=l or d
 //l = light
 //d = dark
@@ -168,3 +169,5 @@ function init_theme(ID_to) { //1
         home = "http://www.hanra-latalliar.unaux.com";
     add_dark_or_lightTheme(theme_cont,ID_to,home);
 }
+
+console.log("theme_toggler initialised");

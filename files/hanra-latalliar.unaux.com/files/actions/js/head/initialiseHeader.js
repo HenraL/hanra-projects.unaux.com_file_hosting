@@ -1,3 +1,4 @@
+console.log("head/initialiseHeader initialising");
 function head(ID, top = 2) {
     var headList = [],
         author = "Henry Letellier",
@@ -38,3 +39,4 @@ function head(ID, top = 2) {
     }
     document.getElementById(ID).innerHTML = bb;
 };
+console.log("head/initialiseHeader initialised");

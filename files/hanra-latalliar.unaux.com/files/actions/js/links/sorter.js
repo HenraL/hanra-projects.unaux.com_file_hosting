@@ -1,3 +1,4 @@
+console.log("links/sorter initialising");
 function get_Url(){
     var c=document.URL;
     return c
@@ -74,3 +75,4 @@ function initialise_tracking(){
     console.log("o="+o);
     return o
 }
+console.log("links/sorter initialised");

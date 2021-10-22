@@ -1,3 +1,4 @@
+console.log("TableOfContens initialising");
 function TableOfContents(ID,page="") {
     var home = "https://hanralatalliardwork.github.io/wolf_escape_home/",
         content = [],
@@ -48,3 +49,4 @@ function TableOfContents(ID,page="") {
     // console.log("e=" + e);
     document.getElementById(ID).innerHTML = e;
 }
+console.log("TableOfContens initialised");

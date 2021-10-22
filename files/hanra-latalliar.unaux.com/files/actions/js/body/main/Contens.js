@@ -1,3 +1,4 @@
+console.log("main/Contens initialising");
 function show_Contents(ID, IDText) {
     var e = document.getElementById(ID).style.display;
     if (e == "normal") {
@@ -53,3 +54,4 @@ function WriteContents(ID) {
     }
     document.getElementById(ID).innerHTML = e;
 }
+console.log("main/Contens initialised");

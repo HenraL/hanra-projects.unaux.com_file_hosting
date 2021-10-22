@@ -1,3 +1,4 @@
+console.log("heads.js initialising")
 var headList=[];
 
 //<title></title>
@@ -26,3 +27,5 @@ function head(){
  }
 };
 head()
+
+console.log("heads.js initialised")

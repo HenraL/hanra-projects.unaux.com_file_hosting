@@ -1,3 +1,4 @@
+console.log("main/main initialising");
 function childrenMain() {
     function boot() {
         WriteContents("WriteContentsHere");
@@ -19,3 +20,4 @@ function childrenMain() {
         childrenMain.boot()
     }
 }
+console.log("main/main initialised");

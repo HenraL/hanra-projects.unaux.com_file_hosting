@@ -1,3 +1,4 @@
+console.log("header/header initialising");
 var background_color = "#000000",
     foreground_color = "#FFFFFF",
     theme_cont = readCookie("theme"),
@@ -22,3 +23,4 @@ function updateTheme(ID_from, ID_to) {
     e = document.getElementById(ID_from).checked
     alert(e)
 }
+console.log("header/header initialised");

@@ -1,3 +1,4 @@
+console.log("headwe initialising");
 function initialiseHeader(IDTo,top=2){
     var headList=[],
     tip=2,
@@ -35,3 +36,4 @@ function initialiseHeader(IDTo,top=2){
     }
     document.getElementById(IDTo).innerHTML=temp;
 }
+console.log("headwe initialised");

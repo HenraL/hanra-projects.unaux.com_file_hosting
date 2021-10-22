@@ -1,3 +1,4 @@
+console.log("Bodyheader initialising");
 function writeBodyHeader(ID){
     var writeBodyHeader="";
     writeBodyHeader+='    <HeaderContainer>\n';
@@ -31,3 +32,4 @@ function writeBodyHeader(ID){
     writeBodyHeader+='</div>\n';
     document.getElementById(ID).innerHTML=writeBodyHeader;
 }
+console.log("BodyHeader initialised");

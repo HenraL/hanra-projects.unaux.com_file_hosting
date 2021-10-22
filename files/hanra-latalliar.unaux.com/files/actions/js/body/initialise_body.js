@@ -1,3 +1,4 @@
+console.log("body/initialise_body initialising");
 function UserBody(ID) {
     var bodyList = [],
         author = "Henry Letellier",
@@ -15,3 +16,4 @@ function UserBody(ID) {
     console.log("bb=" + bb);
     document.getElementById(ID).innerHTML = bb;
 };
+console.log("body/initialise_body initialised");
