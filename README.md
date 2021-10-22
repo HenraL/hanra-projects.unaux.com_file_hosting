@@ -7,11 +7,11 @@ view:
 * Site Irina:  uploaded a certain amount of files : 8 months ago
 * [marina-toussaint.unaux.com](marina-toussaint.unaux.com) Site Marina: uploaded a certain amount of files : 8 months ago
 * [hanra-latalliar.unaux.com](hanra-latalliar.unaux.com): Added debugging sentences to every js files : 3 hours ago
-* [mon site](hanra-projects.unaux.com):  worked on the grand-oral files : 4 months ago
-* Other websites from me:
-__|->__ [memememememe.totalh.net](memememememe.totalh.net)
-__|->__ [open-dyslexia.hanra-projects.unaux.com](open-dyslexia.hanra-projects.unaux.com)
-__|->__ [open-dyslexia.totalh.net](open-dyslexia.totalh.net)
-__|_>__ [marina-toussaint.unaux.com](marina-toussaint.unaux.com)
+* [mon site](hanra-projects.unaux.com):  worked on the grand-oral files : 4 months ago\
+* __Other websites from me:__\
+__|->__ [memememememe.totalh.net](memememememe.totalh.net)\
+__|->__ [open-dyslexia.hanra-projects.unaux.com](open-dyslexia.hanra-projects.unaux.com)\
+__|->__ [open-dyslexia.totalh.net](open-dyslexia.totalh.net)\
+__|_>__ [marina-toussaint.unaux.com](marina-toussaint.unaux.com)\
 
 Last update: Saturday October 23rd 2021 00:43 
