@@ -1,46 +1,46 @@
-console.log("head/dark_light initialising");
+console.log("My_styling/js/dark_light initialising");
 // Second file
-function theme(ID = "darkOrLight", ID2 = "theme", home = "https://hanralatalliardwork.github.io/wolf_escape_home/", themeD = "files/customisation/css/boostrap_dark.css", themeL = "files/customisation/css/bootstrap.css") {
+function theme(ID = "darkOrLight", ID2 = "theme",home="https://hanralatalliardwork.github.io/wolf_escape_home/",themeD="files/customisation/css/boostrap_dark.css",themeL="files/customisation/css/bootstrap.css") {
     var WasChecked = document.getElementById(ID).checked;
     if (WasChecked === false) {
-        document.getElementById(ID2).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL + "\">";
-        createCookie('theme', "L", "", "/");
+        document.getElementById(ID2).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL+"\">";
+        createCookie('theme',"L","","/");
     } else {
-        document.getElementById(ID2).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeD + "\">";
-        createCookie('theme', "D", "", "/");
+        document.getElementById(ID2).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeD+"\">";
+        createCookie('theme',"D","","/");
     }
-
+    
 }
 
-function initialiseTheme(ID, IDRead, home = "https://hanralatalliardwork.github.io/wolf_escape_home/", themeD = "files/customisation/css/boostrap_dark.css", themeL = "files/customisation/css/bootstrap.css") {
-    var url = document.location.href;
+function initialiseTheme(ID,IDRead,home="https://hanralatalliardwork.github.io/wolf_escape_home/",themeD="files/customisation/css/boostrap_dark.css",themeL="files/customisation/css/bootstrap.css") {
+    var url=document.location.href;
     try {
-        e = readCookie("theme");
-        if (e === "L") {
-            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL + "\">";
-            document.getElementById(IDRead).checked = false;
-            createCookie("theme", "L", "", "/");
+        e=readCookie("theme");
+        if (e==="L"){
+            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL +"\">";
+            document.getElementById(IDRead).checked=false;
+            createCookie("theme","L","","/");
         } else {
             console.log("The theme is not light.")
         }
-        if (e === "D") {
-            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeD + "\">";
-            document.getElementById(IDRead).checked = true;
-            createCookie("theme", "D", "", "/");
+        if (e==="D"){
+            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeD+ "\">";
+            document.getElementById(IDRead).checked=true;
+            createCookie("theme","D","","/");
         } else {
             console.log("The theme is not dark.")
         }
-        if (e === "") {
-            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL + "\">";
-            document.getElementById(IDRead).checked = false;
-            createCookie("theme", "L", "", "/");
+        if (e===""){
+            document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL+"\">";
+            document.getElementById(IDRead).checked=false;
+            createCookie("theme","L","","/");
         } else {
             console.log("There is a theme.")
         }
-    } catch (err) {
-        document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL + "\">";
+    } catch(err) {
+        document.getElementById(ID).innerHTML = "<link rel=\"stylesheet\" href=\"" + home + themeL+"\">";
         // document.cookie="theme=L";
-        createCookie("theme", "L", "", "/");
+        createCookie("theme","L","","/");
     }
     // if (url===home){
     //     try{
@@ -95,5 +95,4 @@ function initialiseTheme(ID, IDRead, home = "https://hanralatalliardwork.github.
 //         alert("err="+err)
 //     }
 // }
-
-console.log("head/dark_light initialised.");
+console.log("My_styling/js/dark_light initialised");

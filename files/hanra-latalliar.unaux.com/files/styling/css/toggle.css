@@ -1,4 +1,18 @@
-#toggle_checkbox {
+/*
+
+<link rel="stylesheet" href="https://hanralatalliardwork.github.io/My_styling/files/css/toggle.css">
+
+<input type="checkbox" id="darkOrLight" onclick="theme('darkOrLight','theme','https://hanralatalliardwork.github.io/wolf_escape_home/','files/customisation/css/boostrap_dark.css','files/customisation/css/bootstrap.css');">
+        <label for="darkOrLight">
+            <div id="star">
+                <div class="star" id="star-1">&starf;</div>
+                <div class="star" id="star-2">&starf;</div>
+            </div>
+            <div id="moon"></div>
+        </label>
+*/
+
+#darkOrLight {
     display: none;
 }
 
@@ -12,7 +26,7 @@ label {
     /*,116px;/*var(--main_width,116px);*/
     height: 32px;
     /*,56px;/*var(--main_height,56px);*/
-    margin: 0 auto;
+    margin: 19px auto;
     background-color: #77b5fe;
     border-radius: 56px;
     transform: translateY(-50%);
@@ -81,25 +95,25 @@ label {
     transition: 0.3s ease background-color;
 }
 
-#toggle_checkbox:checked+label {
+#darkOrLight:checked+label {
     background-color: #000;
 }
 
-#toggle_checkbox:checked+label #star {
+#darkOrLight:checked+label #star {
     top: -6px;
     left: 63px;
     transform: scale(0.2);
     background-color: yellow;
 }
 
-#toggle_checkbox:checked+label .star {
+#darkOrLight:checked+label .star {
     color: yellow;
 }
 
-#toggle_checkbox:checked+label #moon {
+#darkOrLight:checked+label #moon {
     bottom: 8px;
 }
 
-#toggle_checkbox:checked+label #moon:before {
+#darkOrLight:checked+label #moon:before {
     background-color: #000;
 }
