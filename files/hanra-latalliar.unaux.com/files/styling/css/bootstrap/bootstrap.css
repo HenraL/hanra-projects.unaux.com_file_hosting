@@ -200,7 +200,8 @@ a:hover {
 
 .ContentsListol,
 .SubContentsListol,
-.SubContentsListol {
+.SubContentsListol,
+.SubSubContentsListol {
     color: orange;
     text-decoration: none;
 }
@@ -209,9 +210,14 @@ a:hover {
     padding: 5px;
 }
 
+.SubSubContentsListol {
+    padding: 10px;
+}
+
 .ContentsListol:hover,
 .SubContentsListol:hover,
-.SubContentsListol:hover {
+.SubContentsListol:hover,
+.SubSubContentsListol:hover {
     color: greenyellow;
     text-decoration: dashed;
     background-color: black;

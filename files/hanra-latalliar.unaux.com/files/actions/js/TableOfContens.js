@@ -82,17 +82,24 @@ function TableOfContents(ID, page = "") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_other_sites_and_servers/#\"></a></ol>");
     }
     content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/\">My Programs</a></li>");
-    if (page === "home") {
+    if (page === "my_programs") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#games\">Games</a></ol>");
         if (page === "Games") {
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape\"></a></ol>");
+            if (page === "wolf_escape") {
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/\">Official website</a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#about\">About</a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#feedback\"></a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#updates\"></a></ol>");
+
+            }
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
         }
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#learning\">Learning</a></ol>");
         if (page === "learning") {
