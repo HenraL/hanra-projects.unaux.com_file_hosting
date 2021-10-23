@@ -177,3 +177,38 @@ a:hover {
 .TdFooter {
     background-color: black;
 }
+
+.has-background {
+    background-color: aliceblue;
+}
+
+.has-small-font-size {
+    font-size: small;
+}
+
+#content {
+    background-color: gold;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.ContentsListol,
+.SubContentsListol,
+.SubContentsListol {
+    color: olivedrab;
+    text-decoration: none;
+}
+
+.SubContentsListol {
+    padding: 5px;
+}
+
+.ContentsListol:hover,
+.SubContentsListol:hover,
+.SubContentsListol:hover {
+    color: lightsalmon;
+    text-decoration: dashed;
+    background-color: black;
+    box-shadow: white 10px 10px 10px;
+}

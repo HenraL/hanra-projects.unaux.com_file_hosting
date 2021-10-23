@@ -6,7 +6,7 @@
 │   │   └── index.html
 │   └── who_i_am
 │       └── index.html
-├── Credits
+├── credits
 │   └── index.html
 ├── follow_me
 │   └── index.html

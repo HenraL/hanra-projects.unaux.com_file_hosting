@@ -182,3 +182,38 @@ a:hover {
 .TdFooter {
     background-color: white;
 }
+
+.has-background {
+    background-color: aliceblue;
+}
+
+.has-small-font-size {
+    font-size: small;
+}
+
+#content {
+    background-color: grey;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.ContentsListol,
+.SubContentsListol,
+.SubContentsListol {
+    color: orange;
+    text-decoration: none;
+}
+
+.SubContentsListol {
+    padding: 5px;
+}
+
+.ContentsListol:hover,
+.SubContentsListol:hover,
+.SubContentsListol:hover {
+    color: greenyellow;
+    text-decoration: dashed;
+    background-color: black;
+    box-shadow: 10px 10px 10px;
+}
