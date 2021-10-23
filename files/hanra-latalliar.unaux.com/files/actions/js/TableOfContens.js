@@ -1,6 +1,6 @@
 console.log("TableOfContens initialising");
 
-function TableOfContents(ID, page = "") {
+function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
     var home = "http://hanra-latalliar.unaux.com/",
         sub_home_pages = home + "files/sub/",
         content = [],
@@ -83,15 +83,14 @@ function TableOfContents(ID, page = "") {
     }
     content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/\">My Programs</a></li>");
     if (page === "my_programs") {
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#games\">Games</a></ol>");
-        if (page === "Games") {
-            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape\"></a></ol>");
-            if (page === "wolf_escape") {
+        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/games\">Games</a></ol>");
+        if (sub_page === "Games") {
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/games/wolf_escape\"></a></ol>");
+            if (sub_sub_page === "wolf_escape") {
                 content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/\">Official website</a></ol>");
-                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#About\">About</a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#About\">About</a> (redirection to the wolf escape website)</ol>");
                 content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliar.wordpress.com/feedback-wolf-escape/\">Feedback</a></ol>");
-                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#ToCome\">To Come</a></ol>");
-
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#ToCome\">To Come</a>< (redirection to the wolf escape website)/ol>");
             }
             // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
             // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
@@ -101,35 +100,76 @@ function TableOfContents(ID, page = "") {
             // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
             // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
         }
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#learning\">Learning</a></ol>");
-        if (page === "learning") {
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning\">Learning</a></ol>");
+        if (sub_page === "learning") {
+            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs\">German Verbs</a></ol>");
+            if (sub_sub_page === "german_verbs") {
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#about\">About</a></ol>");
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#updates\">Updates</a></ol>");
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliar.wordpress.com/feedback-irregular-verbs/\">Feedback</a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/german_verbs/#\"></a></ol>");
+            }
+            content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat\"></a></ol>");
+            if (sub_sub_page === "auto_stat") {
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#about\">About</a></ol>");
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#updates\">Updates</a></ol>");
+                content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#feedback\">Feedback</a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#\"></a></ol>");
+                // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/auto_stat/#\"></a></ol>");
+            }
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
+            // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/learning/#\"></a></ol>");
         }
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/#\"></a></ol>");
     }
-    content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "\">Home</a></li>");
-    if (page === "home") {
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
-        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+    content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts\">My texts</a></li>");
+    if (page === "my_texts") {
+        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems\"></a></ol>");
+        if (page === "home") {
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
+        }
+        content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_prose\"></a></ol>");
+        if (page === "home") {
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+            content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
+        }
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
+        // content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/\"></a></ol>");
     }
+
     content.push("      </ul>");
     content.push("  <nav>");
     for (var i = 0; i < content.length; i++) {
