@@ -1,0 +1,39 @@
+.
+├── about_me
+│   ├── my_studies
+│   │   └── index.html
+│   ├── what_i_do
+│   │   └── index.html
+│   └── who_i_am
+│       └── index.html
+├── Credits
+│   └── index.html
+├── follow_me
+│   └── index.html
+├── my_music
+│   └── index.html
+├── my_other_sites_and_servers
+│   └── index.html
+├── my_programs
+│   ├── games
+│   │   └── wolf_escape
+│   │       ├── about
+│   │       │   └── index.html
+│   │       ├── feedback
+│   │       │   └── index.html
+│   │       └── updates
+│   │           └── index.html
+│   └── learning
+│       └── german_verbs
+│           ├── about
+│           │   └── index.html
+│           └── updates
+│               └── index.html
+├── my_texts
+│   ├── my_poems
+│   │   └── index.html
+│   └── my_prose
+│       └── index.html
+└── tree_sub.txt
+
+21 directories, 15 files
