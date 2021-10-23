@@ -3,9 +3,9 @@ console.log("headwe initialising");
 function initialiseHeader(IDTo, top = 2) {
     var headList = [],
         tip = 2,
-        temp = "",
+        temp = "", //Leave empty
         author = "Henry Letellier",
-        verification = "",
+        verification = "LoWnBYKGqfx79IqYViE-Pqkd4dRmGa_lNqUDvjZxv0s", //<meta name="google-site-verification" content="LoWnBYKGqfx79IqYViE-Pqkd4dRmGa_lNqUDvjZxv0s" />
         TheDate = new Date(),
         TheYear = TheDate.getFullYear(),
         favicon_ie = "files/img/icon/home_icon_16x16px.ico", //size 16x16 (for IE), format:.ico
@@ -23,7 +23,6 @@ function initialiseHeader(IDTo, top = 2) {
     headList.push("        <meta name=\"publisher\" content=\"" + author + "\" />");
     headList.push("        <meta name=\"googlebot\" content=\"index,follow,snippet\" />");
     headList.push("        <meta name=\"google\" content=\"translate,sitelinkssearchbox\" />");
-    headList.push("        <meta name=\"google-site-verification\" content=\"" + verification + "\" />");
     headList.push("        <meta http-equiv=\"pragma\" content=\"cache\" />");
     headList.push("        <meta http-equiv=\"Cache-control\" content=\"public\" />");
     headList.push("        <link rel=\"shortcut icon\" type=\"image/x-icon\" href=\"" + home + favicon_ie + "\" />"); //IE
