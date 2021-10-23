@@ -6,7 +6,7 @@
 view:
 * [Site Irina](files/Site%20Irina):  uploaded a certain amount of files : 8 months ago
 * [marina-toussaint.unaux.com](http://www.marina-toussaint.unaux.com) Site Marina: uploaded a certain amount of files : 8 months ago
-* [hanra-latalliar.unaux.com](http://www.hanra-latalliar.unaux.com): Added debugging sentences to every js files : 3 hours ago
+* [hanra-latalliar.unaux.com](https://henral.github.io/hanra-projects.unaux.com_file_hosting/files/hanra-latalliar.unaux.com/index.html): Added debugging sentences to every js files : 3 hours ago
 * [mon site](http://www.hanra-projects.unaux.com):  worked on the grand-oral files : 4 months ago\
 * __Other websites from me:__\
 __|->__ [memememememe.totalh.net](http://www.memememememe.totalh.net)\
