@@ -88,9 +88,9 @@ function TableOfContents(ID, page = "") {
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape\"></a></ol>");
             if (page === "wolf_escape") {
                 content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/\">Official website</a></ol>");
-                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#about\">About</a></ol>");
-                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#feedback\"></a></ol>");
-                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_programs/wolf_escape/#updates\"></a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#About\">About</a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliar.wordpress.com/feedback-wolf-escape/\">Feedback</a></ol>");
+                content.push("          <ol class=\"SubSubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "https://hanralatalliardwork.github.io/wolf_escape_home/#ToCome\">To Come</a></ol>");
 
             }
             // content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");

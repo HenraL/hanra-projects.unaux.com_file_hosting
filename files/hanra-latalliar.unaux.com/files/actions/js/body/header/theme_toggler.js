@@ -125,49 +125,49 @@ console.log("theme_toggler initialising");
 //     // return o
 // }
 
-function add_dark_or_lightTheme(theme,ID,home){ //3
-    if (theme==="l"){
-        document.getElementById(ID).innerHTML=content+"\n        <link rel=\"stylesheet\" href=\""+home+"/files/styling/css/bootstrap/bootstrap.css\"/>"
-    } else if (theme==="d") {
-        document.getElementById(ID).innerHTML=content+"\n        <link rel=\"stylesheet\" href=\""+home+"/files/styling/css/bootstrap/bootstrap_dark.css\"/>"
+function add_dark_or_lightTheme(theme, ID, home) { //3
+    if (theme === "l") {
+        document.getElementById(ID).innerHTML = content + "\n        <link rel=\"stylesheet\" href=\"" + home + "/files/styling/css/bootstrap/bootstrap.css\"/>"
+    } else if (theme === "d") {
+        document.getElementById(ID).innerHTML = content + "\n        <link rel=\"stylesheet\" href=\"" + home + "/files/styling/css/bootstrap/bootstrap_dark.css\"/>"
     }
     return theme
 }
 
-function ToggleApplyTheme(theme_type,ID,home){//3
+function ToggleApplyTheme(theme_type, ID, home) { //3
     // true=l, false=dark
-    if (theme_type==true){
-        theme_type=add_dark_or_lightTheme("l",ID,home);
+    if (theme_type == true) {
+        theme_type = add_dark_or_lightTheme("l", ID, home);
     } else {
-        theme_type=add_dark_or_lightTheme("d",ID,home);
+        theme_type = add_dark_or_lightTheme("d", ID, home);
     }
-    createCookie(key="theme",value=theme_type);
+    createCookie(key = "theme", value = theme_type);
 }
 
-function get_cookie_theme(theme){//2
-    try{
-        return readCookie("theme");     
-    } catch(err) {
-        try{
-            theme=document.URL
-            for (var i=0;i<theme.length;i++){
-                if (theme[i]==="t"){
-                    a=theme[i+2];
-                    createCookie(key="theme",value=a)
+function get_cookie_theme(theme) { //2
+    try {
+        return readCookie("theme");
+    } catch (err) {
+        try {
+            theme = document.URL
+            for (var i = 0; i < theme.length; i++) {
+                if (theme[i] === "t") {
+                    a = theme[i + 2];
+                    createCookie(key = "theme", value = a)
                     return a
                 }
             }
-        } catch(err) {
-            createCookie(key="theme",value="l")
+        } catch (err) {
+            createCookie(key = "theme", value = "l")
             return "l"
         }
     }
 }
 
 function init_theme(ID_to) { //1
-    var theme_cont=get_cookie_theme("theme"),
-        home = "http://www.hanra-latalliar.unaux.com";
-    add_dark_or_lightTheme(theme_cont,ID_to,home);
+    var theme_cont = get_cookie_theme("theme"),
+        home = "https://henral.github.io/hanra-projects.unaux.com_file_hosting/files/hanra-latalliar.unaux.com/";
+    add_dark_or_lightTheme(theme_cont, ID_to, home);
 }
 
 console.log("theme_toggler initialised");
