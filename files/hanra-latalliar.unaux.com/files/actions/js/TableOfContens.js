@@ -25,7 +25,7 @@ function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "about_me/#what_i_do\">What I Do</a></ol>");
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "about_me/#who_i_am\">Who I Am</a></ol>");
     }
-    content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "credits/\">All the sprites of the game</a></li>");
+    // content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "credits/\">All the sprites of the game</a></li>");
     // if (page === "credits") {
     //     content.push("          <ol class=\"ContentsListol\"><a class=\"link\" onclick=\"showContent(\'ends-content\',\'endsButtonToggle\')\"  href=\"#ends\">Ends</a></ol>")
     //     content.push("          <ol class=\"ContentsListol\"><a class=\"link\" onclick=\"showContent(\'social-content\',\'socialButtonToggle\')\"  href=\"#social\">Social</a></ol>")
@@ -60,7 +60,7 @@ function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "follow_me/#\">...</a></ol>");
     }
     content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_music/\">My Music</a></li>");
-    if (page === "home") {
+    if (page === "my_music") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_music/#popular\">Popular</a></ol>");
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_music/#1_10\">1 to 10</a></ol>");
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_music/#11_20\">11 to 20</a></ol>");
@@ -71,7 +71,7 @@ function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_music/#61_70\">61 to 70</a></ol>");
     }
     content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_other_sites_and_servers/\">My Other Sites And Servers</a></li>");
-    if (page === "home") {
+    if (page === "my_other_sites_and_servers") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_other_sites_and_servers/#\"></a></ol>");
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_other_sites_and_servers/#\"></a></ol>");
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_other_sites_and_servers/#\"></a></ol>");
@@ -141,7 +141,7 @@ function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
     content.push("          <li class=\"ContentsListli\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts\">My texts</a></li>");
     if (page === "my_texts") {
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems\"></a></ol>");
-        if (page === "home") {
+        if (sub_page === "my_poems") {
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
@@ -152,7 +152,7 @@ function TableOfContents(ID, page = "", sub_page = "", sub_sub_page = "") {
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_poems/\"></a></ol>");
         }
         content.push("          <ol class=\"ContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "my_texts/my_prose\"></a></ol>");
-        if (page === "home") {
+        if (sub_page === "my_prose") {
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
             content.push("          <ol class=\"SubContentsListol\"><a class=\"link\"  href=\"" + sub_home_pages + "/#\"></a></ol>");
