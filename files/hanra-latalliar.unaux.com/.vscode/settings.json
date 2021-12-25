@@ -1,2 +1,12 @@
 {
+    "spellright.language": [
+        "fr"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "bat"
+    ],
+    "cmake.configureOnOpen": false
 }
